@@ -7,6 +7,29 @@ export default function Home() {
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      style={{width: "100vw", height: "100vh", background: "#212121", color: "white"}}
+    >
+      <div className='text-center'>
+        <h1 className='font-bold text-9xl'>Bob Slaymaker</h1>
+        <p className='m-5 text-lg'>Writer/Film Maker</p>
+      </div>
+      <div className='flex'>
+        <h5 className='m-5'>Sample Short Scripts</h5>
+        <h5 className='m-5'>Last Films</h5>
+        <h5 className='m-5'>CV</h5>
+        <h5 className='m-5'>Sample Peoms</h5>
+        <h5 className='m-5'>Sample Short Stories</h5>
+        <h5 className='m-5'>Contact</h5>
+      </div>
+
+      </main>
+  )
+}
+
+
+/**
+ * <main
+      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
@@ -114,5 +137,4 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
-}
+ */
