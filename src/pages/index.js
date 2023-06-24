@@ -19,7 +19,7 @@ export default function Home() {
         <h5 className='font-bold m-5 text-[30px]'><Link href="/poemlist">SAMPLE POEMS</Link></h5>
         <h5 className='font-bold m-5 text-[30px]'><Link href="/shortstorieslist">SAMPLE SHORT STORIES</Link></h5>
         <h5 className='font-bold m-5 text-[30px]'><Link target="_blank" href="https://www.imdb.com/video/vi684917273/">MY LAST FILM</Link></h5>
-        <h5 className='font-bold m-5 text-[30px]'><Link target="_blank" href="/cv/CV.pdf``">CV</Link></h5>
+        <h5 className='font-bold m-5 text-[30px]'><Link target="_blank" href="/cv/CV.pdf">CV</Link></h5>
         <h5 className='font-bold m-5 text-[30px]'><Link href="mailto:bobslaymaker@gmail.com">CONTACT</Link></h5>
       </div>
 
