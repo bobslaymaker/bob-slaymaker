@@ -10,8 +10,8 @@ export default function Home() {
       style={{width: "100vw", height: "100vh", background: "hex #FDFEFF", fontSize: 15.5, fontFamily: "times roman"}}
     >
       <div className='text-center'>
-        <h1 className='font-bold m-5 text-[40px]' >BOB SLAYMAKER</h1>
-        <p className='font-bold m-5 text-[30px]'>WRITER-FILMMAKER</p>
+        <h1 className='font-bold m-5 text-[30px]' >BOB SLAYMAKER</h1>
+        <p className='font-bold m-5 text-[20px]'>WRITER-FILMMAKER</p>
         
       </div>
       <div className='flex'>
