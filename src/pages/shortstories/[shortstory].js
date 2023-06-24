@@ -9,7 +9,7 @@ export default function shortStory() {
         <div>
             {shortStories?.map(shortStory => {
                 if (shortStory?.title === router.query.shortstory) {
-                    return <div className="font-georgia #000000 #EFF8FD text-4xl tracking-wider leading-relaxed mt-6 ml-12 mr-12 font-[500]">{shortStory.content}</div>
+                    return <div className="font-georgia #000000 #EFF8FD text-2xl tracking-wider leading-relaxed mt-6 ml-12 mr-12 font-[500]">{shortStory.content}</div>
                     
                 }
             })}
