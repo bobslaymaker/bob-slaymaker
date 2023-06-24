@@ -1,5 +1,5 @@
 import {poems} from "../poems"
-
+import Link from "next/link";
 
 export default function PoemList() {
     return (<div className="">
