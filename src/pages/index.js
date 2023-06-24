@@ -15,12 +15,12 @@ export default function Home() {
         
       </div>
       <div className='flex'>
-        <h5 className='font-bold m-5 text-[30px]'><a href="/shortscriptlist">SAMPLE SHORT SCRIPTS</a></h5>
-        <h5 className='font-bold m-5 text-[30px]'><a href="/poemlist">SAMPLE POEMS</a></h5>
-        <h5 className='font-bold m-5 text-[30px]'><a href="/shortstorieslist">SAMPLE SHORT STORIES</a></h5>
-        <h5 className='font-bold m-5 text-[30px]'><a target="_blank" href="https://www.imdb.com/video/vi684917273/">MY LAST FILM</a></h5>
-        <h5 className='font-bold m-5 text-[30px]'><a target="_blank" href="/cv/CV.pdf``">CV</a></h5>
-        <h5 className='font-bold m-5 text-[30px]'><a href="mailto:bobslaymaker@gmail.com">CONTACT</a></h5>
+        <h5 className='font-bold m-5 text-[30px]'><Link href="/shortscriptlist">SAMPLE SHORT SCRIPTS</Link></h5>
+        <h5 className='font-bold m-5 text-[30px]'><Link href="/poemlist">SAMPLE POEMS</Link></h5>
+        <h5 className='font-bold m-5 text-[30px]'><Link href="/shortstorieslist">SAMPLE SHORT STORIES</Link></h5>
+        <h5 className='font-bold m-5 text-[30px]'><Link target="_blank" href="https://www.imdb.com/video/vi684917273/">MY LAST FILM</Link></h5>
+        <h5 className='font-bold m-5 text-[30px]'><Link target="_blank" href="/cv/CV.pdf``">CV</Link></h5>
+        <h5 className='font-bold m-5 text-[30px]'><Link href="mailto:bobslaymaker@gmail.com">CONTACT</Link></h5>
       </div>
 
       </main>
