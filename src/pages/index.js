@@ -10,17 +10,17 @@ export default function Home() {
       style={{width: "100vw", height: "100vh", background: "hex #FDFEFF", fontSize: 15.5, fontFamily: "times roman"}}
     >
       <div className='text-center'>
-        <h1 className='font-bold m-5 text-[50px]' >BOB SLAYMAKER</h1>
-        <p className='font-bold m-5 text-[40px]'>WRITER-FILMMAKER</p>
+        <h1 className='font-bold m-5 text-[40px]' >BOB SLAYMAKER</h1>
+        <p className='font-bold m-5 text-[30px]'>WRITER-FILMMAKER</p>
         
       </div>
       <div className='flex'>
-        <h5 className='font-bold m-5 text-[30px]'><Link href="/shortscriptlist">SAMPLE SHORT SCRIPTS</Link></h5>
-        <h5 className='font-bold m-5 text-[30px]'><Link href="/poemlist">SAMPLE POEMS</Link></h5>
-        <h5 className='font-bold m-5 text-[30px]'><Link href="/shortstorieslist">SAMPLE SHORT STORIES</Link></h5>
-        <h5 className='font-bold m-5 text-[30px]'><Link target="_blank" href="https://www.imdb.com/video/vi684917273/">MY LAST FILM</Link></h5>
-        <h5 className='font-bold m-5 text-[30px]'><Link target="_blank" href="/cv/CV.pdf">CV</Link></h5>
-        <h5 className='font-bold m-5 text-[30px]'><Link href="mailto:bobslaymaker@gmail.com">CONTACT</Link></h5>
+        <h5 className='font-bold m-5 text-[20px]'><Link href="/shortscriptlist">SAMPLE SHORT SCRIPTS</Link></h5>
+        <h5 className='font-bold m-5 text-[20px]'><Link href="/poemlist">SAMPLE POEMS</Link></h5>
+        <h5 className='font-bold m-5 text-[20px]'><Link href="/shortstorieslist">SAMPLE SHORT STORIES</Link></h5>
+        <h5 className='font-bold m-5 text-[20px]'><Link target="_blank" href="https://www.imdb.com/video/vi684917273/">MY LAST FILM</Link></h5>
+        <h5 className='font-bold m-5 text-[20px]'><Link target="_blank" href="/cv/CV.pdf">CV</Link></h5>
+        <h5 className='font-bold m-5 text-[20px]'><Link href="mailto:bobslaymaker@gmail.com">CONTACT</Link></h5>
       </div>
 
       </main>
