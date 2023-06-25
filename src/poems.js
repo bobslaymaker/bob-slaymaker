@@ -3,7 +3,7 @@ export const poems = [
 
     {
         title: "Appetite", 
-        content:  <p><semi-bold>Appetite</semi-bold><br/><br/>
+        content:  <p><bold>Appetite</bold><br/><br/>
 
         Sometimes in the kitchen at midnight,<br/>
         clad in her pajamas,<br/>
