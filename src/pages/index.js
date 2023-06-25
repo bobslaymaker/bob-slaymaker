@@ -11,7 +11,7 @@ export default function Home() {
     >
       <div className='text-center'>
         <h1 className='font-bold m-5 text-[30px]' >BOB SLAYMAKER</h1>
-        <p className='font-bold m-5 text-[24px]'>WRITER-FILMMAKER</p>
+        <p className='font-bold m-5 text-[22px]'>WRITER-FILMMAKER</p>
         
       </div>
       <div className='flex'>
