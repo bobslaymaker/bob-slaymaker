@@ -5,7 +5,7 @@ export default function ShortScripts() {
 
     return (
         <div>
-            <div className="font-serif font-semi bold #000000 background: hex #FDFEFF flex flex-col mt-12 mb-12 ml-14 ms-8 text-2xl ;line-height:-2; tracking-wider leading-relaxed ml-12 fontFamily: times roman">
+            <div className="font-serif font-semi bold #000000 background: hex #FDFEFF flex flex-col mt-6 mb-6 ml-6 ms-8 text-2xl ;line-height:-2; tracking-wider leading-relaxed ml-12 fontFamily: times roman">
             {shortScripts?.map(shortscript => {
                 return (<div>{shortscript?.content}</div>)
             })}
