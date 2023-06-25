@@ -15,12 +15,12 @@ export default function Home() {
         
       </div>
       <div className='flex'>
-        <h5 className='font-bold m-5 text-[20px]'><Link href="/shortscriptlist">SAMPLE SHORT SCRIPTS</Link></h5>
-        <h5 className='font-bold m-5 text-[20px]'><Link href="/poemlist">SAMPLE POEMS</Link></h5>
-        <h5 className='font-bold m-5 text-[20px]'><Link href="/shortstorieslist">SAMPLE SHORT STORIES</Link></h5>
-        <h5 className='font-bold m-5 text-[20px]'><Link target="_blank" href="https://www.imdb.com/video/vi684917273/">MY LAST FILM</Link></h5>
+        <h5 className='font-bold m-5 text-[20px]'><Link href="/shortscriptlist">Sample Short Scripts</Link></h5>
+        <h5 className='font-bold m-5 text-[20px]'><Link href="/poemlist">Sample Poems</Link></h5>
+        <h5 className='font-bold m-5 text-[20px]'><Link href="/shortstorieslist">Sample Short Stories</Link></h5>
+        <h5 className='font-bold m-5 text-[20px]'><Link target="_blank" href="https://www.imdb.com/video/vi684917273/">My Last Film</Link></h5>
         <h5 className='font-bold m-5 text-[20px]'><Link target="_blank" href="/cv/CV.pdf">CV</Link></h5>
-        <h5 className='font-bold m-5 text-[20px]'><Link href="mailto:bobslaymaker@gmail.com">CONTACT</Link></h5>
+        <h5 className='font-bold m-5 text-[20px]'><Link href="mailto:bobslaymaker@gmail.com">Contact</Link></h5>
       </div>
 
       </main>
