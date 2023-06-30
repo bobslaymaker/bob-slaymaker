@@ -55,7 +55,7 @@ Thirty years later, each lives alone,<br/>relishing the quiet, the privacy,<br/>
     {
         title: "Beginning Poets", 
         content:  <p><semi-bold>BEGINNING POETS</semi-bold><br/><br/>
- text-align: center I<><br/><br/>They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>II<br/><br/>"I'm fed up<br/>with this<br/>poem," Pete<br/><br/>says.  "You<br/>finish it."<br/>"O.K.," says<br/><br/>Tom.  "Then<br/>I get all<br/>the money."<br/><br/><br/>
+ text center I<><br/><br/>They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>II<br/><br/>"I'm fed up<br/>with this<br/>poem," Pete<br/><br/>says.  "You<br/>finish it."<br/>"O.K.," says<br/><br/>Tom.  "Then<br/>I get all<br/>the money."<br/><br/><br/>
         <i>Originally appeared in </i></p>
     },
     {
