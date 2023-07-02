@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
     setIsNight(true)
   }, [])
 
-  return (<div className='' style={{width: "100vw", height: "100vh", color: `${isNight ? "white" : "black"}`, background: `${isNight ? "black" : "white"}`}}>
+  return (<div className='full-height' style={{width: "100vw", color: `${isNight ? "white" : "black"}`, background: `${isNight ? "black" : "white"}`}}>
       <Component {...pageProps}/>
   </div>
 
