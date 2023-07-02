@@ -4,8 +4,8 @@ export default function ShortScripts() {
 
 
     return (
-        <div>
-            <div className="font-serif font-semi bold #000000 background: hex #FDFEFF flex flex-col mt-6 mb-6 ml-6 ms-8 text-2xl ;line-height:-2; tracking-wider leading-relaxed ml-12 fontFamily: times roman">
+        <div className="goudy">
+            <div className="container flex flex-col text-2xl tracking-wider leading-relaxed">
             {shortScripts?.map(shortscript => {
                 return (<div>{shortscript?.content}</div>)
             })}

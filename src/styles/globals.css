@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.cdnfonts.com/css/goudy-old-style');
+
+.goudy {
+    font-family: 'Goudy Old Style';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}

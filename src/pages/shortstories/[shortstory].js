@@ -6,10 +6,10 @@ export default function shortStory() {
     const router = useRouter()
 
     return (
-        <div>
+        <div className="goudy container text-2xl">
             {shortStories?.map(shortStory => {
                 if (shortStory?.title === router.query.shortstory) {
-                    return <div className="font-serif font-semi bold #000000 background: hex #FDFEFF flex flex-col mt-12 mb-12 ml-12 ms-8 text-2xl tracking-wider leading-relaxed fontfamily: times roman">{shortStory.content}</div>
+                    return <div className="tracking-wider leading-relaxed">{shortStory.content}</div>
                     
                 }
             })}
