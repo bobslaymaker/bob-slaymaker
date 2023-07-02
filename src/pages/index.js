@@ -1,32 +1,58 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Link from 'next/link'
-const inter = Inter({ subsets: ['latin'] })
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import Link from "next/link";
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main
-      className={`font-serif font-[800] text-center flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-      style={{width: "100vw", height: "100vh", background: "hex #FDFEFF", fontSize: 15.5, fontFamily: "times roman"}}
+    <div
+      className={`font-[800] text-center flex  flex-col items-center justify-center p-24 ${inter.className}`}
+      style={{
+        width: "100vw",
+        height: "100vh",
+        background: "hex #FDFEFF",
+      }}
     >
-      <div className='text-center'>
-        <h1 className='font-bold m-5 text-[30px]' >BOB SLAYMAKER</h1>
-        <p className='font-bold m-5 text-[22px]'>WRITER-FILMMAKER</p>
-        
-      </div>
-      <div className='flex'>
-        <h5 className='font-bold m-5 text-[20px]'><Link href="/shortscriptlist">Sample Short Scripts</Link></h5>
-        <h5 className='font-bold m-5 text-[20px]'><Link href="/poemlist">Sample Poems</Link></h5>
-        <h5 className='font-bold m-5 text-[20px]'><Link href="/shortstorieslist">Sample Short Stories</Link></h5>
-        <h5 className='font-bold m-5 text-[20px]'><Link target="_blank" href="https://www.imdb.com/video/vi684917273/">My Last Film</Link></h5>
-        <h5 className='font-bold m-5 text-[20px]'><Link target="_blank" href="/cv/CV.pdf">CV</Link></h5>
-        <h5 className='font-bold m-5 text-[20px]'><Link href="mailto:bobslaymaker@gmail.com">Contact</Link></h5>
+
+    <div className="goudy text-3xl md:text-5xl">
+        <div className="text-center">
+          <h1 className="font-bold m-5 ">BOB SLAYMAKER</h1>
+          <p className="font-bold m-5 text-xl md:text-3xl">WRITER-FILMMAKER</p>
+        </div>
+        <div className="grid grid-cols md:flex mt-20 text-2xl">
+          <h5 className="font-bold m-5">
+              <Link href="/shortscriptlist">Sample Short Scripts</Link>
+          </h5>
+     
+          <h5 className="font-bold m-5 ">
+            <Link href="/poemlist">Sample Poems</Link>
+          </h5>
+          <h5 className="font-bold m-5 ">
+            <Link href="/shortstorieslist">Sample Short Stories</Link>
+          </h5>
+          <h5 className="font-bold m-5">
+            <Link
+              target="_blank"
+              href="https://www.imdb.com/video/vi684917273/"
+            >
+              My Last Film
+            </Link>
+          </h5>
+          <h5 className="font-bold m-5 ">
+            <Link target="_blank" href="/cv/CV.pdf">
+              CV
+            </Link>
+          </h5>
+          <h5 className="font-bold m-5">
+            <Link href="mailto:bobslaymaker@gmail.com">Contact</Link>
+          </h5>
+        </div>
       </div>
 
-      </main>
-  )
+    
+    </div>
+  );
 }
-
 
 /**
  * <main

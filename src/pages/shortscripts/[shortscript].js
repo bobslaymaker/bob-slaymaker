@@ -5,7 +5,7 @@ export default function ShortScripts() {
     const router = useRouter()
     console.log(shortScripts)
     return (
-        <div>
+        <div className="goudy container text-2xl">
             {shortScripts?.map(shortScript => {
             
                 if (shortScript?.title === router.query.shortscript) {
