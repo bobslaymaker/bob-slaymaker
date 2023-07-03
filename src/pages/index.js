@@ -19,7 +19,7 @@ export default function Home() {
           <h1 className="font-bold m-5 ">BOB SLAYMAKER</h1>
           <p className="font-bold m-5 text-xl md:text-3xl">WRITER-FILMMAKER</p>
         </div>
-        <div className="grid grid-cols md:flex mt-20 text-2xl">
+        <div className="grid grid-cols md:flex mt-10 text-2xl">
           <h5 className="font-bold m-5">
               <Link href="/shortscriptlist">Sample Short Scripts</Link>
           </h5>
