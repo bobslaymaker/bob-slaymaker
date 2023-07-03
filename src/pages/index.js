@@ -17,7 +17,7 @@ export default function Home() {
     <div className="goudy text-3xl md:text-5xl">
         <div className="text-center">
           <h1 className="font-bold m-5 ">BOB SLAYMAKER</h1>
-          <p className="font-bold m-5 text-xl md:text-3xl">WRITER-FILMMAKER</p>
+          <p className="font-bold m-5 text-xl md:text-4xl">WRITER-FILMMAKER</p>
         </div>
         <div className="grid grid-cols md:flex mt-10 text-2xl">
           <h5 className="font-bold m-5">
