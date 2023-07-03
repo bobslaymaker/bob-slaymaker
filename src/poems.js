@@ -124,7 +124,7 @@ Thirty years later, each lives alone,<br/>relishing the quiet, the privacy,<br/>
         content: <p><semi-bold>ALL-AMERICAN IRISH KID,
         QUEENS, NEW YORK, 1968</semi-bold><br/><br/>
         
-        "Turn off that Nazi shit,"<br/>
+        “Turn off that Nazi shit,"<br/>
         I told my mother,<br/>
         my innocent, German-speaking mother,<br/>
         who’d tuned in her German-language program<br/>
