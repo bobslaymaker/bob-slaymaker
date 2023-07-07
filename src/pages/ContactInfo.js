@@ -7,7 +7,7 @@ export default function ContactInfo() {
 
         
         <div className="container flex flex-col text-2xl tracking-wider leading-relaxed">
-             <p>bobslaymaker@gmail.com</p><br/>
+             <p>bobslaymaker@gmail.com</p>
              <p>1-646-925-2509</p> 
         </div>
         
