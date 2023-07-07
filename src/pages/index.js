@@ -44,7 +44,7 @@ export default function Home() {
             </Link>
           </h5>
           <h5 className="font-bold m-5">
-            <Link href="mailto:bobslaymaker@gmail.com">Contact</Link>
+            <Link href="/ContactInfo">Contact</Link>
           </h5>
         </div>
       </div>
