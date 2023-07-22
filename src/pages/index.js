@@ -18,7 +18,10 @@ export default function Home() {
         <div className="text-center">
           <h1 className="font-bold m-5 ">BOB SLAYMAKER</h1>
           <p className="font-bold m-5 text-xl md:text-4xl">WRITER-FILMMAKER</p>
+          <div className="text-center"><hr className="font-bold text-center" style={{border:"2px solid black", width:"200px"}}  ></hr></div>
+          
         </div>
+        
         <div className="grid grid-cols md:flex mt-4 text-2xl">
           <h5 className="font-bold m-5">
               <Link href="/shortscriptlist">Sample Short Scripts</Link>
