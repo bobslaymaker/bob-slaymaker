@@ -24,38 +24,39 @@ export default function Home() {
           
         </div>
         
-        <div className="grid grid-cols md:flex text-2xl mt-12">
-          <h5 className="font-bold m-5">
-              <Link href="/shortscriptlist">Sample Short Scripts</Link>
-          </h5>
-     
-          <h5 className="font-bold m-5 ">
-            <Link href="/poemlist">Sample Poems</Link>
-          </h5>
-          <h5 className="font-bold m-5 ">
-            <Link href="/shortstorieslist">Sample Short Stories</Link>
-          </h5>
-          <h5 className="font-bold m-5">
-            <Link
-              target="_blank"
-              href="https://www.imdb.com/video/vi684917273/"
-            >
-              My Last Film
-            </Link>
-          </h5>
-          <h5 className="font-bold m-5 ">
-            <Link target="_blank" href="/cv/CV.pdf">
-              CV
-            </Link>
-          </h5>
-          <h5 className="font-bold m-5">
-            <Link href="/ContactInfo">Contact</Link>
-          </h5>
-        </div>
-      </div>
+        <div className="grid grid-cols md:flex text-2xl mt-12 space-x-5 text-center">
 
-    
-    </div>
+            <h5 className="font-bold m-2">
+                <Link href="/shortscriptlist">Sample Short Scripts</Link>
+            </h5>
+      
+            <h5 className="font-bold m-2">
+              <Link href="/poemlist">Sample Poems</Link>
+            </h5>
+            <h5 className="font-bold m-2">
+              <Link href="/shortstorieslist">Sample Short Stories</Link>
+            </h5>
+            <h5 className="font-bold m-2">
+              <Link
+                target="_blank"
+                href="https://www.imdb.com/video/vi684917273/"
+              >
+                My Last Film
+              </Link>
+            </h5>
+            <h5 className="font-bold m-2">
+              <Link target="_blank" href="/cv/CV.pdf">
+                CV
+              </Link>
+            </h5>
+            <h5 className="font-bold m-2">
+              <Link href="/ContactInfo">Contact</Link>
+            </h5>
+
+        </div>
+        </div>
+   
+      </div>
   );
 }
 
