@@ -55,10 +55,6 @@ export default function Home() {
 
         </div>
         </div>
-        <div className="goudy pichan">
-          <p>Pichsereyvattana Chan</p>
-          <p>pchan@ithaca.edu</p>
-        </div>
 
       </div>
   );
