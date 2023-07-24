@@ -22,7 +22,7 @@ export default function Home() {
           
         </div>
         
-        <div className="grid grid-cols md:flex mt-4 text-2xl mt-3">
+        <div className="grid grid-cols md:flex mt-4 text-2xl mt-2">
           <h5 className="font-bold m-5">
               <Link href="/shortscriptlist">Sample Short Scripts</Link>
           </h5>
