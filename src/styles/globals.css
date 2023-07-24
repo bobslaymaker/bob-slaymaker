@@ -20,3 +20,9 @@
     min-height: 100vh;
     height: auto;
 }
+
+.pichan {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
