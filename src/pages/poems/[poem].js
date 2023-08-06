@@ -8,7 +8,7 @@ export default function Poem() {
         <div className="goudy container text-2xl">
             {poems?.map(poem => {
                 if (poem?.title === router.query.poem) {
-                    return <div className="">{poem.content }</div>
+                    return <div className="">{poem.content}</div>
                 }
             })}
         </div>

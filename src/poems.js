@@ -54,9 +54,9 @@ Thirty years later, each lives alone,<br/>relishing the quiet, the privacy,<br/>
     },
     {
         title: "Beginning Poets", 
-        content:  <p><semi-bold>BEGINNING POETS</semi-bold><br/><br/>
- <center>I</center> <br/><br/>They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>II<br/><br/>”I'm fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  ”You<br/>finish it.”<br/>”O.K.,” says<br/><br/>Tom.  ”Then<br/>I get all<br/>the money.”<br/><br/><br/>
-        <i>Originally appeared in </i></p>
+        content:  <div><p><semi-bold>BEGINNING POETS</semi-bold><br/><br/>
+ <p style={{paddingLeft: 25}}>I</p> <br/><br/>They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/><p style={{paddingLeft: 25}}>II</p><br/><br/>”I'm fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  ”You<br/>finish it.”<br/>”O.K.,” says<br/><br/>Tom.  ”Then<br/>I get all<br/>the money.”<br/><br/><br/>
+        <i>Originally appeared in </i></p></div>
     },
     {
         title: "Menstruation",
