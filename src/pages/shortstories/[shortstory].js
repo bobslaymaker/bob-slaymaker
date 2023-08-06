@@ -9,7 +9,7 @@ export default function shortStory() {
         <div className="goudy container text-2xl">
             {shortStories?.map(shortStory => {
                 if (shortStory?.title === router.query.shortstory) {
-                    return <div className="tracking-wider leading-relaxed">{shortStory.content}</div>
+                    return <div className="">{shortStory.content}</div>
                     
                 }
             })}
