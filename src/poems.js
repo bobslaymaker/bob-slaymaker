@@ -91,8 +91,8 @@ Thirty years later, each lives alone,<br/>relishing the quiet, the privacy,<br/>
         content:  <p><semi-bold>NEW FRIENDSHIP</semi-bold><br/><br/><p style={{paddingLeft: 40}}>I</p> <br/><br/>Jeremy tells Janna: <br/>“If I talked nonstop <br/>for the next week, <br/>and you listened <br/>with full and loving attention, <br/>by/at the end of the week <br/>I would not have been <br/>listened to enough.  <br/><br/>I have not been <br/>sufficiently listened to, <br/>considered or loved <br/>since I was born forty years ago.<br/><br/>This is the reality <br/>of the situation.  <br/><br/>At least I’m aware of it.”  <br/><br/>At least I’m telling you <br/>ahead of time.<br/><br/>Janna responds:<br/>“You are a bird<br/>with a broken wing<br/><br/>but I am not<br/>a veterinarian<br/><br/>I am a bird<br/>with a broken wing.”<br/><br/>
 
 
-<p style={{paddingLeft: 55}}>I</p> <br/><br/>Why do<br/>you hurt me?<br/><br/>Why do<br/>you hurt me?<br/><br/>Why do<br/>you hurt me?<br/><br/>Is it<br/>because<br/>I hurt you?<br/><br/>
-<p style={{paddingLeft: 56}}>I</p> <br/><br/>I love you!  I hate you!<br/>I love you!  I hate you!<br/>I love you!  I hate you!<br/><br/>Hey—why are you leaving?<br/><br/><br/><br/>
+<p style={{paddingLeft: 55}}>II</p> <br/><br/>Why do<br/>you hurt me?<br/><br/>Why do<br/>you hurt me?<br/><br/>Why do<br/>you hurt me?<br/><br/>Is it<br/>because<br/>I hurt you?<br/><br/>
+<p style={{paddingLeft: 56}}>III</p> <br/><br/>I love you!  I hate you!<br/>I love you!  I hate you!<br/>I love you!  I hate you!<br/><br/>Hey—why are you leaving?<br/><br/><br/><br/>
         <i>Originally appeared in </i>
 
 
