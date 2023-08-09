@@ -15,5 +15,5 @@ export const shortStories = [
                             <i>Originally appeared in </i>Ducts<i> and </i>The Seattle Review
 </span></p>
         </div>
-    }
+    }]
     
