@@ -110,8 +110,7 @@ export const poems = [
     },    
 {
     title: "The D Train",
-    content: <p><semi-bold>THE D TRAIN</semi-bold><br/><br/>
-    THE D TRAIN<br/><br/>Alone and depressed in my SRO room,<br/>I slap myself, jump up and dress,<br/>lock the door behind me.  I skip down<br/>to the underground, where a brightly lit D train<br/>awaits me.  I sit among Tom, Dick and Harry,<br/>among Lawanda, Sung Kim, and Juan.<br/>Some read the papers, others the department-store flyers.<br/>Sons talk to mothers, sisters talk to cousins,<br/>kids chase each other down the aisle.  I feel good<br/>among the many, the young, the old,<br/>neighbors, strangers, friends, families,<br/>all of us sharing this highway of people,<br/>riding toward a common future.</p>
+    content: <p><semi-bold>THE D TRAIN</semi-bold><br/><br/>Alone and depressed in my SRO room,<br/>I slap myself, jump up and dress,<br/>lock the door behind me.  I skip down<br/>to the underground, where a brightly lit D train<br/>awaits me.  I sit among Tom, Dick and Harry,<br/>among Lawanda, Sung Kim, and Juan.<br/>Some read the papers, others the department-store flyers.<br/>Sons talk to mothers, sisters talk to cousins,<br/>kids chase each other down the aisle.  I feel good<br/>among the many, the young, the old,<br/>neighbors, strangers, friends, families,<br/>all of us sharing this highway of people,<br/>riding toward a common future.</p>
 },    
 
     {

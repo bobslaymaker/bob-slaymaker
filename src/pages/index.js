@@ -13,7 +13,7 @@ export default function Home() {
         background: "hex #FDFEFF",
       }}
     >
-
+{/* 768px */}
     <div className="goudy text-3xl md:text-5xl space-y-5">
         <div className="text-center">
           <h1 className="font-bold m-5 ">BOB SLAYMAKER</h1>
