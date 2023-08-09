@@ -246,12 +246,11 @@ and ended her giggling and laughing too.<br/><br/><br/>
     },
     {
         title: "The Last Bath", 
-        content:
-        <p><semi-bold>Author's Note: Though this poem likely couldn't be made into a short film without me being imprisoned, of all my poems, this might be my favorite.</i><br/>
-        THE LAST BATH</semi-bold><br/><br/>
-    Four of us kids in the tub, <br/>unsupervised for the moment<br/><br/>my two sisters in the back, <br/>standing, spreading their labia apart<br/>to reveal their inner pinkness<br/><br/>my brother poised over me<br/>in the front, near the faucet,<br/>his little body shiny with water,<br/>as he holds his small penis and pisses<br/><br/>and gleefully I catch <br/>the clear arcing stream<br/>in my mouth . . .<br/><br/>when my parents walk in<br/>on that last bath <br/>we all took together.<<br/><br/><br/>
+        content: <p><semi-bold><i>Author's Note: Though this poem likely couldn't be made into a short film without me being imprisoned, this might be my favorite.</i><br/><br/>
+THE LAST BATH</semi-bold><br/><br/>Four of us kids in the tub, <br/>unsupervised for the moment<br/><br/>my two sisters in the back, <br/>standing, spreading their labia apart<br/>to reveal their inner pinkness<br/><br/>my brother poised over me<br/>in the front, near the faucet,<br/>his little body shiny with water,<br/>as he holds his small penis and pisses<br/><br/>and gleefully I catch <br/>the clear arcing stream<br/>in my mouth . . . <br/><br/>when my parents walk in<br/>on that last bath <br/>we all took together.<br/><br/><br/>
     <i>Originally appeared in </i>
-    </p>
+</p>    
+
 },
-        
+
 ]
