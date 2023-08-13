@@ -24,7 +24,7 @@ export default function Home() {
           
         </div>
         
-        <div className="grid grid-cols md:flex text-2xl mt-2 mb-2 space-y-5">
+        <div className="grid grid-cols md:flex mt-2 mb-2 space-y-5">
          
         <div className="font-bold md:m-5">
             <Link href="/poemlist">Sample Poems</Link>
