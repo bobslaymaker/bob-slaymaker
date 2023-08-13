@@ -55,6 +55,15 @@ export default function Home() {
             <Link href="/ContactInfo">Contact</Link>
           </div>
         </div>
+        <div className="grid grid-cols-12 text-[10px] ">
+          <div className="col-span-6 flex items-start">
+            <p className="">© 1980-2023 Bob Slaymaker</p>
+          </div>
+          <div className="col-span-6 text-right">
+            <p>Website designed by Pichsereyvattana Chan</p>
+          </div>
+        </div>
+      
       </div>
 
     
