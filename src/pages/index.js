@@ -14,10 +14,10 @@ export default function Home() {
       }}
     >
 {/* 768px */}
-    <div className="goudy text-3xl md:text-5xl space-y-5">
+    <div className="goudy text-[14px] md:text-[32px] space-y-5">
         <div className="text-center">
-          <h1 className="font-bold m-5 ">BOB SLAYMAKER</h1>
-          <p className="font-bold m-5 text-3xl md:text-5xl mb-8">WRITER-FILMMAKER</p>
+          <h1 className="font-bold m-5 text-[14px] md:text-[32px]">BOB SLAYMAKER</h1>
+          <p className="font-bold m-5 mb-8 text-[14px] md:text-[32px]">WRITER-FILMMAKER</p>
           <div className="text-center flex items-center justify-center">
             <hr className="font-bold" style={{border:"1px solid black", width:"200px"}}></hr>
           </div>
@@ -25,16 +25,19 @@ export default function Home() {
         </div>
         
         <div className="grid grid-cols md:flex text-2xl mt-2 mb-2 space-y-5">
-          <div className="font-bold md:m-5">
-              <Link href="/shortscriptlist">Sample Short Scripts</Link>
-          </div>
-     
-          <div className="font-bold md:m-5">
+         
+        <div className="font-bold md:m-5">
             <Link href="/poemlist">Sample Poems</Link>
           </div>
+
           <div className="font-bold md:m-5">
             <Link href="/shortstorieslist">Sample Short Stories</Link>
           </div>
+
+          <div className="font-bold md:m-5">
+              <Link href="/shortscriptlist">Sample Short Scripts</Link>
+          </div>
+        
           <div className="font-bold md:m-5">
             <Link
               target="_blank"
