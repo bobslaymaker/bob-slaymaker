@@ -14,7 +14,7 @@ export default function Home() {
       }}
     >
 {/* 768px */}
-    <div className="goudy text-[18px] md:text-[26px] space-y-5">
+    <div className="goudy text-[18px] md:text-[24px] space-y-5">
         <div className="text-center">
           <h1 className="font-bold m-5 text-[22px] md:text-[28px]">BOB SLAYMAKER</h1>
           <p className="font-bold m-5 mb-8 text-[20px] md:text-[28px]">WRITER-FILMMAKER</p>
