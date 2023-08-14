@@ -14,7 +14,7 @@ export default function Home() {
       }}
     >
 {/* 768px */}
-    <div className="goudy text-[18px] md:text-[19px] space-y-1">
+    <div className="goudy text-[18px] md:text-[19px] space-y-5">
         <div className="text-center">
           <h1 className="font-bold m-4 text-[22px] md:text-[25px] space-y-1">BOB SLAYMAKER</h1>
           <p className="font-bold m-4 mb-8 text-[20px] md:text-[25px] space-y-1">WRITER-FILMMAKER</p>
@@ -24,7 +24,7 @@ export default function Home() {
           
         </div>
         
-        <div className="grid grid-cols md:flex mt-2 mb-2 space-y-">
+        <div className="grid grid-cols md:flex mt-2 mb-2 space-y-5">
          
         <div className="font-bold md:m-5">
             <Link href="/poemlist">Sample Poems</Link>
