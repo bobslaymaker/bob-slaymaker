@@ -14,10 +14,10 @@ export default function Home() {
       }}
     >
 {/* 768px */}
-    <div className="goudy text-[18px] md:text-[24px] space-y-5">
+    <div className="goudy text-[18px] md:text-[20px] space-y-5">
         <div className="text-center">
-          <h1 className="font-bold m-5 text-[22px] md:text-[28px]">BOB SLAYMAKER</h1>
-          <p className="font-bold m-5 mb-8 text-[20px] md:text-[28px]">WRITER-FILMMAKER</p>
+          <h1 className="font-bold m-5 text-[22px] md:text-[26px]">BOB SLAYMAKER</h1>
+          <p className="font-bold m-5 mb-8 text-[20px] md:text-[26px]">WRITER-FILMMAKER</p>
           <div className="text-center flex items-center justify-center">
             <hr className="font-bold" style={{border:"1px solid black", width:"200px"}}></hr>
           </div>
