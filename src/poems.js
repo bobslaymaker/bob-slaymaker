@@ -1,6 +1,4 @@
-export const poems = [
-    
-
+export const poems = [  
     {
         title: "Appetite", 
         content:  <p><bold>APPETITE</bold><br/><br/>
@@ -25,14 +23,14 @@ export const poems = [
         After her visit, my appetite always vanished,<br/>
         and slipping under the covers<br/>
         I felt loved enough to sleep.<br/><br/><br/>
-        <i>Originally appeared in </i> 
+        <i>Originally appeared in </i>The Christian Science Monitor 
          </p>
     },
       {
         title: "Beginning Poets", 
         content:  <div><p><semi-bold>BEGINNING POETS</semi-bold><br/><br/>
 They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>***<br/><br/>”I'm fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  ”You<br/>finish it.”<br/>”O.K.,” says<br/><br/>Tom.  ”Then<br/>I get all<br/>the money.”<br/><br/><br/>
-        <i>Originally appeared in </i></p></div>
+        <i>Originally appeared in </i>Jacket</p></div>
     },
           {
         title: "Bad Attitude", 
@@ -66,21 +64,24 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
         to his warm office,<br/>
         and you step into<br/>
         the cold work yard.”<br/><br/><br/>
-        <i>Originally appeared in </i></p>
+        <i>Originally appeared in </i>Downtown Brooklyn</p>
 
     },
     {
         title: "The Beach Towel", 
         content:  <p><bold>THE BEACH TOWEL</bold><br/><br/>Under this comforter my wife and I rest,<br/>beneath the comforter her brown beach towel<br/>covering her from head to toe.<br/>She’s slept this way for years, she says,<br/>this Linus blanket for extra warmth<br/>and, I suppose, for extra love.<br/><br/>Lying beside her, I say:<br/>“Take that damn towel off.<br/>You’re thirty-five years old, for Christ’s sake.<br/>You’ve got me, why do you need<br/>that stupid towel?”<br/><br/>She keeps it on her, snuggling happily.<br/><br/>I persevere:  “You don’t need that towel.<br/>You’ve got me.  You act like a child<br/>with that thing.  C’mon, take it off.”<br/><br/>She turns over, tightly clutching<br/>her warm brown towel.<br/><br/>I try pulling it off her.<br/>She grips it tightly.<br/>I pull really, really hard.<br/>She holds on.<br/><br/>Tired of struggling,<br/>I move under the towel and into her arms.<br/>I kiss her eyelid.<br/>The hell with it, I think.<br/>You’ll just share her with this stupid towel.<br/><br/>I hold her close,<br/>feeling good in her arms, in her life.<br/>She’s my best friend, <br/>and I fanaticize being with her forever.<br/><br/>Now she moves deeper into our embrace,<br/>and the brown towel, like a magic carpet, <br/>floats out from under the comforter<br/>and flies away.<br/><br/><br/>
-        <i>Originally appeared in </i><br/> </p>
-    },
-    {
-        title: "Tradition", 
+        <i>Originally appeared in </i>Orbis<br/> </p>
+         },
+    
+         {
+    
+            title: "Tradition", 
         content:  <p><semi-bold>TRADITION</semi-bold><br/><br/>My father rose early,<br/>much before school time.<br/>We'd hear his work boots clunk<br/>on the kitchen floor,<br/>his key ring jangle,<br/>hushed voices of him and Mom over coffee<br/>speaking of the day ahead.<br/>Then he'd march off,<br/>to saw and hammer, according to design,<br/>beside others like him.<br/><br/>Home from school, we tiptoed by the couch,<br/>where he napped before his evening job.<br/>Awake, he was a stubbled face,<br/>a smoke-roughened voice—we treaded lightly.<br/>He'd return at midnight,<br/>while we slept, or pretended to,<br/>telling scary stories in bed.<br/>Mom invoked his name when her own tactics failed.<br/>Now and then we felt his hand, large and callused,<br/>sting our bottoms.<br/><br/>One summer, he took two weeks off<br/>to build a playroom in the cellar.<br/>I helped sort the new two-by-fours,<br/>smooth like the foreheads of lovable horses:<br/>Flicka, Trigger, the Black Beauty<br/>Mom read to us on rainy afternoons.<br/>I sat on the beams while he sawed.<br/>He held them still while I sawed.<br/>We worked all day, made peanut-butter sandwiches<br/>with gobs of jelly, chocolate milk four tablespoons a glass<br/>(lucky Mom was at Nana's). 
         <br/>We talked a lot those two weeks,<br/>he and I, about fourth grade,<br/>tools, about baseball.<br/>He said he'd take us to the circus<br/>when it came to town.<br/>That summer there were extra bills;<br/>he had to work more overtime.<br/>When the circus came, Mom took us.<br/><br/>***<br/><br/>Now sixty-six, with hair as sparse<br/>as our newborn daughter's,<br/>my father still rises early,<br/>remodeling the homes he once helped build.<br/><br/>Once a month Deb and I drive up<br/>and sit with them around the old Formica table.<br/>I give my father little Susie to hold.<br/>He takes her as if she might break<br/>or start to cry and he'd have to hand her back.<br/><br/>Mom makes coffee, and she and Deb and I talk.<br/>I look at my father, our tiny daughter <br/>nestled in his aging arms.<br/>He smiles awkwardly, then looks away,<br/>remembering when, because of need,<br/>he didn’t spend time with his children. 
         <br/><br/><br/>
-        <i>Originally appeared in </i>xx<br/> </p>
-    },
+        <i>Originally appeared in </i>Weber Studies <i>,</i> Street News <i>and </i>Writers Forum <br/> </p>
+        },
+          
     {
         title: "All-American Irish Kid, Queens, New York, 1968", 
         content: <p><semi-bold>ALL-AMERICAN IRISH KID,
@@ -105,7 +106,7 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
         On her knees scrubbing,<br/>
         my beautiful young mother rose,<br/>
         with a silent sigh switched off the radio.<br/><br/><br/>
-        <i>Originally appeared in </i></p>
+        <i>Originally appeared in </i>Home Planet News <i></i>and<i/> Melic Review</p>
     },    
 {
     title: "The D Train",
@@ -119,8 +120,9 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
 They lived in a crowded, single-story house,<br/>six kids, two parents, one grandmother.<br/>The three boys slept in one bedroom,<br/>the three girls in another.<br/>The parents had their room,<br/>the grandmother hers.<br/><br/>
 There was never a peaceful moment,<br/>the bathroom the only refuge<br/>before someone pounded the door,<br/>stopping a boy’s mirrored boxing match,<br/>a girl’s imagined ballet. <br/><br/>
 
-Thirty years later, each lives alone,<br/>relishing the quiet, the privacy,<br/>missing the varied human voices,<br/>the many hearts beating as one. 
-         </p>
+Thirty years later, each lives alone,<br/>relishing the quiet, the privacy,<br/>missing the varied human voices,<br/>the many hearts beating as one. <br/><br/><br/>
+        
+<i>Originally appeared in </i>The Orlando Times </p>
         },
         {
             title: "Pets and People", 
@@ -138,8 +140,7 @@ Thirty years later, each lives alone,<br/>relishing the quiet, the privacy,<br/>
                 beside me turns and says, “That’s disgusting.”<br/><br/>
                 
                 “You’re right,” I reply.  “There’s entirely <br/>
-                too much love on the planet today.”<br/><br/><br/>
-                <i>Originally appeared in </i>
+                too much love on the planet today.”
                 </p>
             },
     {
@@ -165,7 +166,7 @@ Thirty years later, each lives alone,<br/>relishing the quiet, the privacy,<br/>
         this part of life,<br/>
         this most natural of things.
         <br/><br/><br/>
-        <i>Originally appeared in </i> 
+        <i>Originally appeared in </i>3 AM Magazine 
         </p>
     },
     {
@@ -188,18 +189,17 @@ and smacked the shit out of little Roseanne.<br/><br/>
 
 And that wiped the smile off Roseanne's face,<br/>
 and ended her giggling and laughing too.<br/><br/><br/>
-        <i>Originally appeared in </i>
+        <i>Originally appeared in </i>Windsor Review
 </p>
     },
     {
         title: "My Wife Breaks Out", 
         content:  <p><semi-bold>MY WIFE BREAKS OUT</semi-bold><br/><br/>This afternoon she flashed me,<br/>she who’s always been so shy,<br/>perfect circles of softness<br/>staring at my face, then gone,<br/>hidden beneath her sweater.<br/><br/>I just smiled.<br/>It was the middle of the day,<br/>her flash an interruption,<br/>a suggestion she’s leaving her room,<br/>full-force, unchained,<br/>ready to take the world by surprise.<br/><br/><br/>
-        <i>Originally appeared in </i></p>
+        <i>Originally appeared in </i>La Petite Zine <i>and</i> Forever in Love</p>
     },        
     {
         title: "Getting Clean", 
-        content:  <p><semi-bold>GETTING CLEAN</semi-bold><br/><br/>A guy coming into the bathroom, I'm going out—<br/>we squeeze past each other in the doorway,<br/>and he cowers a little, a frail, frightened doe;<br/>I see he's unacceptable to my Hollywood-molded mind;<br/>his shirt's untucked, his hair's a bit mussed;<br/>I get the impulse to pounce on him, push him into a corner,<br/>call him a scumbag, see what he'll do;<br/>his face is pockmarked, scarred during teenage years;<br/>his body's small and slight, and though I smile and he smiles back,<br/>I realize it takes a long time to rid yourself of these thoughts,<br/>it takes years and years, years and years, years and years to get clean.<br/><br/><br/>
-        <i>Originally appeared in </i></p>
+        content:  <p><semi-bold>GETTING CLEAN</semi-bold><br/><br/>A guy coming into the bathroom, I'm going out—<br/>we squeeze past each other in the doorway,<br/>and he cowers a little, a frail, frightened doe;<br/>I see he's unacceptable to my Hollywood-molded mind;<br/>his shirt's untucked, his hair's a bit mussed;<br/>I get the impulse to pounce on him, push him into a corner,<br/>call him a scumbag, see what he'll do;<br/>his face is pockmarked, scarred during teenage years;<br/>his body's small and slight, and though I smile and he smiles back,<br/>I realize it takes a long time to rid yourself of these thoughts,<br/>it takes years and years, years and years, years and years to get clean.</p>
     },
     {
         title: "It's Not Pretty", 
@@ -239,16 +239,14 @@ and ended her giggling and laughing too.<br/><br/><br/>
         feeling strangely giddy and light,<br/>
         each having briefly lessened<br/>
         the anger he carries.<br/><br/><br/>
-        <i>Originally appeared in </i>
+        <i>Originally appeared in </i>Can We Have Our Ball Back <i>and</i>The Malahat Review
         </p>
     },
     {
         title: "The Last Bath", 
         content: <p><semi-bold><i>Author's Note: Though "The Last Bath" likely couldn't be made into a short film without me being imprisoned, it might be my favorite.</i><br/><br/>
 THE LAST BATH</semi-bold><br/><br/>Four of us kids in the tub, <br/>unsupervised for the moment<br/><br/>my two sisters in the back, <br/>standing, spreading their labia apart<br/>to reveal their inner pinkness<br/><br/>my brother poised over me<br/>in the front, near the faucet,<br/>his little body shiny with water,<br/>as he holds his small penis and pisses<br/><br/>and gleefully I catch <br/>the clear arcing stream<br/>in my mouth . . . <br/><br/>when my parents walk in<br/>on that last bath <br/>we all took together.<br/><br/><br/>
-    <i>Originally appeared in </i>
-</p>    
-
-},
-
+    <i>Originally appeared in </i>Home Planet News
+   </p>
+         },    
 ]

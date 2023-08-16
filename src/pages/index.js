@@ -62,7 +62,7 @@ export default function Home() {
             <p className=""></p>
           </div>
           <div className="col-span-6 text-center">
-            <p>© 1980-2023 Bob Slaymaker<br/>Website designed by Pichsereyvattana Chan</p>
+            <p>© 1987-2023 Bob Slaymaker<br/>Website designed by Pichsereyvattana Chan</p>
           </div>
         </div>
       
