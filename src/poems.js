@@ -28,32 +28,13 @@ export const poems = [
         <i>Originally appeared in </i> 
          </p>
     },
-    
-    {
-        title: "Beginning Poets", 
-        content:  <div><p><semi-bold>BEGINNING POETS</semi-bold><br/><br/>
- 1.<br/>They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>2.<br/>”I'm fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  ”You<br/>finish it.”<br/>”O.K.,” says<br/><br/>Tom.  ”Then<br/>I get all<br/>the money.”<br/><br/><br/>
-        <i>Originally appeared in </i></p></div>
-    },
-    {
-        title: "Beginning Poets", 
-        content:  <div><p><semi-bold>BEGINNING POETS</semi-bold><br/><br/>
- 1.<br/><br/>They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>2.<br/><br/>”I'm fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  ”You<br/>finish it.”<br/>”O.K.,” says<br/><br/>Tom.  ”Then<br/>I get all<br/>the money.”<br/><br/><br/>
-        <i>Originally appeared in </i></p></div>
-    },
-    {
+      {
         title: "Beginning Poets", 
         content:  <div><p><semi-bold>BEGINNING POETS</semi-bold><br/><br/>
 They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>***<br/><br/>”I'm fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  ”You<br/>finish it.”<br/>”O.K.,” says<br/><br/>Tom.  ”Then<br/>I get all<br/>the money.”<br/><br/><br/>
         <i>Originally appeared in </i></p></div>
     },
-    {
-        title: "Beginning Poets", 
-        content:  <div><p><semi-bold>BEGINNING POETS</semi-bold><br/>
- <p style={{paddingLeft: 40}}>I</p><br/>They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/><p style={{paddingLeft: 41}}>II</p><br/><br/>”I'm fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  ”You<br/>finish it.”<br/>”O.K.,” says<br/><br/>Tom.  ”Then<br/>I get all<br/>the money.”<br/><br/><br/>
-        <i>Originally appeared in </i></p></div>
-    },
-        {
+          {
         title: "Bad Attitude", 
         content: 
         <p><semi-bold>        BAD ATTITUDE</semi-bold><br/><br/>
