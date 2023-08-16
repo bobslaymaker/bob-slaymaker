@@ -239,7 +239,7 @@ and ended her giggling and laughing too.<br/><br/><br/>
         feeling strangely giddy and light,<br/>
         each having briefly lessened<br/>
         the anger he carries.<br/><br/><br/>
-        <i>Originally appeared in </i>Can We Have Our Ball Back <i>and</i>The Malahat Review
+        <i>Originally appeared in </i>Can We Have Our Ball Back <i>and </i>The Malahat Review
         </p>
     },
     {
