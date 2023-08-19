@@ -47,7 +47,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="font-bold md:m-5">
-            <Link target="_blank" href="/cv/Writing Filmmaking CV.pdf">
+            <Link target="_blank" href="/public/cv/Writing Filmmaking CV.pdf">
               CV
             </Link>
           </div>
