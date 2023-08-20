@@ -79,7 +79,7 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
         content:  <p><semi-bold>TRADITION</semi-bold><br/><br/>My father rose early,<br/>much before school time.<br/>We'd hear his work boots clunk<br/>on the kitchen floor,<br/>his key ring jangle,<br/>hushed voices of him and Mom over coffee<br/>speaking of the day ahead.<br/>Then he'd march off,<br/>to saw and hammer, according to design,<br/>beside others like him.<br/><br/>Home from school, we tiptoed by the couch,<br/>where he napped before his evening job.<br/>Awake, he was a stubbled face,<br/>a smoke-roughened voice—we treaded lightly.<br/>He'd return at midnight,<br/>while we slept, or pretended to,<br/>telling scary stories in bed.<br/>Mom invoked his name when her own tactics failed.<br/>Now and then we felt his hand, large and callused,<br/>sting our bottoms.<br/><br/>One summer, he took two weeks off<br/>to build a playroom in the cellar.<br/>I helped sort the new two-by-fours,<br/>smooth like the foreheads of lovable horses:<br/>Flicka, Trigger, the Black Beauty<br/>Mom read to us on rainy afternoons.<br/>I sat on the beams while he sawed.<br/>He held them still while I sawed.<br/>We worked all day, made peanut-butter sandwiches<br/>with gobs of jelly, chocolate milk four tablespoons a glass<br/>(lucky Mom was at Nana's). 
         <br/>We talked a lot those two weeks,<br/>he and I, about fourth grade,<br/>tools, about baseball.<br/>He said he'd take us to the circus<br/>when it came to town.<br/>That summer there were extra bills;<br/>he had to work more overtime.<br/>When the circus came, Mom took us.<br/><br/>***<br/><br/>Now sixty-six, with hair as sparse<br/>as our newborn daughter's,<br/>my father still rises early,<br/>remodeling the homes he once helped build.<br/><br/>Once a month Deb and I drive up<br/>and sit with them around the old Formica table.<br/>I give my father little Susie to hold.<br/>He takes her as if she might break<br/>or start to cry and he'd have to hand her back.<br/><br/>Mom makes coffee, and she and Deb and I talk.<br/>I look at my father, our tiny daughter <br/>nestled in his aging arms.<br/>He smiles awkwardly, then looks away,<br/>remembering when, because of need,<br/>he didn’t spend time with his children. 
         <br/><br/><br/>
-        <i>Originally appeared in </i>Weber Studies <i>,</i> Street News <i>and </i>Writers Forum <br/> </p>
+        <i>Originally appeared in </i>Weber Studies<i>,</i> Northwoods Journal<i>,</i> Street News <i>and </i>Writers Forum <br/> </p>
         },
           
     {
@@ -157,9 +157,9 @@ Thirty years later, each lives alone,<br/>relishing the quiet, the privacy,<br/>
         Once he saw a pair of her bloomers<br/>
         floating in the pail by the washing machine.<br/>
         The water was pale red, and he remembers<br/>
-        her <u>angry, ashamed</u> reply when he asked why.<br/><br/>
+        her angry, ashamed reply when he asked why.<br/><br/>
         
-        Years later/Now his girlfriend's <u>warm, rolled-up used pad</u><br/>
+        Now his girlfriend's used, warm, rolled-up pad<br/>
         stares at him from the sink ledge,<br/>
         and he barely knows what it is,
         or can stomach it,<br/>
