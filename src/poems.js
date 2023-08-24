@@ -30,7 +30,7 @@ export const poems = [
         title: "Beginning Poets", 
         content:  <div><p><semi-bold>BEGINNING POETS</semi-bold><br/><br/>
 They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>***<br/><br/>”I'm fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  ”You<br/>finish it.”<br/>”O.K.,” says<br/><br/>Tom.  ”Then<br/>I get all<br/>the money.”<br/><br/><br/>
-        <i>Originally appeared in </i>Jacket</p></div>
+        <i>Co-written by Joe Sorge<br/>Originally appeared in </i>Jacket</p></div>
     },
           {
         title: "Bad Attitude", 
