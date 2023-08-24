@@ -55,7 +55,7 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
         
         He comes in confident, smiling<code>&#8212;</code><br/>
         his daughter won the state spelling bee,<br/>
-        his son got into Harvard.<br/>
+        his son got into Harvard.<br/><br/>
         
         You’re so happy for him<br/>
         you trip over yourself<br/>
@@ -63,13 +63,13 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
         as he closes the door<br/>
         to his warm office,<br/>
         and you step into<br/>
-        the cold work yard.”<br/><br/><br/>
+        the cold work yard.<br/><br/><br/>
         <i>Originally appeared in </i>Downtown Brooklyn</p>
 
     },
     {
         title: "The Beach Towel", 
-        content:  <p><bold>THE BEACH TOWEL</bold><br/><br/>Under this comforter my wife and I rest,<br/>beneath the comforter her brown beach towel<br/>covering her from head to toe.<br/>She’s slept this way for years, she says,<br/>this Linus blanket for extra warmth<br/>and, I suppose, for extra love.<br/><br/>Lying beside her, I say:<br/>“Take that damn towel off.<br/>You’re thirty-five years old, for Christ’s sake.<br/>You’ve got me, why do you need<br/>that stupid towel?”<br/><br/>She keeps it on her, snuggling happily.<br/><br/>I persevere:  “You don’t need that towel.<br/>You’ve got me.  You act like a child<br/>with that thing.  C’mon, take it off.”<br/><br/>She turns over, tightly clutching<br/>her warm brown towel.<br/><br/>I try pulling it off her.<br/>She grips it tightly.<br/>I pull really, really hard.<br/>She holds on.<br/><br/>Tired of struggling,<br/>I move under the towel and into her arms.<br/>I kiss her eyelid.<br/>The hell with it, I think.<br/>You’ll just share her with this stupid towel.<br/><br/>I hold her close,<br/>feeling good in her arms, in her life.<br/>She’s my best friend, <br/>and I fanaticize being with her forever.<br/><br/>Now she moves deeper into our embrace,<br/>and the brown towel, like a magic carpet, <br/>floats out from under the comforter<br/>and flies away.<br/><br/><br/>
+        content:  <p><bold>THE BEACH TOWEL</bold><br/><br/>Under this comforter my wife and I rest,<br/>beneath the comforter her brown beach towel<br/>covering her from head to toe.<br/>She’s slept this way for years, she says,<br/>this Linus blanket for extra warmth<br/>and, I suppose, for extra love.<br/><br/>Lying beside her, I say:<br/>“Take that damn towel off.<br/>You’re thirty-five years old, for Christ’s sake.<br/>You’ve got me, why do you need<br/>that stupid towel?”<br/><br/>She keeps it on her, snuggling happily.<br/><br/>I persevere:  “You don’t need that towel.<br/>You’ve got me.  You act like a child<br/>with that thing.  C’mon, take it off.”<br/><br/>She turns over, tightly clutching<br/>her warm brown towel.<br/><br/>I try pulling it off her.<br/>She grips it tightly.<br/>I pull really, really hard.<br/>She holds on.<br/><br/>Tired of struggling,<br/>I move under the towel and into her arms.<br/>I kiss her eyelid.<br/>The hell with it, I think.<br/>You’ll just share her with this stupid towel.<br/><br/>I hold her close,<br/>feeling good in her arms, in her life.<br/>She’s my best friend, <br/>and I want to be with her forever.<br/><br/>Now she moves deeper into our embrace,<br/>and the brown towel, like a magic carpet, <br/>floats out from under the comforter<br/>and flies away.<br/><br/><br/>
         <i>Originally appeared in </i>Orbis<br/> </p>
          },
     
