@@ -16,7 +16,7 @@ export default function Home() {
 {/* 768px */}
     <div className="goudy text-[18px] md:text-[17px] space-y-5">
         <div className="text-center">
-          <h1 className="font-bold m-4 text-[22px] md:text-[22px] space-y-1">BOB SLAYMAKER</h1>
+          <h1 className="font-bold m-4 text-[20px] md:text-[22px] space-y-1">BOB SLAYMAKER</h1>
           <p className="font-bold m-4 mb-8 text-[20px] md:text-[22px] space-y-1">WRITER-FILMMAKER</p>
           <div className="text-center flex items-center justify-center">
             <hr className="font-bold" style={{border:"1px solid black", width:"200px"}}></hr>
