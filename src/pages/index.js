@@ -41,7 +41,7 @@ export default function Home() {
           <div className="font-bold md:m-5">
             <Link
               target="_blank"
-              href="https://www.imdb.com/video/vi684917273/"
+              href="https://vimeo.com/manage/videos/118768354/"
             >
               My Last Film
             </Link>
@@ -62,7 +62,8 @@ export default function Home() {
             <p className=""></p>
           </div>
           <div className="col-span-6 text-center">
-            <p>© 1987-2023 Bob Slaymaker<br/>Website designed by Pichsereyvattana Chan</p>
+            <p>© 1987-2023 Bob Slaymaker<br/>
+               Website by Pichsereyvattana Chan</p>
           </div>
         </div>
       
