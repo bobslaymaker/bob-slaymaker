@@ -29,7 +29,7 @@ export const poems = [
       {
         title: "Beginning Poets", 
         content:  <div><p><semi-bold>BEGINNING POETS</semi-bold><br/><br/>
-They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>***<br/><br/>“I'm fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  “You<br/>finish it.”<br/>“O.K.,” says<br/><br/>Tom.  “Then<br/>I get all<br/>the money.”<br/><br/><br/>
+They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>***<br/><br/>“I’m fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  “You<br/>finish it.”<br/>“O.K.,” says<br/><br/>Tom.  “Then<br/>I get all<br/>the money.”<br/><br/><br/>
         <i>Co-written by Joe Sorge<br/><br/>Originally appeared in </i>Jacket</p></div>
     },
           {
@@ -76,8 +76,8 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
          {
     
             title: "Tradition", 
-        content:  <p><semi-bold>TRADITION</semi-bold><br/><br/>My father rose early,<br/>much before school time.<br/>We'd hear his work boots clunk<br/>on the kitchen floor,<br/>his key ring jangle,<br/>hushed voices of him and Mom over coffee<br/>speaking of the day ahead.<br/>Then he'd march off,<br/>to saw and hammer, according to design,<br/>beside others like him.<br/><br/>Home from school, we tiptoed by the couch,<br/>where he napped before his evening job.<br/>Awake, he was a stubbled face,<br/>a smoke–roughened voice—we treaded lightly.<br/>He’d return at midnight,<br/>while we slept, or pretended to,<br/>telling scary stories in bed.<br/>Mom invoked his name when her own tactics failed.<br/>Now and then we felt his hand, large and callused,<br/>sting our bottoms.<br/><br/>One summer, he took two weeks off<br/>to build a playroom in the cellar.<br/>I helped sort the new two–by–fours,<br/>smooth like the foreheads of lovable horses:<br/>Flicka, Trigger, the Black Beauty<br/>Mom read to us on rainy afternoons.<br/>I sat on the beams while he sawed.<br/>He held them still while I sawed.<br/>We worked all day, made peanut-butter sandwiches<br/>with gobs of jelly, chocolate milk four tablespoons a glass<br/>(lucky Mom was at Nana's). 
-        <br/><br/>We talked a lot those two weeks,<br/>he and I, about fourth grade,<br/>tools, about baseball.<br/>He said he'd take us to the circus<br/>when it came to town.<br/>That summer there were extra bills;<br/>he had to work more overtime.<br/>When the circus came, Mom took us.<br/><br/>***<br/><br/>Now sixty–six, with hair as sparse<br/>as our newborn daughter's,<br/>my father still rises early,<br/>remodeling the homes he once helped build.<br/><br/>Once a month Deb and I drive up<br/>and sit with them around the old Formica table.<br/>I give my father little Susie to hold.<br/>He takes her as if she might break<br/>or start to cry and he'd have to hand her back.<br/><br/>Mom makes coffee, and she and Deb and I talk.<br/>I look at my father, our tiny daughter <br/>nestled in his aging arms.<br/>He smiles awkwardly, then looks away,<br/>remembering when, because of need, and design,<br/>he didn’t spend time with his children. 
+        content:  <p><semi-bold>TRADITION</semi-bold><br/><br/>My father rose early,<br/>much before school time.<br/>We’d hear his work boots clunk<br/>on the kitchen floor,<br/>his key ring jangle,<br/>hushed voices of him and Mom over coffee<br/>speaking of the day ahead.<br/>Then he’d march off,<br/>to saw and hammer, according to design,<br/>beside others like him.<br/><br/>Home from school, we tiptoed by the couch,<br/>where he napped before his evening job.<br/>Awake, he was a stubbled face,<br/>a smoke–roughened voice—we treaded lightly.<br/>He’d return at midnight,<br/>while we slept, or pretended to,<br/>telling scary stories in bed.<br/>Mom invoked his name when her own tactics failed.<br/>Now and then we felt his hand, large and callused,<br/>sting our bottoms.<br/><br/>One summer, he took two weeks off<br/>to build a playroom in the cellar.<br/>I helped sort the new two–by–fours,<br/>smooth like the foreheads of lovable horses:<br/>Flicka, Trigger, the Black Beauty<br/>Mom read to us on rainy afternoons.<br/>I sat on the beams while he sawed.<br/>He held them still while I sawed.<br/>We worked all day, made peanut-butter sandwiches<br/>with gobs of jelly, chocolate milk four tablespoons a glass<br/>(lucky Mom was at Nana’s). 
+        <br/><br/>We talked a lot those two weeks,<br/>he and I, about fourth grade,<br/>tools, about baseball.<br/>He said he’d take us to the circus<br/>when it came to town.<br/>That summer there were extra bills;<br/>he had to work more overtime.<br/>When the circus came, Mom took us.<br/><br/>***<br/><br/>Now sixty–six, with hair as sparse<br/>as our newborn daughter’s,<br/>my father still rises early,<br/>remodeling the homes he once helped build.<br/><br/>Once a month Deb and I drive up<br/>and sit with them around the old Formica table.<br/>I give my father little Susie to hold.<br/>He takes her as if she might break<br/>or start to cry and he’d have to hand her back.<br/><br/>Mom makes coffee, and she and Deb and I talk.<br/>I look at my father, our tiny daughter <br/>nestled in his aging arms.<br/>He smiles awkwardly, then looks away,<br/>remembering when, because of need, and design,<br/>he didn’t spend time with his children. 
         <br/><br/><br/>
         <i>Originally appeared in </i>Weber Studies<i>,</i> Northwoods Journal<i>,</i> Street News <i>and </i>Writers Forum <br/> </p>
         },
@@ -98,9 +98,9 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
         no, no, not German.<br/>
         I was my father’s boy,<br/>
         an all–American Irish kid<br/>
-        who watched Hogan's Heroes, Combat,<br/>
+        who watched Hogan’s Heroes, Combat,<br/>
         other World War II shows.<br/>
-        The word “German” wasn't in my vocabulary.<br/>
+        The word “German” wasn’t in my vocabulary.<br/>
         The words “Krauts,” “Sieg Heil!” and “Nazis” were.<br/><br/>
         
         On her knees scrubbing,<br/>
@@ -110,7 +110,7 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
     },    
 {
     title: "The D Train",
-    content: <p><semi-bold>THE D TRAIN</semi-bold><br/><br/>Alone and depressed in my SRO room,<br/>I slap myself, jump up and dress,<br/>lock the door behind me.  I skip down<br/>to the underground, where a brightly lit D train<br/>awaits me.  I sit among Tom, Dick and Harry,<br/>among Lawanda, Sung Kim, and Juan.<br/>Some read the papers, others department-store flyers.<br/>Sons talk to mothers, sisters talk to cousins,<br/>kids chase each other down the aisle.  I feel good<br/>among the many, the young, the old,<br/>neighbors, strangers, friends, families,<br/>all of us sharing this highway of people,<br/>riding toward a common future.</p>
+    content: <p><semi-bold>THE D TRAIN</semi-bold><br/><br/>Alone and depressed in my SRO room,<br/>I slap myself, jump up and dress,<br/>lock the door behind me.  I skip down<br/>to the underground, where a brightly lit D train<br/>awaits me.  I sit among Tom, Dick and Harry,<br/>among Lawanda, Sung Kim, and Juan.<br/>Some read the papers, others department–store flyers.<br/>Sons talk to mothers, sisters talk to cousins,<br/>kids chase each other down the aisle.  I feel good<br/>among the many, the young, the old,<br/>neighbors, strangers, friends, families,<br/>all of us sharing this highway of people,<br/>riding toward a common future.</p>
 },    
 
     {
@@ -194,7 +194,7 @@ and ended her giggling and laughing too.<br/><br/><br/>
     },        
     {
         title: "Getting Clean", 
-        content:  <p><semi-bold>GETTING CLEAN</semi-bold><br/><br/>A guy coming into the bathroom, I'm going out—<br/>we squeeze past each other in the doorway,<br/>and he cowers a little, a frail, frightened doe;<br/>I see he’s unacceptable to my Hollywood–molded mind;<br/>his shirt’s untucked, his hair’s a bit mussed;<br/>I get the impulse to pounce on him, push him into a corner,<br/>call him a scumbag, see what he'll do;<br/>his face is pockmarked, scarred during teenage years;<br/>his body’s small and slight, and though I smile and he smiles back,<br/>I realize it takes a long time to rid yourself of these thoughts,<br/>it takes years and years, years and years, years and years to get clean.</p>
+        content:  <p><semi-bold>GETTING CLEAN</semi-bold><br/><br/>A guy coming into the bathroom, I’m going out—<br/>we squeeze past each other in the doorway,<br/>and he cowers a little, a frail, frightened doe;<br/>I see he’s unacceptable to my Hollywood–molded mind;<br/>his shirt’s untucked, his hair’s a bit mussed;<br/>I get the impulse to pounce on him, push him into a corner,<br/>call him a scumbag, see what he’ll do;<br/>his face is pockmarked, scarred during teenage years;<br/>his body’s small and slight, and though I smile and he smiles back,<br/>I realize it takes a long time to rid yourself of these thoughts,<br/>it takes years and years, years and years, years and years to get clean.</p>
     },
     {
         title: "It’s Not Pretty", 
@@ -206,10 +206,10 @@ and ended her giggling and laughing too.<br/><br/><br/>
         maybe man #1 is on the treadmill<br/>
         with his headphones on,<br/>
         and man #2 walks over and says,<br/>
-        When you're finished,<br/>
+        When you’re finished,<br/>
         can you give me a holler,<br/>
         I’ll be on a bike over—<br/>
-        but #1 doesn't wait till #2’s finished,<br/>
+        but #1 doesn’t wait till #2’s finished,<br/>
         #1 doesn’t hear what #2’s saying,<br/>
         #1’s been on the treadmill beyond<br/>
         the 30-minute limit,<br/>
