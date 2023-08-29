@@ -53,7 +53,7 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
         with his new car<br/>
         and refreshed from the burbs.<br/><br/>
         
-        He comes in confident, smiling<code>&#8212;</code><br/>
+        He comes in confident, smiling—<br/>
         his daughter won the state spelling bee,<br/>
         his son got into Harvard.<br/><br/>
         
@@ -69,27 +69,27 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
     },
     {
         title: "The Beach Towel", 
-        content:  <p><bold>THE BEACH TOWEL</bold><br/><br/>Under this comforter my wife and I rest,<br/>beneath the comforter her brown beach towel<br/>covering her from head to toe.<br/>She’s slept this way for years, she says,<br/>this Linus blanket for extra warmth<br/>and, I suppose, for extra love.<br/><br/>Lying beside her, I say:<br/>“Take that damn towel off.<br/>You’re twenty-four years old, for Christ’s sake.<br/>You’ve got me, why do you need<br/>that stupid towel?”<br/><br/>She keeps it on her, snuggling happily.<br/><br/>I persist:  “You don’t need that towel.<br/>You’ve got me.  You act like a child<br/>with that thing.  C’mon, take it off.”<br/><br/>She turns over, tightly clutching<br/>her warm brown towel.<br/><br/>I try pulling it off her.<br/>She grips it tightly.<br/>I pull really, really hard.<br/>She holds on.<br/><br/>Tired of struggling,<br/>I move under the towel and into her arms.<br/>I kiss her eyelid.<br/>The hell with it, I think.<br/>You’ll just share her with this stupid towel.<br/><br/>I hold her close,<br/>feeling good in her arms, in her life.<br/>She’s my best friend, <br/>and I want to be with her forever.<br/><br/>Now she moves deeper into our embrace,<br/>and the brown towel, like a magic carpet, <br/>floats out from under the comforter<br/>and flies away.<br/><br/><br/>
+        content:  <p><bold>THE BEACH TOWEL</bold><br/><br/>Under this comforter my wife and I rest,<br/>beneath the comforter her brown beach towel<br/>covering her from head to toe.<br/>She’s slept this way for years, she says,<br/>this Linus blanket for extra warmth<br/>and, I suppose, for extra love.<br/><br/>Lying beside her, I say:<br/>“Take that damn towel off.<br/>You’re twenty–four years old, for Christ’s sake.<br/>You’ve got me, why do you need<br/>that stupid towel?”<br/><br/>She keeps it on her, snuggling happily.<br/><br/>I keep on:  “You don’t need that towel.<br/>You’ve got me.  You act like a child<br/>with that thing.  C’mon, take it off.”<br/><br/>She turns over, tightly clutching<br/>her warm brown towel.<br/><br/>I try pulling it off her.<br/>She grips it tightly.<br/>I pull really, really hard.<br/>She holds on.<br/><br/>Tired of struggling,<br/>I move under the towel and into her arms.<br/>I kiss her eyelid.<br/>The hell with it, I think.<br/>You’ll just share her with this stupid towel.<br/><br/>I hold her close,<br/>feeling good in her arms, in her life.<br/>She’s my best friend, <br/>and I want to be with her forever.<br/><br/>Now she moves deeper into our embrace,<br/>and the brown towel, like a magic carpet, <br/>floats out from under the comforter<br/>and flies away.<br/><br/><br/>
         <i>Originally appeared in </i>Orbis<br/> </p>
          },
     
          {
     
             title: "Tradition", 
-        content:  <p><semi-bold>TRADITION</semi-bold><br/><br/>My father rose early,<br/>much before school time.<br/>We'd hear his work boots clunk<br/>on the kitchen floor,<br/>his key ring jangle,<br/>hushed voices of him and Mom over coffee<br/>speaking of the day ahead.<br/>Then he'd march off,<br/>to saw and hammer, according to design,<br/>beside others like him.<br/><br/>Home from school, we tiptoed by the couch,<br/>where he napped before his evening job.<br/>Awake, he was a stubbled face,<br/>a smoke-roughened voice—we treaded lightly.<br/>He’d return at midnight,<br/>while we slept, or pretended to,<br/>telling scary stories in bed.<br/>Mom invoked his name when her own tactics failed.<br/>Now and then we felt his hand, large and callused,<br/>sting our bottoms.<br/><br/>One summer, he took two weeks off<br/>to build a playroom in the cellar.<br/>I helped sort the new two-by-fours,<br/>smooth like the foreheads of lovable horses:<br/>Flicka, Trigger, the Black Beauty<br/>Mom read to us on rainy afternoons.<br/>I sat on the beams while he sawed.<br/>He held them still while I sawed.<br/>We worked all day, made peanut-butter sandwiches<br/>with gobs of jelly, chocolate milk four tablespoons a glass<br/>(lucky Mom was at Nana's). 
-        <br/><br/>We talked a lot those two weeks,<br/>he and I, about fourth grade,<br/>tools, about baseball.<br/>He said he'd take us to the circus<br/>when it came to town.<br/>That summer there were extra bills;<br/>he had to work more overtime.<br/>When the circus came, Mom took us.<br/><br/>***<br/><br/>Now sixty-six, with hair as sparse<br/>as our newborn daughter's,<br/>my father still rises early,<br/>remodeling the homes he once helped build.<br/><br/>Once a month Deb and I drive up<br/>and sit with them around the old Formica table.<br/>I give my father little Susie to hold.<br/>He takes her as if she might break<br/>or start to cry and he'd have to hand her back.<br/><br/>Mom makes coffee, and she and Deb and I talk.<br/>I look at my father, our tiny daughter <br/>nestled in his aging arms.<br/>He smiles awkwardly, then looks away,<br/>remembering when, because of need, and design,<br/>he didn’t spend time with his children. 
+        content:  <p><semi-bold>TRADITION</semi-bold><br/><br/>My father rose early,<br/>much before school time.<br/>We'd hear his work boots clunk<br/>on the kitchen floor,<br/>his key ring jangle,<br/>hushed voices of him and Mom over coffee<br/>speaking of the day ahead.<br/>Then he'd march off,<br/>to saw and hammer, according to design,<br/>beside others like him.<br/><br/>Home from school, we tiptoed by the couch,<br/>where he napped before his evening job.<br/>Awake, he was a stubbled face,<br/>a smoke–roughened voice—we treaded lightly.<br/>He’d return at midnight,<br/>while we slept, or pretended to,<br/>telling scary stories in bed.<br/>Mom invoked his name when her own tactics failed.<br/>Now and then we felt his hand, large and callused,<br/>sting our bottoms.<br/><br/>One summer, he took two weeks off<br/>to build a playroom in the cellar.<br/>I helped sort the new two–by–fours,<br/>smooth like the foreheads of lovable horses:<br/>Flicka, Trigger, the Black Beauty<br/>Mom read to us on rainy afternoons.<br/>I sat on the beams while he sawed.<br/>He held them still while I sawed.<br/>We worked all day, made peanut-butter sandwiches<br/>with gobs of jelly, chocolate milk four tablespoons a glass<br/>(lucky Mom was at Nana's). 
+        <br/><br/>We talked a lot those two weeks,<br/>he and I, about fourth grade,<br/>tools, about baseball.<br/>He said he'd take us to the circus<br/>when it came to town.<br/>That summer there were extra bills;<br/>he had to work more overtime.<br/>When the circus came, Mom took us.<br/><br/>***<br/><br/>Now sixty–six, with hair as sparse<br/>as our newborn daughter's,<br/>my father still rises early,<br/>remodeling the homes he once helped build.<br/><br/>Once a month Deb and I drive up<br/>and sit with them around the old Formica table.<br/>I give my father little Susie to hold.<br/>He takes her as if she might break<br/>or start to cry and he'd have to hand her back.<br/><br/>Mom makes coffee, and she and Deb and I talk.<br/>I look at my father, our tiny daughter <br/>nestled in his aging arms.<br/>He smiles awkwardly, then looks away,<br/>remembering when, because of need, and design,<br/>he didn’t spend time with his children. 
         <br/><br/><br/>
         <i>Originally appeared in </i>Weber Studies<i>,</i> Northwoods Journal<i>,</i> Street News <i>and </i>Writers Forum <br/> </p>
         },
           
     {
-        title: "All-American Irish Kid, Queens, New York, 1968", 
-        content: <p><semi-bold>ALL-AMERICAN IRISH KID,
+        title: "All–American Irish Kid, Queens, New York, 1968", 
+        content: <p><semi-bold>ALL–AMERICAN IRISH KID,
         QUEENS, NEW YORK, 1968</semi-bold><br/><br/>
         
         “Turn off that Nazi shit,”<br/>
         I told my mother,<br/>
-        my innocent, German-speaking mother,<br/>
+        my innocent, German–speaking mother,<br/>
         who’d tuned in her German-language program<br/>
         while scrubbing the kitchen floor.<br/><br/>
         
@@ -97,7 +97,7 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
         at thirteen I wasn’t German—<br/>
         no, no, not German.<br/>
         I was my father’s boy,<br/>
-        an all-American Irish kid<br/>
+        an all–American Irish kid<br/>
         who watched Hogan's Heroes, Combat,<br/>
         other World War II shows.<br/>
         The word “German” wasn't in my vocabulary.<br/>
@@ -117,7 +117,7 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
         title: "Yearning", 
         content:  <p><semi-bold>YEARNING</semi-bold><br/><br/>
 
-They lived in a crowded, single-story house,<br/>six kids, two parents, one grandmother.<br/>The three boys slept in one bedroom,<br/>the three girls in another.<br/>The parents had their room,<br/>the grandmother hers.<br/><br/>
+They lived in a crowded, single–story house,<br/>six kids, two parents, one grandmother.<br/>The three boys slept in one bedroom,<br/>the three girls in another.<br/>The parents had their room,<br/>the grandmother hers.<br/><br/>
 There was never a peaceful moment,<br/>the bathroom the only refuge<br/>before someone pounded the door,<br/>stopping a boy’s mirrored boxing match,<br/>a girl’s imagined ballet. <br/><br/>
 
 Thirty years later, each lives alone,<br/>relishing the quiet, the privacy,<br/>missing the varied human voices,<br/>the many hearts beating as one. <br/><br/><br/>
@@ -189,12 +189,12 @@ and ended her giggling and laughing too.<br/><br/><br/>
     },
     {
         title: "My Wife Breaks Out", 
-        content:  <p><semi-bold>MY WIFE BREAKS OUT</semi-bold><br/><br/>This afternoon she flashed me,<br/>she who’s always been so shy,<br/>perfect circles of softness<br/>staring at my face, then gone,<br/>hidden beneath her sweater.<br/><br/>I just smiled.<br/>It was the middle of the day,<br/>her flash an interruption,<br/>a suggestion she’s leaving her room,<br/>full-force, unchained,<br/>ready to take the world by surprise.<br/><br/><br/>
+        content:  <p><semi-bold>MY WIFE BREAKS OUT</semi-bold><br/><br/>This afternoon she flashed me,<br/>she who’s always been so shy,<br/>perfect circles of softness<br/>staring at my face, then gone,<br/>hidden beneath her sweater.<br/><br/>I just smiled.<br/>It was the middle of the day,<br/>her flash an interruption,<br/>a suggestion she’s leaving her room,<br/>full–force, unchained,<br/>ready to take the world by surprise.<br/><br/><br/>
         <i>Originally appeared in </i>La Petite Zine <i>and</i> Forever in Love</p>
     },        
     {
         title: "Getting Clean", 
-        content:  <p><semi-bold>GETTING CLEAN</semi-bold><br/><br/>A guy coming into the bathroom, I'm going out—<br/>we squeeze past each other in the doorway,<br/>and he cowers a little, a frail, frightened doe;<br/>I see he’s unacceptable to my Hollywood-molded mind;<br/>his shirt’s untucked, his hair’s a bit mussed;<br/>I get the impulse to pounce on him, push him into a corner,<br/>call him a scumbag, see what he'll do;<br/>his face is pockmarked, scarred during teenage years;<br/>his body’s small and slight, and though I smile and he smiles back,<br/>I realize it takes a long time to rid yourself of these thoughts,<br/>it takes years and years, years and years, years and years to get clean.</p>
+        content:  <p><semi-bold>GETTING CLEAN</semi-bold><br/><br/>A guy coming into the bathroom, I'm going out—<br/>we squeeze past each other in the doorway,<br/>and he cowers a little, a frail, frightened doe;<br/>I see he’s unacceptable to my Hollywood–molded mind;<br/>his shirt’s untucked, his hair’s a bit mussed;<br/>I get the impulse to pounce on him, push him into a corner,<br/>call him a scumbag, see what he'll do;<br/>his face is pockmarked, scarred during teenage years;<br/>his body’s small and slight, and though I smile and he smiles back,<br/>I realize it takes a long time to rid yourself of these thoughts,<br/>it takes years and years, years and years, years and years to get clean.</p>
     },
     {
         title: "It’s Not Pretty", 
