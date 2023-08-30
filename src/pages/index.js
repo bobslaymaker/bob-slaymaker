@@ -17,7 +17,7 @@ export default function Home() {
     <div className="goudy text-[18px] md:text-[17px] space-y-5">
         <div className="text-center">
           <h1 className="font-bold m-4 text-[18px] md:text-[22px] space-y-1">BOB SLAYMAKER</h1>
-          <p className="font-bold m-4 mb-8 text-[18px] md:text-[22px] space-y-1">WRITER-FILMMAKER</p>
+          <p className="font-bold m-4 mb-8 text-[18px] md:text-[22px] space-y-1">WRITER–FILMMAKER</p>
           <div className="text-center flex items-center justify-center">
             <hr className="font-bold" style={{border:"1px solid black", width:"200px"}}></hr>
           </div>
@@ -62,7 +62,7 @@ export default function Home() {
             <p className=""></p>
           </div>
           <div className="col-span-6 text-center">
-            <p>© 1987-2023 Bob Slaymaker<br/>
+            <p>© 1987–2023 Bob Slaymaker<br/>
                Website by Pichsereyvattana Chan</p>
           </div>
         </div>

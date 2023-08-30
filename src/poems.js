@@ -29,7 +29,7 @@ export const poems = [
       {
         title: "Beginning Poets", 
         content:  <div><p><semi-bold>BEGINNING POETS</semi-bold><br/><br/>
-They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>***<br/><br/>“I’m fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  “You<br/>finish it.”<br/>“O.K.,” says<br/><br/>Tom.  “Then<br/>I get all<br/>the money.”<br/><br/><br/>
+They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <br/>over how <br/><br/>to split <br/>the millions.<br/><br/>***<br/><br/>“I’m fed up<br/>with this<br/>poem,” Pete<br/><br/>says.  “You<br/>finish it.”<br/>“O.K.,” says<br/><br/>Tom.  “Then<br/><i>I</i> get all<br/>the money.”<br/><br/><br/>
         <i>Co-written by Joe Sorge<br/><br/>Originally appeared in </i>Jacket</p></div>
     },
           {
@@ -69,7 +69,7 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
     },
     {
         title: "The Beach Towel", 
-        content:  <p><bold>THE BEACH TOWEL</bold><br/><br/>Under this comforter my wife and I rest,<br/>beneath the comforter her brown beach towel<br/>covering her from head to toe.<br/>She’s slept this way for years, she says,<br/>this Linus blanket for extra warmth<br/>and, I suppose, for extra love.<br/><br/>Lying beside her, I say:<br/>“Take that damn towel off.<br/>You’re twenty–four years old, for Christ’s sake.<br/>You’ve got me, why do you need<br/>that stupid towel?”<br/><br/>She keeps it on her, snuggling happily.<br/><br/>I persist:  “You don’t need that towel.<br/>You’ve got me.  You act like a child<br/>with that thing.  C’mon, take it off.”<br/><br/>She turns over, tightly clutching<br/>her warm brown towel.<br/><br/>I try pulling it off her.<br/>She grips it tightly.<br/>I pull really, really hard.<br/>She holds on.<br/><br/>Tired of struggling,<br/>I move under the towel and into her arms.<br/>I kiss her eyelid.<br/>The hell with it, I think.<br/>You’ll just share her with this stupid towel.<br/><br/>I hold her close,<br/>feeling good in her arms, in her life.<br/>She’s my best friend, <br/>and I want to be with her forever.<br/><br/>Now she moves deeper into our embrace,<br/>and the brown towel, like a magic carpet, <br/>floats out from under the comforter<br/>and flies away.<br/><br/><br/>
+        content:  <p><bold>THE BEACH TOWEL</bold><br/><br/>Under this comforter my wife and I rest,<br/>beneath the comforter her brown beach towel<br/>covering her from head to toe.<br/>She’s slept this way for years, she says,<br/>this Linus blanket for extra warmth<br/>and, I suppose, for extra love.<br/><br/>Lying beside her, I say:<br/>“Take that damn towel off.<br/>You’re twenty–four years old, for Christ’s sake.<br/>You’ve got me, why do you need<br/>that stupid towel?”<br/><br/>She keeps it on her, snuggling happily.<br/><br/>I persist:  “You don’t need that towel.<br/>You’ve got me.  You act like a child<br/>with that thing.  C’mon, take it off.”<br/><br/>She turns over, tightly clutching<br/>her warm brown towel.<br/><br/>I try pulling it off her.<br/>She grips it tightly.<br/>I pull <i>really</i>, <i>really</i> hard.<br/>She holds on.<br/><br/>Tired of struggling,<br/>I move under the towel and into her arms.<br/>I kiss her eyelid.<br/>The hell with it, I think.<br/>You’ll just share her with this stupid towel.<br/><br/>I hold her close,<br/>feeling good in her arms, in her life.<br/>She’s my best friend, <br/>and I want to be with her forever.<br/><br/>Now she moves deeper into our embrace,<br/>and the brown towel, like a magic carpet, <br/>floats out from under the comforter<br/>and flies away.<br/><br/><br/>
         <i>Originally appeared in </i>Orbis<br/> </p>
          },
     
@@ -90,7 +90,7 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
         “Turn off that Nazi shit,”<br/>
         I told my mother,<br/>
         my innocent, German–speaking mother,<br/>
-        who’d tuned in her German-language program<br/>
+        who’d tuned in her German–language program<br/>
         while scrubbing the kitchen floor.<br/><br/>
         
         Despite her ancestry,<br/>
@@ -98,7 +98,7 @@ They sit, <br/>laugh, <br/><br/>collaborate <br/>on poems, <br/><br/>and argue <
         no, no, not German.<br/>
         I was my father’s boy,<br/>
         an all–American Irish kid<br/>
-        who watched Hogan’s Heroes, Combat,<br/>
+        who watched <i>Hogan’s Heroes</i>, <i>Combat</i>,<br/>
         other World War II shows.<br/>
         The word “German” wasn’t in my vocabulary.<br/>
         The words “Krauts,” “Sieg Heil!” and “Nazis” were.<br/><br/>
@@ -154,7 +154,7 @@ Thirty years later, each lives alone,<br/>relishing the quiet, the privacy,<br/>
         The water was pale red, and he remembers<br/>
         her angry, ashamed reply when he asked why.<br/><br/>
         
-        Now his girlfriend’s warm, rolled-up pad<br/>
+        Now his girlfriend’s warm, rolled–up pad<br/>
         stares at him from the sink ledge,<br/>
         and he barely knows what it is,
         or can stomach it,<br/>
@@ -206,9 +206,9 @@ and ended her giggling and laughing too.<br/><br/><br/>
         maybe man #1 is on the treadmill<br/>
         with his headphones on,<br/>
         and man #2 walks over and says,<br/>
-        When you’re finished,<br/>
+        “When you’re finished,<br/>
         can you give me a holler,<br/>
-        I’ll be on a bike over—<br/>
+        I’ll be on a bike over—”<br/>
         but #1 doesn’t wait till #2’s finished,<br/>
         #1 doesn’t hear what #2’s saying,<br/>
         #1’s been on the treadmill beyond<br/>
@@ -219,7 +219,7 @@ and ended her giggling and laughing too.<br/><br/><br/>
         and this angers #2,<br/>
         who unsure #1 has heard or understood him,<br/>
         repeats his request, but #1 ignores him,<br/>
-        so slighted #2 calls #1 a fucking asshole,<br/>
+        so slighted #2 calls #1 a “fucking asshole,”<br/>
         and then they’re rolling on the gym’s rubber floor,<br/>
         trying to smash each other’s eyeballs,<br/>
         and #2 is every motherfucker<br/>
