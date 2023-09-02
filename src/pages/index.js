@@ -19,7 +19,7 @@ export default function Home() {
         
         <h1 className="font-bold text-[18px] md:text-[22px] ">BOB SLAYMAKER</h1>
         <h1 className="font-bold text-[18px] md:text-[22px] ">WRITER–FILMMAKER</h1>
-        <div className="flex items-center justify-center ">
+              <div className="flex items-center justify-center ">
           <hr className="font-bold text-center" style={{ border: "1px solid black", width: "200px" }}></hr>
         </div>
 
