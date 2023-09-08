@@ -3,54 +3,69 @@ import { Inter } from "next/font/google";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
+
 export default function Home() {
-  const verticalSpacing = 20
+  const customStyles = {
+    verticalSpacing: {
+      //change only the number
+      sm: 'space-y-[15px]', //mobile (if you change the value here, also change the value of sm in linkSpacing)
+      md: 'md:space-y-[20px]', //ipad/tablets
+      lg: 'lg:space-y-[25px]',  //laptop/large screens
+    },
+    linkSpacing: {
+      sm: 'm-[15px]',
+      md: 'md:ms-[15px] md:me-[15px]',
+      lg: 'lg:ms-[30px] lg:me-[30px]',
+    }
+  };
+
   return (
     <div
       className={`font-[800] text-center flex flex-col items-center justify-center p-24 ${inter.className} space-x-5 `}
       style={{
         width: "100vw",
         height: "100vh",
-        background: "hex #FDFEFF",
+        background: "#FDFEFF", // Fix the background color syntax
       }}
     >
-      {/* 768px */}
-      <div className={`text-center goudy text-[18px] md:text-[17px] space-y-[${verticalSpacing}px]`} style={{ width: "100vw"}}>
-        
+      <div
+        className={`text-center goudy text-[18px] md:text-[17px] ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
+        style={{ width: "100vw" }}
+      >
         <h1 className="font-bold text-[18px] md:text-[22px] ">BOB SLAYMAKER</h1>
         <h1 className="font-bold text-[18px] md:text-[22px] ">WRITER–FILMMAKER</h1>
-              <div className="flex items-center justify-center ">
+        <div className="flex items-center justify-center">
           <hr className="font-bold text-center" style={{ border: "1px solid black", width: "200px" }}></hr>
         </div>
 
-        <div className={`grid grid-cols md:flex md:justify-center space-y-[${verticalSpacing}px] `}> 
-          <div className="font-bold md:m-5">
+        <div className={`md:flex md:justify-center md:items-stretch`}>
+          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
             <Link href="/poemlist">Sample Poems</Link>
           </div>
 
-          <div className="font-bold md:m-5">
+          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
             <Link href="/shortstorieslist">Sample Short Stories</Link>
           </div>
 
-          <div className="font-bold md:m-5">
+          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
             <Link href="/shortscriptlist">Sample Short Scripts</Link>
           </div>
 
-          <div className="font-bold md:m-5">
+          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
             <Link target="_blank" href="https://vimeo.com/manage/videos/118768354/">
               My Last Film
             </Link>
           </div>
-          <div className="font-bold md:m-5">
+          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
             <Link target="_blank" href="/cv/Writing Filmmaking CV 2023.pdf">
               CV
             </Link>
           </div>
-          <div className="font-bold md:m-5">
+          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
             <Link href="/ContactInfo">Contact</Link>
           </div>
         </div>
-        <div className="grid grid-cols-12 text-[10px] mt-5">
+        <div className="grid grid-cols-12 text-[10px]">
           <div className="col-span-6 flex items-start">
             <p className=""></p>
           </div>
