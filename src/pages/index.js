@@ -15,7 +15,12 @@ export default function Home() {
     linkSpacing: {
       sm: 'm-[15px]',
       md: 'md:ms-[15px] md:me-[15px]',
-      lg: 'lg:ms-[30px] lg:me-[30px]',
+      lg: 'lg:ms-[15px] lg:me-[15px]',
+    },
+    horizontalLine: { //adjust horizontal line padding here ***remember to change the value of both pt and pb***
+      sm: 'pt-[15px] pb-[15px]',
+      md: 'md:pt-[15px] md:pb-[15px]',
+      lg: 'lg:pt-[6px] lg:pb-[6px]',
     }
   };
 
@@ -34,34 +39,36 @@ export default function Home() {
       >
         <h1 className="font-bold text-[18px] md:text-[22px] ">BOB SLAYMAKER</h1>
         <h1 className="font-bold text-[18px] md:text-[22px] ">WRITER–FILMMAKER</h1>
-        <div className="flex items-center justify-center">
+ 
+        <div className={`flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}>
           <hr className="font-bold text-center" style={{ border: "1px solid black", width: "200px" }}></hr>
         </div>
 
-        <div className={`md:flex md:justify-center md:items-stretch`}>
-          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
+        <div className={`md:flex md:justify-center md:items-stretch `}>
+        {/* ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} */}
+          <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link href="/poemlist">Sample Poems</Link>
           </div>
 
-          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
+          <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link href="/shortstorieslist">Sample Short Stories</Link>
           </div>
 
-          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
+          <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link href="/shortscriptlist">Sample Short Scripts</Link>
           </div>
 
-          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
+          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link target="_blank" href="https://vimeo.com/manage/videos/118768354/">
               My Last Film
             </Link>
           </div>
-          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
+          <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link target="_blank" href="/cv/Writing Filmmaking CV 2023.pdf">
               CV
             </Link>
           </div>
-          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} md:m-5`}>
+          <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link href="/ContactInfo">Contact</Link>
           </div>
         </div>
