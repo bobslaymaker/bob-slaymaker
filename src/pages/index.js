@@ -8,12 +8,12 @@ export default function Home() {
   const customStyles = {
     verticalSpacing: {
       //change only the number
-      sm: 'space-y-[15px]', //mobile (if you change the value here, also change the value of sm in linkSpacing)
-      md: 'md:space-y-[20px]', //ipad/tablets
-      lg: 'lg:space-y-[25px]',  //laptop/large screens
+      sm: 'space-y-[10px]', //mobile (if you change the value here, also change the value of sm in linkSpacing)
+      md: 'md:space-y-[10px]', //ipad/tablets/14" laptop (***change md and lg value for l)
+      lg: 'lg:space-y-[10px]',  //large screens
     },
     linkSpacing: {
-      sm: 'm-[15px]',
+      sm: 'm-[10px]',
       md: 'md:ms-[15px] md:me-[15px]',
       lg: 'lg:ms-[15px] lg:me-[15px]',
     },
@@ -35,7 +35,7 @@ export default function Home() {
     >
       <div
         className={`text-center goudy text-[18px] md:text-[17px] ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
-        style={{ width: "100vw" }}
+        // style={{ width: "100vw" }}
       >
         <h1 className="font-bold text-[18px] md:text-[22px] ">BOB SLAYMAKER</h1>
         <h1 className="font-bold text-[18px] md:text-[22px] ">WRITER–FILMMAKER</h1>
