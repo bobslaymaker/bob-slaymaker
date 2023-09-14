@@ -194,7 +194,7 @@ and ended her giggling and laughing too.<br/><br/><br/>
     },        
     {
         title: "Repulsive", 
-        content:  <p><semi-bold>REPULSIVE</semi-bold><br/><br/>A guy coming into the bathroom, I’m going out—<br/>we squeeze past each other in the doorway,<br/>and he cowers a little, a frail, frightened doe;<br/>the bullying part of me, shaped by a trillion glossy images,<br/>
+        content:  <p><semi-bold>REPULSIVE</semi-bold><br/><br/>A guy coming into the bathroom, I’m going out—<br/>we squeeze past each other in the doorway,<br/>and he cowers a little, a frail, frightened doe;<br/>the bully in me, shaped by a trillion glossy images,<br/>
         deems him repulsive;<br/>his shirt’s untucked, his hair’s a bit mussed;<br/>I get the impulse to pounce on him, shove him into a corner,<br/>call him a scumbag, see what he’ll do;<br/>his face is pockmarked, scarred during teenage years;<br/>his body’s small and slight, and though I smile and he smiles back,<br/>I realize it can take years to rid yourself of these thoughts,<br/>it can take years and years, years and years, years and years to get clean.</p>
     },
     {
