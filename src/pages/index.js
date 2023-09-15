@@ -74,7 +74,7 @@ export default function Home() {
         <div className="text-[10px]" style={{position: "absolute"}}>
 
 
-<div className="col-span-6 text-center bg-blue-400">
+<div className="col-span-6 text-center">
   <div>
   <p>© 1987–2023 Bob Slaymaker<br />
       Website by Pichsereyvattana Chan</p>
