@@ -71,14 +71,18 @@ export default function Home() {
             <Link href="/ContactInfo">Contact</Link>
           </div>
         </div>
-        <div className="grid grid-cols-12 text-[10px]">
-          <div className="col-span-6 flex items-start">
-            <p className=""></p>
-          </div>
-          <div className="col-span-6 text-center">
-            <p>© 1987–2023 Bob Slaymaker<br />
-              Website by Pichsereyvattana Chan</p>
-          </div>
+        <div className="text-[10px]" style={{position: "absolute"}}>
+
+
+<div className="col-span-6 text-center">
+  <div>
+  <p>© 1987–2023 Bob Slaymaker<br />
+      Website by Pichsereyvattana Chan</p>
+  </div>
+
+</div>
+
+     
         </div>
       </div>
     </div>
