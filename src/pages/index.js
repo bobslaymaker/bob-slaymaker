@@ -35,28 +35,23 @@ export default function Home() {
     >
       <div
         className={`text-center goudy text-[18px] md:text-[18px] ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
-        // style={{ width: "100vw" }}
       >
         <h1 className="font-bold text-[18px] md:text-[22px] ">BOB SLAYMAKER</h1>
         <h1 className="font-bold text-[18px] md:text-[22px] ">WRITER–FILMMAKER</h1>
         <div className="flex items-center justify-center">
           <hr className="font-bold text-center" style={{ border: "1px solid black", width: "200px" }}></hr>
         </div>
-
+  
         <div className={`md:flex md:justify-center md:items-stretch `}>
-        {/* ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg} */}
           <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link href="/poemlist">Sample Poems</Link>
           </div>
-
           <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link href="/shortstorieslist">Sample Short Stories</Link>
           </div>
-
           <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link href="/shortscriptlist">Sample Short Scripts</Link>
           </div>
-
           <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link target="_blank" href="https://vimeo.com/manage/videos/118768354/">
               My Last Film
@@ -71,20 +66,20 @@ export default function Home() {
             <Link href="/ContactInfo">Contact</Link>
           </div>
         </div>
-        <div className="text-[10px]" style={{position: "absolute"}}>
 
+        <div className="hidden md:block text-[10px] flex justify-end credit-parent " style={{ position: 'relative' }}>
+          <div className="absolute bottom-[0px] right-[0px] top-[0px] ">
+            <p className="text-left">© 1987–2023 Bob Slaymaker</p>
+            <p>Website by Pichsereyvattana Chan</p>
+          </div>
+        </div>
 
-<div className="col-span-6 text-center">
-  <div>
-  <p>© 1987–2023 Bob Slaymaker<br />
-      Website by Pichsereyvattana Chan</p>
-  </div>
-
-</div>
-
-     
+        <div className="goudy md:hidden text-[10px]" style={{width: "100vw"}}>
+            <p>© 1987–2023 Bob Slaymaker</p>
+            <p>Website by Pichsereyvattana Chan</p>
         </div>
       </div>
+
     </div>
   );
 }
