@@ -21,8 +21,7 @@
     height: auto;
 }
 
-.pichan {
+.credit {
     position: absolute;
-    bottom: 1em;
-    right: 1em;
+    right: 100px;
 }

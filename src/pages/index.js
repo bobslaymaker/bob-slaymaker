@@ -34,7 +34,7 @@ export default function Home() {
       }}
     >
       <div
-        className={`text-center goudy text-[18px] md:text-[18px] ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
+        className={`text-center goudy text-[18px] md:text-[20px] ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
       >
         <h1 className="font-bold text-[18px] md:text-[24px] ">BOB SLAYMAKER</h1>
         <h1 className="font-bold text-[18px] md:text-[24px] ">WRITER–FILMMAKER</h1>
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
 
         <div className="hidden md:block text-[10px] flex justify-end credit-parent " style={{ position: 'relative' }}>
-          <div className="absolute bottom-[0px] right-[0px] top-[0px] ">
+          <div className="absolute bottom-[0px] right-[0px] top-[20px] ">
             <p className="text-left">© 1987–2023 Bob Slaymaker</p>
             <p>Website by Pichsereyvattana Chan</p>
           </div>
