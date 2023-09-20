@@ -34,7 +34,7 @@ export default function Home() {
       }}
     >
       <div
-        className={`text-center goudy text-[18px] md:text-[20px] ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
+        className={`text-center goudy text-[18px] md:text-[18px] ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
       >
         <h1 className="font-bold text-[18px] md:text-[24px] ">BOB SLAYMAKER</h1>
         <h1 className="font-bold text-[18px] md:text-[24px] ">WRITER–FILMMAKER</h1>
