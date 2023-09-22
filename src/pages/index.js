@@ -68,7 +68,7 @@ export default function Home() {
         </div>
 
         <div className="hidden md:block text-[10px] flex justify-end credit-parent " style={{ position: 'relative' }}>
-          <div className="absolute bottom-[0px] right-[0px] top-[20px] ">
+          <div className="absolute bottom-[0px] right-[0px] top-[30px] ">
             <p className="text-left">© 1987–2023 Bob Slaymaker</p>
             <p>Website by Pichsereyvattana Chan</p>
           </div>
