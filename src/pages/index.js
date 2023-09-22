@@ -18,9 +18,9 @@ export default function Home() {
       lg: 'lg:ms-[15px] lg:me-[15px]',
     },
     horizontalLine: { //adjust horizontal line padding here ***remember to change the value of both pt and pb***
-      sm: 'pt-[15px] pb-[15px]',
-      md: 'md:pt-[15px] md:pb-[15px]',
-      lg: 'lg:pt-[6px] lg:pb-[6px]',
+      sm: 'pt-[100px] pb-[15px]',
+      md: 'md:pt-[100px] md:pb-[20px]',
+      lg: 'lg:pt-[20px] lg:pb-[20px]',
     }
   };
 
@@ -39,7 +39,7 @@ export default function Home() {
         <h1 className="font-bold text-[18px] md:text-[24px] ">BOB SLAYMAKER</h1>
         <h1 className="font-bold text-[18px] md:text-[24px] ">WRITER–FILMMAKER</h1>
         <div className="flex items-center justify-center">
-          <hr className="font-bold text-center" style={{ border: "1px solid black", width: "200px" }}></hr>
+          <hr className="font-bold text-center" style={{ border: "1px solid black", width: "130px" }}></hr>
         </div>
   
         <div className={`md:flex md:justify-center md:items-stretch `}>
