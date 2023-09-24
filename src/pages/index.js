@@ -36,7 +36,7 @@ export default function Home() {
       <div
         className={`text-center goudy text-[18px] md:text-[18px] ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
       >
-        <h1 className="font-bold text-[18px] md:text-[24px] m-[0px]">BOB SLAYMAKER</h1>
+        <h1 className="font-bold text-[18px] md:text-[28px] m-[0px]">BOB SLAYMAKER</h1>
         <h1 className="font-bold text-[18px] md:text-[24px] m-[0px]">WRITER–FILMMAKER</h1>
         <div className={`flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}>
           <hr className="font-bold text-center" style={{ border: "1px solid black", width: "130px" }}></hr>
