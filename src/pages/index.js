@@ -41,7 +41,9 @@ export default function Home() {
         <div className={`flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}>
           <hr className="font-bold text-center" style={{ border: "1px solid black", width: "130px" }}></hr>
         </div>
-  
+      
+
+                                                   
         <div className={`md:flex md:justify-center md:items-stretch`}>
           <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link href="/poemlist">Sample Poems</Link>
@@ -68,6 +70,7 @@ export default function Home() {
         </div>
 
         <div className="hidden md:block text-[10px] flex justify-end credit-parent " style={{ position: 'relative' }}>
+                             {/* to reduce gap between links and copyrights top-[10px] */}
           <div className="absolute bottom-[0px] right-[0px] top-[10px] ">
             <p className="text-left">© 1987–2023 Bob Slaymaker</p>
             <p>Website by Pichsereyvattana Chan</p>
