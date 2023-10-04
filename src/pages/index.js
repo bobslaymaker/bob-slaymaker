@@ -34,17 +34,22 @@ export default function Home() {
       }}
     >
       <div
-        className={`text-center goudy text-[18px] md:text-[18px] ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
+        className={`text-center goudy text-[18px] md:text-[18px]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
       >
         <h1 className="font-bold text-[18px] md:text-[28px] m-[0px]">BOB SLAYMAKER</h1>
         <h1 className="font-variant: small cap text-[18px] md:text-[28px] m-[0px]">Writer-Filmmaker</h1>
         <div className={`flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}>
           <hr className="font-bold text-center" style={{ border: "1px solid black", width: "130px" }}></hr>
         </div>
+<<<<<<< HEAD
       
 
                                                    
         <div className={`md:flex md:justify-center md:items-stretch`}>
+=======
+  
+        <div className={`md:flex md:justify-center md:items-stretch `} style={{position: "relative", inset: "0px"}}>
+>>>>>>> 88d78e940da0db504c15094f7a3d853e640c245b
           <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link href="/poemlist">Sample Poems</Link>
           </div>
@@ -67,8 +72,17 @@ export default function Home() {
           <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link href="/ContactInfo">Contact</Link>
           </div>
+
+                                                                                            {/* adjust the value of px in top-[px] to change the height between links and the credit */}
+            <div className="hidden md:block text-[10px] flex justify-end credit-parent top-[60px]" style={{ position: 'absolute', width: "100%" }}>
+              <div className="absolute bottom-[0px] right-[0px] top-[0px] ">
+                <p className="text-left">© 1987–2023 Bob Slaymaker</p>
+                <p>Website by Pichsereyvattana Chan</p>
+              </div>
+            </div>
         </div>
 
+<<<<<<< HEAD
         <div className="hidden md:block text-[10px] flex justify-end credit-parent " style={{ position: 'relative' }}>
                              {/* to reduce gap between links and copyrights top-[10px] */}
           <div className="absolute bottom-[0px] right-[0px] top-[10px] ">
@@ -76,6 +90,9 @@ export default function Home() {
             <p>Website by Pichsereyvattana Chan</p>
           </div>
         </div>
+=======
+
+>>>>>>> 88d78e940da0db504c15094f7a3d853e640c245b
 
         <div className="goudy md:hidden text-[10px]" style={{width: "100vw"}}>
             <p>© 1987–2023 Bob Slaymaker</p>
