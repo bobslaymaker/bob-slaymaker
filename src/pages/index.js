@@ -9,8 +9,8 @@ export default function Home() {
     verticalSpacing: {
       //change only the number
       sm: 'space-y-[10px]', //mobile (if you change the value here, also change the value of sm in linkSpacing)
-      md: 'md:space-y-[10px]', //ipad/tablets/14" laptop (***change md and lg value for l)
-      lg: 'lg:space-y-[10px]',  //large screens
+      md: 'md:space-y-[0px]', //ipad/tablets/14" laptop (***change md and lg value for l)
+      lg: 'lg:space-y-[0px]',  //large screens
     },
     linkSpacing: {
       sm: 'm-[10px]',
@@ -37,7 +37,7 @@ export default function Home() {
         className={`text-center goudy text-[18px] md:text-[18px]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
       >
         <h1 className="font-bold text-[18px] md:text-[28px] m-[0px] pt-[0px]">BOB SLAYMAKER</h1>
-        <h1 className="font-variant: small cap text-[18px] md:text-[28px] p-[0px]">Writer-Filmmaker</h1>
+        <h1 className=" text-[18px] md:text-[28px] p-[0px]" style={{fontVariant: "small-caps"}}>Writer-Filmmaker</h1>
         <div className={`flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}>
           <hr className="font-bold text-center" style={{ border: "1px solid black", width: "130px" }}></hr>
         </div>
@@ -68,7 +68,7 @@ export default function Home() {
 
                                                                                             {/* adjust the value of px in top-[px] to change the height between links and the credit */}
             <div className="hidden md:block text-[10px] flex justify-end credit-parent top-[60px]" style={{ position: 'absolute', width: "100%" }}>
-              <div className="absolute bottom-[0px] right-[0px] top-[10px] ">
+              <div className="absolute bottom-[0px] right-[0px] top-[48px] ">
                 <p className="text-left">© 1987–2023 Bob Slaymaker</p>
                 <p>Website by Pichsereyvattana Chan</p>
               </div>
