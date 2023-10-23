@@ -53,7 +53,7 @@ export default function Home() {
             <Link href="/shortscriptlist">Sample Short Scripts</Link>
           </div>
           <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
-            <Link target="_blank" href="https://www.youtube.com/watch?v=JW0SNMe6c0E">
+            <Link target="_blank" href="https://vimeo.com/bobslaymaker/">
               My Last Film
             </Link>
           </div>
