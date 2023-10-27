@@ -34,10 +34,10 @@ export default function Home() {
       }}
     >
       <div
-        className={`text-center goudy text-[26px] md:text-[26px]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
+        className={`text-center goudy text-[28px] md:text-[26px]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
       >
-        <h1 className="font-bold text-[30px] md:text-[42px] m-[0px] pt-[0px]">BOB SLAYMAKER</h1>
-        <h1 className=" text-[30px] md:text-[42px] p-[0px]" style={{fontVariant: "small-caps"}}>Writer-Filmmaker</h1>
+        <h1 className="font-bold text-[32px] md:text-[42px] m-[0px] pt-[0px]">BOB SLAYMAKER</h1>
+        <h1 className=" text-[32px] md:text-[42px] p-[0px]" style={{fontVariant: "small-caps"}}>Writer-Filmmaker</h1>
         <div className={`flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}>
           <hr className="font-bold text-center" style={{ border: "1px solid black", width: "130px" }}></hr>
         </div>
