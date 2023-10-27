@@ -18,7 +18,7 @@ export default function Home() {
       lg: 'lg:ms-[15px] lg:me-[15px]',
     },
     horizontalLine: { //adjust horizontal line padding here ***remember to change the value of both pt and pb***
-      sm: 'pt-[15px] pb-[15px]',
+      sm: 'pt-[0px] pb-[0px]',
       md: 'md:pt-[15px] md:pb-[10px]',
       lg: 'lg:pt-[20px] lg:pb-[20px]',
     }
