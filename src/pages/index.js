@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <div                                                                                                           
-      className={`font-[800] text-center flex flex-col items-center justify-center p-24 ${inter.className} space-x-5 mb-[0px] sm:overflow-hidden`}
+      className={`font-[800] text-center flex flex-col items-center justify-center p-24 ${inter.className} space-x-5 mb-[0px] sm:overflow-hidden sm:overflow-y-hidden`}
       style={{
         width: "100vw",
         height: "100vh",
