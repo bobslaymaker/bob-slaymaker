@@ -26,19 +26,25 @@ export default function Home() {
 
   return (
     <div                                                                                                           
-      className={`font-[800] text-center flex flex-col items-center justify-center p-24 ${inter.className} space-x-5 mb-[0px]`}
+      className={`font-[800] text-center flex flex-col items-center justify-center p-24 ${inter.className} space-x-5 mb-[0px] bg-red-500`}
       style={{
         width: "100vw",
         height: "100vh",
         maxHeight: "100vh",
         background: "#FDFEFF", // Fix the background color syntax
+        overflowX: "hidden",
+        overflowY: "hidden"
       }}
     >
       <div
-        className={`text-center goudy text-[28px] md:text-[26px]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
+        className={`text-center goudy text-[28px] md:text-[26px]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg} `}
+
       >
-        <h1 className="font-bold text-[32px] md:text-[42px] m-[0px] pt-[0px]">BOB SLAYMAKER</h1>
-        <h1 className=" text-[32px] md:text-[42px] p-[0px]" style={{fontVariant: "small-caps"}}>Writer-Filmmaker</h1>
+        <div className="space-y-[0px]">
+          <h1 className="font-bold text-[32px] md:text-[42px] m-[0px] pt-[0px]">BOB SLAYMAKER</h1>
+          <h1 className=" text-[32px] md:text-[42px] p-[0px]" style={{fontVariant: "small-caps"}}>Writer-Filmmaker</h1>
+        </div>
+
         <div className={`flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}>
           <hr className="font-bold text-center" style={{ border: "1px solid black", width: "130px" }}></hr>
         </div>
