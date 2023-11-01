@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,9 +37,14 @@ export default function Home() {
         overflowY: "hidden"
       }}
     >
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+      </Head>
       <div
         className={`text-center goudy text-[26px] md:text-[26px]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg} `}
-
+        style={{
+          height: "100%"
+        }}
       >
         <div className="space-y-[0px]">
           <h1 className="font-bold text-[30px] md:text-[42px] m-[0px] pt-[0px]">BOB SLAYMAKER</h1>
