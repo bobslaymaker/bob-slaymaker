@@ -45,11 +45,11 @@ export default function Home() {
 
       >
         <div className="space-y-[0px]">
-          <h1 className="font-bold text-[30px] md:text-[42px] m-[0px] pt-[0px]">BOB SLAYMAKER</h1>
+          <h1 className="font-bold text-[30px] md:text-[42px] pb-[20px] md:pb-[0px]">BOB SLAYMAKER</h1>
           <h1 className=" text-[30px] md:text-[42px] p-[0px]" style={{fontVariant: "small-caps"}}>Writer-Filmmaker</h1>
         </div>
 
-        <div className={`flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}>
+        <div className={`pt-[30px] pb-[30px] md:pt-[0px] md:pb-[0px] flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}>
           <hr className="font-bold text-center" style={{ border: "1px solid black", width: "130px" }}></hr>
         </div>
   
