@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <div                                                                                                           
-      className={`font-[800] text-center flex flex-col items-center justify-center p-24 ${inter.className} space-x-5 mb-[0px] bg-red-500`}
+      className={`font-[800] text-center flex flex-col items-center justify-center ${inter.className} space-x-5 mb-[0px] bg-red-500`}
       style={{
         width: "100vw",
         height: "100vh",
@@ -42,9 +42,7 @@ export default function Home() {
       </Head>
       <div
         className={`text-center goudy text-[26px] md:text-[26px]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg} `}
-        style={{
-          height: "100%"
-        }}
+
       >
         <div className="space-y-[0px]">
           <h1 className="font-bold text-[30px] md:text-[42px] m-[0px] pt-[0px]">BOB SLAYMAKER</h1>
