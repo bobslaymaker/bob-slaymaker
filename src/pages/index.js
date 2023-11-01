@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <div                                                                                                           
-      className={`font-[800] text-center flex flex-col items-center justify-center ${inter.className} space-x-5 mb-[0px] bg-red-500`}
+      className={`font-[800] text-center flex flex-col items-center justify-center space-x-5 mb-[0px] bg-red-500`}
       style={{
         width: "100vw",
         height: "100vh",
