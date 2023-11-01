@@ -8,7 +8,7 @@ export default function Home() {
   const customStyles = {
     verticalSpacing: {
       //change only the number
-      sm: 'space-y-[10px]', //mobile (if you change the value here, also change the value of sm in linkSpacing)
+      sm: 'space-y-[15px]', //mobile (if you change the value here, also change the value of sm in linkSpacing)
       md: 'md:space-y-[0px]', //ipad/tablets/14" laptop (***change md and lg value for l)
       lg: 'lg:space-y-[0px]',  //large screens
     },
