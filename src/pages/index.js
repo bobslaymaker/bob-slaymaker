@@ -83,7 +83,7 @@ export default function Home() {
         </div>
 
 
-        <div className="goudy md:hidden text-[10px] pt-[100px]" style={{width: "100vw"}}>
+        <div className="goudy md:hidden text-[10px] pt-[60px]" style={{width: "100vw"}}>
             <p>Copyright © 1987–2023 Bob Slaymaker</p>
             <p>Website by Pichsereyvattana Chan</p>
         </div>
