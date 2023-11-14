@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
-import Head from 'next/head'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -9,7 +8,7 @@ export default function Home() {
   const customStyles = {
     verticalSpacing: {
       //change only the number
-      sm: 'space-y-[15px]', //mobile (if you change the value here, also change the value of sm in linkSpacing)
+      sm: 'space-y-[10px]', //mobile (if you change the value here, also change the value of sm in linkSpacing)
       md: 'md:space-y-[0px]', //ipad/tablets/14" laptop (***change md and lg value for l)
       lg: 'lg:space-y-[0px]',  //large screens
     },
@@ -27,7 +26,7 @@ export default function Home() {
 
   return (
     <div                                                                                                           
-      className={`font-[800] text-center flex flex-col items-center justify-center space-x-5 mb-[0px] bg-red-500`}
+      className={`font-[800] text-center flex flex-col items-center justify-center p-24 ${inter.className} space-x-5 mb-[0px] bg-red-500`}
       style={{
         width: "100vw",
         height: "100vh",
@@ -37,9 +36,6 @@ export default function Home() {
         overflowY: "hidden"
       }}
     >
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
-      </Head>
       <div
         className={`text-center goudy text-[26px] md:text-[26px]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg} `}
 
@@ -87,7 +83,7 @@ export default function Home() {
         </div>
 
 
-        <div className="goudy md:hidden text-[10px] pt-[15px]" style={{width: "100vw"}}>
+        <div className="goudy md:hidden text-[10px] pt-[60px]" style={{width: "100vw"}}>
             <p>Copyright © 1987–2023 Bob Slaymaker</p>
             <p>Website by Pichsereyvattana Chan</p>
         </div>
