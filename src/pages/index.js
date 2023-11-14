@@ -45,7 +45,7 @@ export default function Home() {
 
       >
         <div className="space-y-[0px]">
-          <h1 className="font-bold text-[30px] md:text-[42px] pb-[20px] md:pb-[0px]">BOB SLAYMAKER</h1>
+          <h1 className="font-bold text-[30px] md:text-[42px] lg:text-[60px] pb-[20px] md:pb-[0px]">BOB SLAYMAKER</h1>
           <h1 className=" text-[30px] md:text-[42px] p-[0px]" style={{fontVariant: "small-caps"}}>Writer-Filmmaker</h1>
         </div>
 
