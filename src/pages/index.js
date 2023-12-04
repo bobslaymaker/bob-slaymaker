@@ -51,13 +51,13 @@ export default function Home() {
   
         <div className={`md:flex md:justify-center md:items-stretch`} style={{position: "relative", inset: "0px"}}>
           <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
-            <Link href="/poemlist">Sample Poems</Link>
+            <Link href="/poemlist">Selected Poems</Link>
           </div> 
           <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
-            <Link href="/shortstorieslist">Sample Short Stories</Link>
+            <Link href="/shortstorieslist">Selected Short Stories</Link>
           </div>
           <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
-            <Link href="/shortscriptlist">Sample Short Scripts</Link>
+            <Link href="/shortscriptlist">Selected Short Scripts</Link>
           </div>
           <div className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
             <Link target="_blank" href="/cv/Writing Filmmaking CV 2023.pdf">
