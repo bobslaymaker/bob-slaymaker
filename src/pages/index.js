@@ -37,12 +37,12 @@ export default function Home() {
       }}
     >
       <div
-        className={`text-center goudy text-[26px] md:text-[26px]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg} `}
+        className={`text-center goudy text-[26px] lg:text-[2.5vw]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg} `}
 
       >
         <div className="space-y-[0px]">
-          <h1 className="font-bold text-[30px] md:text-[42px] pb-[20px] md:pb-[0px]">BOB SLAYMAKER</h1>
-          <h1 className=" text-[30px] md:text-[42px] p-[0px]" style={{fontVariant: "small-caps"}}>Writer-Filmmaker</h1>
+          <h1 className="font-bold text-[42px] md:text-[4.5vw] pb-[20px] md:pb-[0px]">BOB SLAYMAKER</h1>
+          <h1 className=" text-[42px] md:text-[4.5vw] p-[0px]" style={{fontVariant: "small-caps"}}>Writer-Filmmaker</h1>
         </div>
 
         <div className={`pt-[30px] pb-[30px] md:pt-[0px] md:pb-[0px] flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}>
@@ -52,14 +52,14 @@ export default function Home() {
         <div className={`md:flex md:justify-center md:items-stretch`} style={{position: "relative", inset: "0px"}}>
          
         <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
-            <Link href="/shortscriptlist">Selected Short Scripts</Link>
+            <Link href="/shortscriptlist" target="blank">Selected Short Scripts</Link>
           </div>
           
           <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
-            <Link href="/shortstorieslist">Selected Short Stories</Link>
+            <Link href="/shortstorieslist" target="blank">Selected Short Stories</Link>
           </div>
           <div className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}>
-            <Link href="/poemlist">Selected Poems</Link>
+            <Link href="/poemlist" target="blank">Selected Poems</Link>
           </div> 
           
          
