@@ -80,17 +80,16 @@ export default function Home() {
                                                                                             {/* adjust the value of px in top-[px] to change the height between links and the credit */}
             <div className="hidden md:block text-[10px] flex justify-end credit-parent top-[60px]" style={{ position: 'absolute', width: "100%" }}>
               <div className="absolute bottom-[0px] right-[0px] top-[88px] ">
-                <p className="text-left">Copyright © 1987–2023 Bob Slaymaker</p>
-                <p className="text-left">Website by Pichsereyvattana Chan</p>
+                <p className="text-left">Copyright © 1987–2024 Bob Slaymaker</p>
+                <p className="text-left"></p>
               </div>
             </div>
         </div>
 
 
         <div className="goudy md:hidden text-[10px] pt-[60px]" style={{width: "100vw"}}>
-            <p>Copyright © 1987–2023 Bob Slaymaker</p>
-            <p>Website by Pichsereyvattana Chan</p>
-        </div>
+            <p>Copyright © 1987–2024 Bob Slaymaker</p>
+                    </div>
       </div>
 
     </div>
