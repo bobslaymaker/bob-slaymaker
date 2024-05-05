@@ -9,7 +9,7 @@ export default function shortStory() {
         <div className="goudy flex justify-center w-full text-[22px] md:text-[25px] p-[1em] ">
             {shortStories?.map(shortStory => {
                 if (shortStory?.title === router.query.shortstory) {
-                    return <div className="w-full md:w-[680px]">{shortStory.content}</div>
+                    return <div className="w-full md:w-[750px]">{shortStory.content}</div>
                     
                 }
             })}
