@@ -1,15 +1,16 @@
 import { useRouter } from "next/router"
+import ShortScripts from "../shortscriptlist"
 import { shortScripts } from "@/shortscripts"
 
-export default function ShortScripts() {
+export default function shortScript() {
     const router = useRouter()
-    console.log(shortScripts)
+
     return (
-        <div className="goudy container text-2xl">
+        <div className="goudy flex justify-center w-full text-[22px] md:text-[25px] p-[1em] ">
             {shortScripts?.map(shortScript => {
-            
                 if (shortScript?.title === router.query.shortscript) {
-                    return <div className="">{shortScript.content}</div>
+                    return <div className="w-full md:w-[750px]">{shortScript.content}</div>
+                    
                 }
             })}
         </div>

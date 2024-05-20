@@ -6,6 +6,7 @@ export default function Document() {
       <Head>
     
         <link href="https://fonts.cdnfonts.com/css/goudy-old-style" rel="stylesheet"></link>
+        <title>BOB SLAYMAKER</title>
       </Head>
       <body>
         <Main />

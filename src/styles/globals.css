@@ -24,4 +24,9 @@
 .credit {
     position: absolute;
     right: 100px;
+
+
+}
+.spacer{
+    min-height: 20px !important;
 }
