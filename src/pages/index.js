@@ -65,11 +65,12 @@ export default function Home() {
           className={`flex md:flex-row flex-col justify-between`}
           style={{ position: "relative", inset: "0px" }}
         >
-                    <div
+
+          <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/poemlist" target="_blank">
-              Selected <br className="hidden md:block"/> Poems
+            <Link href="/shortscriptlist" target="_blank">
+              Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Scripts
             </Link>
           </div>
 
@@ -77,7 +78,7 @@ export default function Home() {
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link href="/shortstorieslist" target="_blank">
-              Selected <br className="hidden md:block"/> Short <br className="hidden md:block"/> Stories
+              Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Stories
             </Link>
           </div>
 
@@ -90,23 +91,23 @@ export default function Home() {
           </div>
 
 
+
+
+
           <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/shortscriptlist" target="_blank">
-              Selected <br className="hidden md:block"/> Short <br className="hidden md:block"/> Scripts
+            <Link href="/poemlist" target="_blank">
+              Selected <br className="hidden md:block" /> Poems
             </Link>
           </div>
-
-
-
 
 
           <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link target="_blank" href="https://vimeo.com/bobslaymaker/">
-              My Last&nbsp; <br className="hidden md:block"/> Film
+              My Last&nbsp; <br className="hidden md:block" /> Film
             </Link>
           </div>
           {/* <div
@@ -121,6 +122,8 @@ export default function Home() {
           className="hidden md:block text-[10px] flex justify-end text-sm credit-parent pt-5"
         >
           <p className="text-center">Copyright © 1987–2024 <Link href="/ContactInfo" className="underline" target="_blank"> Bob Slaymaker </Link></p>
+          <br/>
+          <p className="text-center">Designed By <Link href="/designerInfo" className="underline" target="_blank"> Muneeb Ahmad</Link></p>
         </div>
 
         <div
@@ -133,6 +136,4 @@ export default function Home() {
     </div>
   );
 }
-
-
 

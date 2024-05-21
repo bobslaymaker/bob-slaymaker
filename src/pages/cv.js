@@ -1,11 +1,14 @@
 import React from 'react'
-
+import Head from 'next/head';
 const CV = () => {
     return (
         <div className="goudy flex justify-center w-full text-[22px] md:text-[25px] p-[1em]">
+            <Head>
+                <title>CV</title>
+            </Head>
             <div className='w-full md:w-[750px]'>
-                <h1 className='text-center'>Bob Slaymaker </h1><br/>
-                <h1 className='text-center'>(646) 925-2509 </h1><br/>
+                <h1 className='text-center'>Bob Slaymaker </h1>
+                <h1 className='text-center'>(646) 925-2509 </h1>
                 <h1 className='text-center'>bobslaymaker at gmail dot com </h1>
                 <div className="spacer"></div>
                 <u>EDUCATION</u>

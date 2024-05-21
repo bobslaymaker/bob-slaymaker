@@ -12,7 +12,7 @@ export default function shortStory() {
                 if (shortStory?.title === router.query.shortstory) {
                     return <div className="w-full md:w-[750px]">
                         <Head>
-                            <title>{shortStory?.title}</title>
+                            <title>{shortStory?.label}</title>
                         </Head>
                         {shortStory.content}</div>
 
@@ -21,6 +21,7 @@ export default function shortStory() {
         </div>
     )
 }
+
 
 
 
