@@ -123,7 +123,7 @@ export default function Home() {
         >
           <p className="text-center">Copyright © 1987–2024 <Link href="/ContactInfo" className="underline" target="_blank"> Bob Slaymaker </Link></p>
           <br/>
-          <p className="text-center">Designed By <Link href="/designerInfo" className="underline" target="_blank"> Muneeb Ahmad</Link></p>
+          <p className="text-center">Design by <Link href="/designerInfo" className="underline" target="_blank"> Muneeb Ahmad</Link></p>
         </div>
 
         <div
