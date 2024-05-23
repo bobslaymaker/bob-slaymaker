@@ -27,14 +27,14 @@ export default function Home() {
 
   return (
     <div
-      className={`font-[800] text-center flex flex-col items-center justify-center p-24 ${inter.className} space-x-5 mb-[0px] bg-red-500`}
+      className={`font-[800] text-center flex flex-col items-center justify-center lg:p-24 pt-12 p-2 ${inter.className} space-x-5 mb-[0px] bg-red-500`}
       style={{
         width: "100vw",
         height: "100vh",
         maxHeight: "100vh",
         background: "#FDFEFF", // Fix the background color syntax
         overflowX: "hidden",
-        overflowY: "hidden",
+        // overflowY: "hidden",
       }}
     >
       <div
@@ -122,15 +122,16 @@ export default function Home() {
           className="hidden md:block text-[10px] flex justify-end text-sm credit-parent pt-5"
         >
           <p className="text-center">Copyright © 1987–2024 <Link href="/ContactInfo" className="underline" target="_blank"> Bob Slaymaker </Link></p>
-          <br/>
-          <p className="text-center">Design by <Link href="/designerInfo" className="underline" target="_blank"> Muneeb Ahmad</Link></p>
+          <div className="spacer"></div>
+          <p className="text-center">Designed By <Link href="/designerInfo" className="underline" target="_blank"> Muneeb Ahmad</Link></p>
         </div>
 
         <div
           className="goudy md:hidden text-[10px] pt-[60px]"
-          style={{ width: "100vw" }}
         >
-          <p>Copyright © 1987–2024 Bob Slaymaker</p>
+          <p className="text-center">Copyright © 1987–2024 <Link href="/ContactInfo" className="underline" target="_blank"> Bob Slaymaker </Link></p>
+          <div className="spacer"></div>
+          <p className="text-center">Designed By <Link href="/designerInfo" className="underline" target="_blank"> Muneeb Ahmad</Link></p>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ export default function ShortStories() {
             <Head>
                 <title>Stories</title>
             </Head>
-            <div className="text-2xl flex flex-col tracking-wider leading-relaxed text-[24px] md:text-[2.9vw] lg:text-[27px]">
+            <div className="flex flex-col tracking-wider leading-relaxed text-[28px] md:text-[3vw] lg:text-[30px]">
                 {shortStories?.map(shortStory => {
                     return (
                         <Link href={`shortstories/${shortStory?.title}`} target="_blank">{shortStory?.title}</Link>
