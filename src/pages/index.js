@@ -119,7 +119,7 @@ export default function Home() {
           {/* adjust the value of px in top-[px] to change the height between links and the credit */}
         </div>
         <div
-          className="hidden md:block text-[10px] flex justify-end text-sm credit-parent pt-5"
+          className="hidden md:block text-[0.6em] flex justify-end text-sm credit-parent pt-5"
         >
           <p className="text-center">Copyright © 1987–2024 <Link href="/ContactInfo" className="underline" target="_blank"> Bob Slaymaker </Link></p>
           <div className="spacer"></div>
@@ -127,7 +127,7 @@ export default function Home() {
         </div>
 
         <div
-          className="goudy md:hidden text-[10px] pt-[60px]"
+          className="goudy md:hidden text-[0.5em] pt-[60px]"
         >
           <p className="text-center">Copyright © 1987–2024 <Link href="/ContactInfo" className="underline" target="_blank"> Bob Slaymaker </Link></p>
           <div className="spacer"></div>

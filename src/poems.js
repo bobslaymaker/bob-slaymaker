@@ -31,7 +31,13 @@ export const poems = [
         label: "Beginning Poets",
         title: "Beginning Poets",
         content: <div><p><semi-bold> <h6 className="text-center m-0 p-0"> BEGINNING POETS </h6></semi-bold><div className="spacer"></div>
-            They sit, <br />laugh, <div className="spacer"></div>collaborate <br />on poems, <div className="spacer"></div>and argue <br />over how <div className="spacer"></div>to split <br />the millions.<div className="spacer"></div>***<div className="spacer"></div>“I’m fed up<br />with this<br />poem,” Pete<div className="spacer"></div>says.  “You<br />finish it.”<br />“O.K.,” says<div className="spacer"></div>Tom.  “Then<br /><i>I</i> get all<br />the money.”<div className="spacer"></div><br />
+            <div className="flex justify-center">
+                <div>
+
+                    They sit, <br />laugh, <div className="spacer"></div>collaborate <br />on poems, <div className="spacer"></div>and argue <br />over how <div className="spacer"></div>to split <br />the millions.<div className="spacer"></div>***<div className="spacer"></div>“I’m fed up<br />with this<br />poem,” Pete<div className="spacer"></div>says.  “You<br />finish it.”<br />“O.K.,” says<div className="spacer"></div>Tom.  “Then<br /><i>I</i> get all<br />the money.”<div className="spacer"></div><br />
+                </div>
+
+            </div>
             <i>Co-written by Joe Sorge<div className="spacer"></div>Originally published in </i>Jacket</p></div>
     },
     {
@@ -81,9 +87,15 @@ export const poems = [
 
         label: "Tradition",
         title: "Tradition",
-        content: <p><semi-bold> <h6 className="text-center m-0 p-0">TRADITION </h6> </semi-bold><div className="spacer"></div>My father rose early,<br />much before school time.<br />We’d hear his work boots clunk<br />on the kitchen floor,<br />his key ring jangle,<br />hushed voices of him and Mom over coffee<br />speaking of the day ahead.<br />Then he’d march off,<br />to saw and hammer, according to design,<br />beside others like him.<div className="spacer"></div>Home from school, we tiptoed by the couch,<br />where he napped before his evening job.<br />Awake, he was a stubbled face,<br />a smoke–roughened voice—we treaded lightly.<br />He’d return at midnight,<br />while we slept, or pretended to,<br />telling scary stories in bed.<br />Mom invoked his name when her own tactics failed.<br />Now and then we felt his hand, large and callused,<br />sting our bottoms.<div className="spacer"></div>One summer, he took two weeks off<br />to build a playroom in the cellar.<br />I helped sort the new two–by–fours,<br />smooth like the foreheads of lovable horses:<br />Flicka, Trigger, the Black Beauty<br />Mom read to us on rainy afternoons.<br />I sat on the beams while he sawed.<br />He held them still while I sawed.<br />We worked all day, made peanut-butter sandwiches<br />with gobs of jelly, chocolate milk four tablespoons a glass<br />(lucky Mom was at Nana’s).
-            <div className="spacer"></div>We talked a lot those two weeks,<br />he and I, about fourth grade,<br />tools, about baseball.<br />He said he’d take us to the circus<br />when it came to town.<br />That summer there were extra bills;<br />he had to work more overtime.<br />When the circus came, Mom took us.<div className="spacer"></div>***<div className="spacer"></div>Now sixty–six, with hair as sparse<br />as our newborn daughter’s,<br />my father still rises early,<br />remodeling the homes he once helped build.<div className="spacer"></div>Once a month Deb and I drive up<br />and sit with them around the old Formica table.<br />I give my father little Susie to hold.<br />He takes her as if she might break<br />or start to cry and he’d have to hand her back.<div className="spacer"></div>Mom makes coffee, and she and Deb and I talk.<br />I look at my father, our tiny daughter <br />nestled in his aging arms.<br />He smiles awkwardly, then looks away,<br />remembering when, because of need, and design,<br />he didn’t spend time with his children.
-            <div className="spacer"></div><br />
+        content: <p><semi-bold> <h6 className="text-center m-0 p-0">TRADITION </h6> </semi-bold><div className="spacer"></div>
+            <div className="flex justify-center">
+                <div>
+                    My father rose early,<br />much before school time.<br />We’d hear his work boots clunk<br />on the kitchen floor,<br />his key ring jangle,<br />hushed voices of him and Mom over coffee<br />speaking of the day ahead.<br />Then he’d march off,<br />to saw and hammer, according to design,<br />beside others like him.<div className="spacer"></div>Home from school, we tiptoed by the couch,<br />where he napped before his evening job.<br />Awake, he was a stubbled face,<br />a smoke–roughened voice—we treaded lightly.<br />He’d return at midnight,<br />while we slept, or pretended to,<br />telling scary stories in bed.<br />Mom invoked his name when her own tactics failed.<br />Now and then we felt his hand, large and callused,<br />sting our bottoms.<div className="spacer"></div>One summer, he took two weeks off<br />to build a playroom in the cellar.<br />I helped sort the new two–by–fours,<br />smooth like the foreheads of lovable horses:<br />Flicka, Trigger, the Black Beauty<br />Mom read to us on rainy afternoons.<br />I sat on the beams while he sawed.<br />He held them still while I sawed.<br />We worked all day, made peanut-butter sandwiches<br />with gobs of jelly, chocolate milk four tablespoons a glass<br />(lucky Mom was at Nana’s).
+                    <div className="spacer"></div>We talked a lot those two weeks,<br />he and I, about fourth grade,<br />tools, about baseball.<br />He said he’d take us to the circus<br />when it came to town.<br />That summer there were extra bills;<br />he had to work more overtime.<br />When the circus came, Mom took us.<div className="spacer"></div>***<div className="spacer"></div>Now sixty–six, with hair as sparse<br />as our newborn daughter’s,<br />my father still rises early,<br />remodeling the homes he once helped build.<div className="spacer"></div>Once a month Deb and I drive up<br />and sit with them around the old Formica table.<br />I give my father little Susie to hold.<br />He takes her as if she might break<br />or start to cry and he’d have to hand her back.<div className="spacer"></div>Mom makes coffee, and she and Deb and I talk.<br />I look at my father, our tiny daughter <br />nestled in his aging arms.<br />He smiles awkwardly, then looks away,<br />remembering when, because of need, and design,<br />he didn’t spend time with his children.
+                    <div className="spacer"></div><br />
+                </div>
+            </div>
+
             <i>Originally published in </i>Weber Studies<i>,</i> Northwoods Journal<i>,</i> Street News <i>and </i>Writers Forum <br /> </p>
     },
 
@@ -216,39 +228,43 @@ export const poems = [
         content:
             <p><semi-bold><h6 className="text-center m-0 p-0">IT’S NOT PRETTY</h6></semi-bold><div className="spacer"></div>
 
-                but it’s real, the desire of men<br />
-                to batter other men’s faces,<br />
-                maybe man #1 is on the treadmill<br />
-                with his headphones on,<br />
-                and man #2 walks over and says,<br />
-                “When you’re finished,<br />
-                can you give me a holler,<br />
-                I’ll be on a bike over—”<br />
-                but #1 doesn’t wait till #2’s finished,<br />
-                #1 doesn’t hear what #2’s saying,<br />
-                #1’s been on the treadmill beyond<br />
-                the 30-minute limit,<br />
-                and thinks #2’s telling him to get off,<br />
-                so irritated #1 waves his hand<br />
-                that #2 should go away,<br />
-                and this angers #2,<br />
-                who unsure #1 has heard or understood him,<br />
-                repeats his request, but #1 ignores him,<br />
-                so slighted #2 calls #1 a “fucking asshole,”<br />
-                and then they’re rolling on the gym’s rubber floor,<br />
-                trying to smash each other’s eyeballs,<br />
-                and #2 is every motherfucker<br />
-                who bullied #1 when he was a boy,<br />
-                every teacher who embarrassed him<br />
-                in front of class, #1 is #2’s abusive father,<br />
-                the car company that sold him a shitbox,<br />
-                the fucking IRS,<br />
-                and by the time they’re separated,<br />
-                they’ve pounded each other bloody,<br />
-                and stand bleeding and gasping for air,<br />
-                feeling strangely giddy and light,<br />
-                each having briefly lessened<br />
-                the anger he carries.<div className="spacer"></div><br />
+                <div className="flex justify-center">
+                    <div>
+                        but it’s real, the desire of men<br />
+                        to batter other men’s faces,<br />
+                        maybe man #1 is on the treadmill<br />
+                        with his headphones on,<br />
+                        and man #2 walks over and says,<br />
+                        “When you’re finished,<br />
+                        can you give me a holler,<br />
+                        I’ll be on a bike over—”<br />
+                        but #1 doesn’t wait till #2’s finished,<br />
+                        #1 doesn’t hear what #2’s saying,<br />
+                        #1’s been on the treadmill beyond<br />
+                        the 30-minute limit,<br />
+                        and thinks #2’s telling him to get off,<br />
+                        so irritated #1 waves his hand<br />
+                        that #2 should go away,<br />
+                        and this angers #2,<br />
+                        who unsure #1 has heard or understood him,<br />
+                        repeats his request, but #1 ignores him,<br />
+                        so slighted #2 calls #1 a “fucking asshole,”<br />
+                        and then they’re rolling on the gym’s rubber floor,<br />
+                        trying to smash each other’s eyeballs,<br />
+                        and #2 is every motherfucker<br />
+                        who bullied #1 when he was a boy,<br />
+                        every teacher who embarrassed him<br />
+                        in front of class, #1 is #2’s abusive father,<br />
+                        the car company that sold him a shitbox,<br />
+                        the fucking IRS,<br />
+                        and by the time they’re separated,<br />
+                        they’ve pounded each other bloody,<br />
+                        and stand bleeding and gasping for air,<br />
+                        feeling strangely giddy and light,<br />
+                        each having briefly lessened<br />
+                        the anger he carries.<div className="spacer"></div><br />
+                    </div>
+                </div>
                 <i>Originally published in </i>Can We Have Our Ball Back <i>and </i>The Malahat Review
             </p>
     },
@@ -256,7 +272,12 @@ export const poems = [
         label: "Last Bath",
         title: "The Last Bath",
         content: <p><semi-bold><h6 className="text-center m-0 p-0">
-            THE LAST BATH</h6></semi-bold><div className="spacer"></div>Four of us kids in the tub, <br />unsupervised for the moment<div className="spacer"></div>my two sisters in the back, <br />standing, spreading their labia apart<br />to reveal their inner pinkness<div className="spacer"></div>my brother poised over me<br />in the front, near the faucet,<br />his little body shiny with water,<br />as he holds his small penis and pisses<div className="spacer"></div>and gleefully I catch <br />the clear arcing stream<br />in my mouth . . . <div className="spacer"></div>when my parents walk in<br />on that last bath <br />we all took together.<div className="spacer"></div><br />
+            THE LAST BATH</h6></semi-bold><div className="spacer"></div>
+            <div className="flex justify-center">
+                <div>
+                    Four of us kids in the tub, <br />unsupervised for the moment<div className="spacer"></div>my two sisters in the back, <br />standing, spreading their labia apart<br />to reveal their inner pinkness<div className="spacer"></div>my brother poised over me<br />in the front, near the faucet,<br />his little body shiny with water,<br />as he holds his small penis and pisses<div className="spacer"></div>and gleefully I catch <br />the clear arcing stream<br />in my mouth . . . <div className="spacer"></div>when my parents walk in<br />on that last bath <br />we all took together.<div className="spacer"></div><br />
+                </div>
+            </div>
             <i>Originally published in </i>Home Planet News
             <div className="spacer"></div><i>Author’s Note: Though “The Last Bath” likely couldn’t be made into a short film without me being imprisoned, it’s one of my favorites.</i>
         </p>
