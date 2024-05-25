@@ -10,7 +10,7 @@ export default function Poem() {
             <div className="text-2xl flex flex-col tracking-wider leading-relaxed text-[24px] md:text-[2.9vw] lg:text-[27px]">
                 {poems?.map(poem => {
                     if (poem?.title === router.query.poem) {
-                        return <div className="">
+                        return <div className="w-full md:w-[750px]">
 
                             <Head>
                                 <title>{poem.label}</title>
