@@ -13,7 +13,7 @@ export default function Home() {
       lg: "lg:space-y-[0px]", //large screens
     },
     linkSpacing: {
-      sm: "m-[10px]",
+      sm: "m-[5px]",
       md: "md:ms-[15px] md:me-[15px]",
       lg: "lg:ms-[15px] lg:me-[15px]",
     },
@@ -41,7 +41,7 @@ export default function Home() {
         className={`text-center goudy w-[90%] text-[26px] lg:text-[2.5vw]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg} `}
       >
         <div className="space-y-[0px]">
-          <h1 className="font-bold text-[42px] md:text-[4.5vw] pb-[20px] md:pb-[0px]">
+          <h1 className="font-bold text-[42px] md:text-[4.5vw] pb-[5px] md:pb-[0px]">
             BOB SLAYMAKER
           </h1>
           <h1
@@ -122,7 +122,7 @@ export default function Home() {
           className="hidden md:block text-[0.6em] flex justify-end text-sm credit-parent pt-5"
         >
           <p className="text-center">Copyright © 1987–2024 <Link href="/ContactInfo" className="underline" target="_blank"> Bob Slaymaker </Link></p>
-          <div className="spacer"></div>
+          <div className="h-2"></div>
           <p className="text-center">Design by <Link href="/designerInfo" className="underline" target="_blank"> Muneeb Ahmad</Link></p>
         </div>
 
@@ -130,11 +130,10 @@ export default function Home() {
           className="goudy md:hidden text-[0.5em] pt-[60px]"
         >
           <p className="text-center">Copyright © 1987–2024 <Link href="/ContactInfo" className="underline" target="_blank"> Bob Slaymaker </Link></p>
-          <div className="spacer"></div>
-          <p className="text-center">Design by <Link href="/designerInfo" className="underline" target="_blank"> Muneeb Ahmad</Link></p>
+          <div className="h-2"></div>
+          <p className="text-center">Designed By <Link href="/designerInfo" className="underline" target="_blank"> Muneeb Ahmad</Link></p>
         </div>
       </div>
     </div>
   );
 }
-
