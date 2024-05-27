@@ -8,7 +8,7 @@ export default function Home() {
   const customStyles = {
     verticalSpacing: {
       //change only the number
-      sm: "space-y-[10px]", //mobile (if you change the value here, also change the value of sm in linkSpacing)
+      sm: "space-y-[5px]", //mobile (if you change the value here, also change the value of sm in linkSpacing)
       md: "md:space-y-[0px]", //ipad/tablets/14" laptop (***change md and lg value for l)
       lg: "lg:space-y-[0px]", //large screens
     },
@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <div
-      className={`font-[800] text-center flex flex-col items-center justify-center lg:p-24 pt-12 p-2 ${inter.className} space-x-5 mb-[0px] bg-red-500`}
+      className={`font-[800] text-center flex flex-col items-center justify-center lg:p-24 p-2 ${inter.className} space-x-5 mb-[0px] bg-red-500`}
       style={{
         width: "100vw",
         height: "100vh",
@@ -53,7 +53,7 @@ export default function Home() {
         </div>
 
         <div
-          className={`pt-[30px] pb-[30px] md:pt-[0px] md:pb-[0px] flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}
+          className={`pt-[15px] pb-[15px] md:pt-[0px] md:pb-[0px] flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}
         >
           <hr
             className="font-bold text-center"
