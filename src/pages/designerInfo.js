@@ -6,7 +6,7 @@ export default function DesignerInfo() {
             <Head>
                 <title>Designer Info</title>
             </Head>
-            <div className="text-2xl flex flex-col tracking-wider leading-relaxed text-[24px] md:text-[2.9vw] lg:text-[27px]">
+            <div className="flex flex-col tracking-wider leading-relaxed text-[28px] md:text-[3vw] lg:text-[30px] 2xl:text-[2vw] ">
                 <p>muneebahmad1268 at gmail dot com</p>
                 <p>+92-305-6561268</p>
             </div>

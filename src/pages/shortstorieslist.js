@@ -3,8 +3,6 @@ import Link from "next/link"
 import Head from 'next/head';
 
 export default function ShortStories() {
-
-
     return (
         <div className="goudy flex justify-center items-center p-[1em]">
             <Head>

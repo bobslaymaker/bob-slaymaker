@@ -6,9 +6,9 @@ export default function PoemList() {
   return (
     <div className="goudy flex justify-center items-center p-[1em]">
       <Head>
-                <title>Poems</title>
-            </Head>
-      <div className="flex flex-col tracking-wider leading-relaxed text-[28px] md:text-[3vw] lg:text-[30px]">
+        <title>Poems</title>
+      </Head>
+      <div className="flex flex-col tracking-wider leading-relaxed text-[28px] md:text-[3vw] lg:text-[30px] 2xl:text-[2vw] ">
         {poems?.map((poem, index) => {
           return (
             <Link href={`poems/${poem?.title}`} key={index} target="_blank">
@@ -20,4 +20,5 @@ export default function PoemList() {
     </div>
   );
 }
+
 

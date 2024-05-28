@@ -8,8 +8,7 @@ export default function ShortScripts() {
             <Head>
                 <title>Scripts</title>
             </Head>
-            <div className="flex flex-col tracking-wider leading-relaxed text-[28px] md:text-[3vw] lg:text-[30px]">
-                {console.log("Short Scripts", shortScripts)}
+            <div className="flex flex-col tracking-wider leading-relaxed text-[28px] md:text-[3vw] lg:text-[30px] 2xl:text-[2vw]">
                 {shortScripts?.map(shortScript => (
                     <Link href={`shortscripts/${shortScript.title}`} target="_blank">
                         {shortScript.title}
