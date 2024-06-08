@@ -27,10 +27,11 @@ export const poems = [
           <br />
           She’d spend a few more minutes there,
           <br />
-          asking questions and listening to me talk.<div className="spacer"></div>
+          whispering questions, and patiently listening<br /> 
+          to my grateful replies.<div className="spacer"></div>
           Heading back to her and my father’s bedroom,
           <br />
-          she’d urge me to join my sleeping siblings soon.
+          she’d softly urge me to join my sleeping siblings soon.
           <div className="spacer"></div>
           After her visit, my appetite always vanished,
           <br />
@@ -196,7 +197,7 @@ export const poems = [
           <br />
           feeling good in her arms, in her life.
           <br />
-          She—not where we live—
+          She—not the apartment where I live—
           <br />
           is my home, <br />
           and I want to be with her forever.<div className="spacer"></div>Now she
@@ -250,7 +251,7 @@ export const poems = [
               <br />
               Awake, he was a stubbled face,
               <br />a smoke–roughened voice—we treaded lightly.
-              <br />
+              <div className="spacer"></div>
               He’d return at midnight,
               <br />
               while we slept, or pretended to,
@@ -272,11 +273,12 @@ export const poems = [
               Flicka, Trigger, the Black Beauty
               <br />
               Mom read to us on rainy afternoons.
-              <br />I sat on the beams while he sawed.
+              <div className="spacer"></div>
+              I sat on the beams while he sawed.
               <br />
               He held them still while I sawed.
               <br />
-              We worked all day, made peanut-butter sandwiches
+              We worked all day, made peanut–butter sandwiches
               <br />
               with gobs of jelly, chocolate milk four tablespoons a glass
               <br />
@@ -290,7 +292,7 @@ export const poems = [
               He said he’d take us to the circus
               <br />
               when it came to town.
-              <br />
+              <div className="spacer"></div>
               That summer there were extra bills;
               <br />
               he had to work more overtime.
@@ -319,8 +321,8 @@ export const poems = [
               <br />
               He smiles awkwardly, then looks away,
               <br />
-              remembering when, because of need, and design,
-              <br />
+              remembering when, because of need<br />
+              —and design—<br />
               he didn’t spend time with his children.
               <div className="spacer"></div>
               <br />
@@ -351,9 +353,10 @@ export const poems = [
           <br />
           my innocent, German–speaking mother,
           <br />
-          who’d tuned in her German–language program
-          <br />
-          while scrubbing the kitchen floor.<div className="spacer"></div>
+          who listened to her German–language radio program,<br />
+while on her knees,<br />
+she scrubbed the kitchen floor.
+<div className="spacer"></div>
           Despite her ancestry,
           <br />
           at thirteen I wasn’t German—
@@ -377,8 +380,8 @@ export const poems = [
           <br />
           with a silent sigh switched off the radio.<div className="spacer"></div>
           <br />
-          <i>Originally published in </i>Home Planet News <i></i>and
-          <i /> Melic Review
+          <i>Originally published in </i>Home Planet News <i>and </i> 
+          Melic Review
         </p>
       ),
     },
@@ -438,7 +441,7 @@ export const poems = [
           <br />
           The parents had their room,
           <br />
-          the grandmother hers.<div className="spacer"></div>
+          the grandmother the tiny basement.<div className="spacer"></div>
           There was never a peaceful moment,
           <br />
           the bathroom the only refuge
@@ -508,8 +511,8 @@ export const poems = [
           <br />
           stares at him from the sink ledge,
           <br />
-          and he barely knows what it is, or can stomach it,
-          <br />
+          and feeling slightly uneasy,<br />
+          he barely recognizes what it is,<br />
           this part of life,
           <br />
           this most natural of things.
@@ -665,7 +668,9 @@ export const poems = [
               <br />
               who unsure #1 has heard or understood him,
               <br />
-              repeats his request, but #1 ignores him,
+              repeats his request,<br/>
+              but again not hearing what #2 asked,<br/>
+              #1 ignores him,
               <br />
               so slighted #2 calls #1 a “fucking asshole,”
               <br />
@@ -731,7 +736,7 @@ export const poems = [
               and gleefully I catch <br />
               the clear arcing stream
               <br />
-              in my mouth . . . <div className="spacer"></div>when my parents walk
+              in my mouth. . . <div className="spacer"></div>when my parents walk
               in
               <br />
               on that last bath <br />
