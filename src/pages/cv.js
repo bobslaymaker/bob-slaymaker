@@ -8,14 +8,14 @@ const CV = () => {
             </Head>
             <div className='w-full md:w-[750px]'>
                 <h1 className='text-center'>Bob Slaymaker </h1>
-                <h1 className='text-center'>(646) 925-2509 </h1>
+                <h1 className='text-center'>(646) 925–2509 </h1>
                 <h1 className='text-center'>bobslaymaker at gmail dot com </h1>
                 <div className="spacer"></div>
                 <u>EDUCATION</u>
                 <div className="spacer"></div>
                 MFA film program, NYU, 1990-92.
                 <div className="spacer"></div>
-                MFA fiction writing program, Columbia University, 1983-84.
+                MFA fiction writing program, Columbia University, 1983–84.
                 <div className="spacer"></div>
                 BA, literature (double-minor in biology and chemistry), University of
                 California, San Diego, 1980.
@@ -102,10 +102,10 @@ const CV = () => {
                 "Tradition" (poem), Writers' Forum, Volume 27, 2001 (previously published in
                 Weber Studies, Spring/Summer 1998).
                 <div className="spacer"></div>
-                “Johnny the Torso” (poem), The North American Review, May-August 2001
+                “Johnny the Torso” (poem), The North American Review, May–August 2001
                 (previously published in River Styx, Number 35 (1991)).
                 <div className="spacer"></div>
-                "All-American Irish Kid, Queens, New York, 1968" (poem), Melic Review, Summer
+                "All–American Irish Kid, Queens, New York, 1968" (poem), Melic Review, Summer
                 2001.
                 <div className="spacer"></div>
                 "Two Birds" (poems), African Voices, Spring 2001.
@@ -151,7 +151,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 "Poor Woman to Her Son" (poem), Poets International, March 2000.
                 <div className="spacer"></div>
-                "Word-Processing Center," "Subway Scene," "After Being Fired," and "Boss's
+                "Word–Processing Center," "Subway Scene," "After Being Fired," and "Boss's
                 Credo" (poems), Unbearables Magazine (#11).
                 <div className="spacer"></div>
                 "The Wall" (poem), Poetry Magazine, February 2000..
@@ -160,7 +160,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 “The Beach Towel” (poem), Orbis, Spring/Summer 1999.
                 <div className="spacer"></div>
-                “His and Hers” (co-authored with Joe Sorge) and “Bad Attitude” (poems), Downtown
+                “His and Hers” (co–authored with Joe Sorge) and “Bad Attitude” (poems), Downtown
                 Brooklyn, Issue 8 (1999).
                 <div className="spacer"></div>
                 “Cheaper by the Half-Dozen” (poem), Zuzu’s Petals Literary Quarterly, #18,
@@ -232,8 +232,9 @@ const CV = () => {
                 <div className="spacer"></div>
                 "You Know" (poem), Flipside, April/May 1995.
                 <div className="spacer"></div>
-                "A House of People" (poem), The Omaha Star, February 9, 1995.<br />"Bronxbound"
-                (poem), Anderson Valley Advertiser, February 15, 1995.
+                "A House of People" (poem), The Omaha Star, February 9, 1995.
+                <div className="spacer"></div>
+                "Bronxbound" (poem), Anderson Valley Advertiser, February 15, 1995.
                 <div className="spacer"></div>
                 "You" (poem), The West Side Story, February 1995.
                 <div className="spacer"></div>
@@ -282,8 +283,9 @@ const CV = () => {
                 <div className="spacer"></div>
                 "Vegetable Seller, Nairobi" and "De–Evolution" (poems), Slipstream, #12 (1992).
                 <div className="spacer"></div>
-                "Charade" (poem), Wind Chill Factor, July 1992.<br />"Response of the Leftist
-                Poet" (poem), PWA Newsline, July 1992.
+                "Charade" (poem), Wind Chill Factor, July 1992.
+                <div className="spacer"></div>
+                "Response of the Leftist Poet" (poem), PWA Newsline, July 1992.
                 <div className="spacer"></div>
                 "A Sense of Urgency" (short story), Catalyst, Spring/Summer 1992.
                 <div className="spacer"></div>
@@ -324,7 +326,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 "Flight" (short story), Catalyst, Winter 1989.
                 <div className="spacer"></div>
-                "Spirit and Dawn––the Last New–Age Couple" (essay), Mindprint Review, Number 8
+                "Spirit and Dawn—the Last New–Age Couple" (essay), Mindprint Review, Number 8
                 (1988–89).
                 <div className="spacer"></div>
                 "Damn Proud To Be with Her" (short story) and “Test of Faith,” “Hot Dog,” and
@@ -360,13 +362,13 @@ const CV = () => {
                 "Seascape" (poem), The New Voices (Trinidad & Tobago), Vol. 8, No. 16, September
                 1980.
                 <div className="spacer"></div>
-                "AS, CALPIRG Will Hold Rally on Atomic Power" (article), The Guardian (UC-San
+                "AS, CALPIRG Will Hold Rally on Atomic Power" (article), The Guardian (UC, San
                 Diego), March 10, 1979.
                 <div className="spacer"></div>
-                "Vending Fund Transfer Excites Angry Reaction" (article), The Guardian (UC-San
+                "Vending Fund Transfer Excites Angry Reaction" (article), The Guardian (UC, San
                 Diego), February 5, 1979.
                 <div className="spacer"></div>
-                "Friend" and “Another Day” (poems), Metamorphosis, 1975-76 (yearbook of York
+                "Friend" and “Another Day” (poems), Metamorphosis, 1975–76 (yearbook of York
                 College of the City University of New York).
                 <div className="spacer"></div>
                 <u>FEATURED READINGS</u>
@@ -379,8 +381,9 @@ const CV = () => {
                 <div className="spacer"></div>
                 KGB Bar, New York, NY (January 2003).
                 <div className="spacer"></div>
-                Cornelia Street Café, New York, NY (October 2002).<br />The Telephone Bar, New
-                York, NY (October 2002).
+                Cornelia Street Café, New York, NY (October 2002).
+                <div className="spacer"></div>
+                The Telephone Bar, New York, NY (October 2002).
                 <div className="spacer"></div>
                 5 & A, New York, NY (August 2002).
                 <div className="spacer"></div>
@@ -398,7 +401,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 Cornelia Street Café, New York, NY (April 2001).
                 <div className="spacer"></div>
-                WNYE-FM, New York, NY (August 2000).
+                WNYE–FM, New York, NY (August 2000).
                 <div className="spacer"></div>
                 KGB Bar, New York, NY (February 2000).
                 <div className="spacer"></div>
@@ -420,7 +423,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 Ward-Nasse Gallery, New York, NY (January 1993).
                 <div className="spacer"></div>
-                WBAI-FM, New York, NY (Winter 1992).
+                WBAI–FM, New York, NY (Winter 1992).
                 <div className="spacer"></div>
                 Tribeca Lab, New York, NY (November 1992).
                 <div className="spacer"></div>
@@ -433,7 +436,7 @@ const CV = () => {
                 Curator and host, poetry reading (featuring Linda Pastan, Nancy Willard, and Hal
                 Sirowitz), KGB Bar, (New York, NY), June 2002.
                 <div className="spacer"></div>
-                Poetry Editor, Salon (salon.com) (Fall 2000-Spring 2001).
+                Poetry Editor, Salon (salon.com) (Fall 2000–Spring 2001).
                 <div className="spacer"></div>
                 Poetry Editor, Ducts (ducts.org), Autumn 2000 and Winter 2001 issues.<br />
             </div>
