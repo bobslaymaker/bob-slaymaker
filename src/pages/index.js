@@ -54,7 +54,7 @@ export default function Home() {
             className=" text-[42px] md:text-[4.5vw] p-[0px]"
             style={{ fontVariant: "small-caps" }}
           >
-            Writer-Filmmaker
+            Writer–Filmmaker
           </h1>
         </div>
 
