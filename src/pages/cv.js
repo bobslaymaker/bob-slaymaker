@@ -13,11 +13,11 @@ const CV = () => {
                 <div className="spacer"></div>
                 <u>EDUCATION</u>
                 <div className="spacer"></div>
-                MFA film program, NYU, 1990-92.
+                MFA film program, NYU, 1990–92.
                 <div className="spacer"></div>
                 MFA fiction writing program, Columbia University, 1983–84.
                 <div className="spacer"></div>
-                BA, literature (double-minor in biology and chemistry), University of
+                BA, literature (double–minor in biology and chemistry), University of
                 California, San Diego, 1980.
                 <div className="spacer"></div>
                 <u>FEATURE SCREENPLAYS WRITTEN</u>
@@ -125,7 +125,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 “St. Mel’s, Second Grade” (poem), Windsor Review, Vol 33, No. 2.
                 <div className="spacer"></div>
-                “Flying Home” (poem), New Millennium Writings, Winter 2000-1.
+                “Flying Home” (poem), New Millennium Writings, Winter 2000–1.
                 <div className="spacer"></div>
                 “Apprenticeship” (poem), The Interpreter’s House, #15.
                 <div className="spacer"></div>
@@ -140,7 +140,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 “Escape” (poem), The Brobdingnagian Times, Spring 2000.
                 <div className="spacer"></div>
-                “A Visit to the Health-Food Store” (poem), Curbside Review, May 2000.
+                “A Visit to the Health–Food Store” (poem), Curbside Review, May 2000.
                 <div className="spacer"></div>
                 “Infidelity” (poem), Poetalk, Spring 2000.
                 <div className="spacer"></div>
@@ -163,7 +163,7 @@ const CV = () => {
                 “His and Hers” (co–authored with Joe Sorge) and “Bad Attitude” (poems), Downtown
                 Brooklyn, Issue 8 (1999).
                 <div className="spacer"></div>
-                “Cheaper by the Half-Dozen” (poem), Zuzu’s Petals Literary Quarterly, #18,
+                “Cheaper by the Half–Dozen” (poem), Zuzu’s Petals Literary Quarterly, #18,
                 Spring 1997.
                 <div className="spacer"></div>
                 “My Father’s Hand” (poem), Pif Magazine, April 1999.
@@ -421,7 +421,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 St. Agnes Public Library, New York, NY (October 1994).
                 <div className="spacer"></div>
-                Ward-Nasse Gallery, New York, NY (January 1993).
+                Ward–Nasse Gallery, New York, NY (January 1993).
                 <div className="spacer"></div>
                 WBAI–FM, New York, NY (Winter 1992).
                 <div className="spacer"></div>
