@@ -239,7 +239,7 @@ export const poems = [
               hushed voices of him and Mom over coffee
               <br />
               speaking of the day ahead.
-              <br />
+              <div className="spacer"></div>
               Then he’d march off,
               <br />
               to saw and hammer, according to design,
