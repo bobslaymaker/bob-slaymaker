@@ -52,13 +52,13 @@ const CV = () => {
                 <div className="spacer"></div>
                 “Graduation Day,” 2014.
                 <div className="spacer"></div>
-                "The Corner," MFA film program, NYU, 1992.
+                “The Corner,” MFA film program, NYU, 1992.
                 <div className="spacer"></div>
-                "Carmen's Refusal," MFA film program, NYU, 1991.
+                “Carmen’s Refusal,” MFA film program, NYU, 1991.
                 <div className="spacer"></div>
-                "Violence in the Subway," MFA film program, NYU, 1991.
+                “Violence in the Subway,” MFA film program, NYU, 1991.
                 <div className="spacer"></div>
-                "Danny," MFA film program, NYU, 1990.
+                “Danny,” MFA film program, NYU, 1990.
                 <div className="spacer"></div>
                 <u>PUBLICATIONS SUMMARY</u>
                 <div className="spacer"></div>
@@ -69,12 +69,12 @@ const CV = () => {
                 <div className="spacer"></div>
                 <u>COMPLETE LIST OF PUBLICATIONS</u>
                 <div className="spacer"></div>
-                "My Wife Breaks Out" (poem), in collection (book) Forever in Love (Andrews
+                “My Wife Breaks Out” (poem), in collection (book) Forever in Love (Andrews
                 McMeel Publishing, 2006).
                 <div className="spacer"></div>
                 “The Seminar” (short story), The Tampa Review, Issue 29, 2005.
                 <div className="spacer"></div>
-                "It's Not Pretty" (poem), The Malahat Review, Spring 2003 (previously published
+                “It’s Not Pretty” (poem), The Malahat Review, Spring 2003 (previously published
                 in Can We Have Our Ball Back, Issue 15).
                 <div className="spacer"></div>
                 “The Last Bath” (poem), Home Planet News, Spring 2003.
@@ -82,11 +82,11 @@ const CV = () => {
                 “Adopt an Adult” and “The Room” (poems), Short Stuff, Volume 14, Number 4
                 (2003).
                 <div className="spacer"></div>
-                "Beginning Poets" (poem), Jacket 21.
+                “Beginning Poets” (poem), Jacket 21.
                 <div className="spacer"></div>
                 “What I Knew (And Didn’t Know) When I Was Eleven” (poem), On the Bus 17/18.
                 <div className="spacer"></div>
-                "Design" (poem), Northwoods Journal, Summer 2002.
+                “Design” (poem), Northwoods Journal, Summer 2002.
                 <div className="spacer"></div>
                 “Out of Darkness” (poem), Friends Journal, October 2002.
                 <div className="spacer"></div>
@@ -99,64 +99,64 @@ const CV = () => {
                 <div className="spacer"></div>
                 “Mental Flexibility” (poem), The US Latino Review, Volume 2, #1, 2002.
                 <div className="spacer"></div>
-                "Tradition" (poem), Writers' Forum, Volume 27, 2001 (previously published in
+                “Tradition” (poem), Writers’ Forum, Volume 27, 2001 (previously published in
                 Weber Studies, Spring/Summer 1998).
                 <div className="spacer"></div>
                 “Johnny the Torso” (poem), The North American Review, May–August 2001
                 (previously published in River Styx, Number 35 (1991)).
                 <div className="spacer"></div>
-                "All–American Irish Kid, Queens, New York, 1968" (poem), Melic Review, Summer
+                “All–American Irish Kid, Queens, New York, 1968” (poem), Melic Review, Summer
                 2001.
                 <div className="spacer"></div>
-                "Two Birds" (poems), African Voices, Spring 2001.
+                “Two Birds” (poems), African Voices, Spring 2001.
                 <div className="spacer"></div>
-                "New York, the Greatest City in the Best of All Possible Worlds' (poem), Journal
+                “New York, the Greatest City in the Best of All Possible Worlds’ (poem), Journal
                 of New Jersey Poets, Spring 2001.
                 <div className="spacer"></div>
-                "The Leash" (poem), The Texas Observer, April 27, 2001.
+                “The Leash” (poem), The Texas Observer, April 27, 2001.
                 <div className="spacer"></div>
-                “Thanksgiving Day, El Bronx" (poem), Orbis No. 119 (Winter 2000).
+                “Thanksgiving Day, El Bronx” (poem), Orbis No. 119 (Winter 2000).
                 <div className="spacer"></div>
-                "Reciprocity" (poem), The Small Pond Magazine of Literature, Winter 2001.
+                “Reciprocity” (poem), The Small Pond Magazine of Literature, Winter 2001.
                 <div className="spacer"></div>
-                "Poor Men Sitting on the Subway" (poem), Grasslands Review, No. 21 & 22.
+                “Poor Men Sitting on the Subway” (poem), Grasslands Review, No. 21 & 22.
                 <div className="spacer"></div>
-                "Charade" (poem), Street Spirit, February 2001.
+                “Charade” (poem), Street Spirit, February 2001.
                 <div className="spacer"></div>
-                "St. Mel's, Second Grade" (poem), Windsor Review, Vol 33, No. 2.
+                “St. Mel’s, Second Grade” (poem), Windsor Review, Vol 33, No. 2.
                 <div className="spacer"></div>
-                "Flying Home" (poem), New Millennium Writings, Winter 2000-1.
+                “Flying Home” (poem), New Millennium Writings, Winter 2000-1.
                 <div className="spacer"></div>
-                Apprenticeship" (poem), The Interpreter's House, #15.
+                “Apprenticeship” (poem), The Interpreter’s House, #15.
                 <div className="spacer"></div>
-                "Companions" (poem), Downtown Brooklyn, Issue 9, Spring 2000.
+                “Companions” (poem), Downtown Brooklyn, Issue 9, Spring 2000.
                 <div className="spacer"></div>
-                "My Wife Breaks Out," "The Phone Call," and "The Lake" (poems), Le Petite Zine,
+                “My Wife Breaks Out,” “The Phone Call,” and “The Lake” (poems), Le Petite Zine,
                 Number 4, Fall 2000.
                 <div className="spacer"></div>
-                "Why #39" (poem), Poets International, July 2000.
+                “Why #39” (poem), Poets International, July 2000.
                 <div className="spacer"></div>
-                "Disclaimer" (poem), Poetry Ireland Review, Summer 2000.
+                “Disclaimer” (poem), Poetry Ireland Review, Summer 2000.
                 <div className="spacer"></div>
-                "Escape" (poem), The Brobdingnagian Times, Spring 2000.
+                “Escape” (poem), The Brobdingnagian Times, Spring 2000.
                 <div className="spacer"></div>
-                "A Visit to the Health-Food Store" (poem), Curbside Review, May 2000.
+                “A Visit to the Health-Food Store” (poem), Curbside Review, May 2000.
                 <div className="spacer"></div>
-                "Infidelity" (poem), Poetalk, Spring 2000.
+                “Infidelity” (poem), Poetalk, Spring 2000.
                 <div className="spacer"></div>
-                "Sex" (poem), 4th Street, May/June 2000.
+                “Sex” (poem), 4th Street, May/June 2000.
                 <div className="spacer"></div>
-                "Winterlust" (poem), Essence, March 2000 (previously published in The Christian
+                “Winterlust” (poem), Essence, March 2000 (previously published in The Christian
                 Science Monitor, January 22, 1996).
                 <div className="spacer"></div>
-                "Poor Woman to Her Son" (poem), Poets International, March 2000.
+                “Poor Woman to Her Son” (poem), Poets International, March 2000.
                 <div className="spacer"></div>
-                "Word–Processing Center," "Subway Scene," "After Being Fired," and "Boss's
-                Credo" (poems), Unbearables Magazine (#11).
+                “Word–Processing Center,” “Subway Scene,” “After Being Fired,” and “Boss’s
+                Credo” (poems), Unbearables Magazine (#11).
                 <div className="spacer"></div>
-                "The Wall" (poem), Poetry Magazine, February 2000..
+                “The Wall” (poem), Poetry Magazine, February 2000..
                 <div className="spacer"></div>
-                "Breakout" (poem), Electric Acorn 6.
+                “Breakout” (poem), Electric Acorn 6.
                 <div className="spacer"></div>
                 “The Beach Towel” (poem), Orbis, Spring/Summer 1999.
                 <div className="spacer"></div>
@@ -176,7 +176,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 “Bullet” (poem), The Comstock Review, Spring 1998.
                 <div className="spacer"></div>
-                "Children" (poem), Writers' Forum, Volume 23 (1997).
+                “Children” (poem), Writers’ Forum, Volume 23 (1997).
                 <div className="spacer"></div>
                 “Marrying into the World” (poem), Blue Mesa Review, Number 9 (reprinted in
                 National Catholic Reporter, January 14, 2000.
@@ -220,155 +220,155 @@ const CV = () => {
                 <div className="spacer"></div>
                 “Sun” (poem), Lynx, January 1996.
                 <div className="spacer"></div>
-                "The Good German" (poem), What?, July/August 1995.
+                “The Good German” (poem), What?, July/August 1995.
                 <div className="spacer"></div>
-                "Chameleon" (poem), Interrace, September 1995.
+                “Chameleon” (poem), Interrace, September 1995.
                 <div className="spacer"></div>
-                "Black Child at a Hot Dog Stand" (poem), The New American, July 6, 1995.
+                “Black Child at a Hot Dog Stand” (poem), The New American, July 6, 1995.
                 <div className="spacer"></div>
-                "Chip on My Shoulder" (short story), Home Planet News, Summer 1995.
+                “Chip on My Shoulder” (short story), Home Planet News, Summer 1995.
                 <div className="spacer"></div>
-                "Apartheid USA" (poem), Interrace, May/June 1995.
+                “Apartheid USA” (poem), Interrace, May/June 1995.
                 <div className="spacer"></div>
-                "You Know" (poem), Flipside, April/May 1995.
+                “You Know” (poem), Flipside, April/May 1995.
                 <div className="spacer"></div>
-                "A House of People" (poem), The Omaha Star, February 9, 1995.
+                “A House of People” (poem), The Omaha Star, February 9, 1995.
                 <div className="spacer"></div>
-                "Bronxbound" (poem), Anderson Valley Advertiser, February 15, 1995.
+                “Bronxbound” (poem), Anderson Valley Advertiser, February 15, 1995.
                 <div className="spacer"></div>
-                "You" (poem), The West Side Story, February 1995.
+                “You” (poem), The West Side Story, February 1995.
                 <div className="spacer"></div>
-                "For a Freedom Fighter in Exile" (poem), Reggae Report, Volume 13, No. 1
+                “For a Freedom Fighter in Exile” (poem), Reggae Report, Volume 13, No. 1
                 (February 1995).
                 <div className="spacer"></div>
-                "Sunny Day" (poem), The Anderson Valley Advertiser, December 7, 1994.
+                “Sunny Day” (poem), The Anderson Valley Advertiser, December 7, 1994.
                 <div className="spacer"></div>
-                "Over the Wall" (poem), the low twenties times, December 1994.
+                “Over the Wall” (poem), the low twenties times, December 1994.
                 <div className="spacer"></div>
-                "A Fresh Breeze" (short story), Catalyst, Issue No. 14.
+                “A Fresh Breeze” (short story), Catalyst, Issue No. 14.
                 <div className="spacer"></div>
-                "Let Us, the 99% Who Neither Own Nor Control, Flog Ourselves for New York City's
-                Ills" (poem), The West Side Story, July 1994.
+                “Let Us, the 99% Who Neither Own Nor Control, Flog Ourselves for New York City’s
+                Ills” (poem), The West Side Story, July 1994.
                 <div className="spacer"></div>
-                "Incentive" (poem), Reggae Report, Volume 12, Number 6, 1994.
+                “Incentive” (poem), Reggae Report, Volume 12, Number 6, 1994.
                 <div className="spacer"></div>
-                "Cornered" (poem), The Anderson Valley Advertiser, July 20, 1994.
+                “Cornered” (poem), The Anderson Valley Advertiser, July 20, 1994.
                 <div className="spacer"></div>
-                "Oh, Lotto God, Deliver Us From Misery" (creative essay), The Seattle Review,
+                “Oh, Lotto God, Deliver Us From Misery” (creative essay), The Seattle Review,
                 (Special Work Issue) Volume XVII, Number 1, Spring/Summer 1994.
                 <div className="spacer"></div>
-                "Danny" (short story), The Anderson Valley Advertiser, June 15, 1994.
+                “Danny” (short story), The Anderson Valley Advertiser, June 15, 1994.
                 <div className="spacer"></div>
-                "A Toilet Seat" (poem), Herstory, Volume 3, Spring 1994.
+                “A Toilet Seat” (poem), Herstory, Volume 3, Spring 1994.
                 <div className="spacer"></div>
-                "Superbowl Sunday" (poem), The Anderson Valley Advertiser, February 2, 1994.
+                “Superbowl Sunday” (poem), The Anderson Valley Advertiser, February 2, 1994.
                 <div className="spacer"></div>
-                "Beginning" (short story), The Redneck Review of Literature, Spring 1993.
+                “Beginning” (short story), The Redneck Review of Literature, Spring 1993.
                 <div className="spacer"></div>
-                "A Reason to Lift Weights" (short story), Anderson Valley Advertiser, March 24,
+                “A Reason to Lift Weights” (short story), Anderson Valley Advertiser, March 24,
                 1993.
                 <div className="spacer"></div>
-                "U.N. Game" (poem), Caribbean Globe, January 1993.
+                “U.N. Game” (poem), Caribbean Globe, January 1993.
                 <div className="spacer"></div>
-                "Life Begins" (poem), Catalyst, Number 11 (1992).
+                “Life Begins” (poem), Catalyst, Number 11 (1992).
                 <div className="spacer"></div>
-                "Meeting Up with Women" (short story), The City of Dis, No. 2 (1992).
+                “Meeting Up with Women” (short story), The City of Dis, No. 2 (1992).
                 <div className="spacer"></div>
-                "Stoning" (short story), Interrace, September/October 1992.
+                “Stoning” (short story), Interrace, September/October 1992.
                 <div className="spacer"></div>
-                "The Light of Truth" (poem), Reggae Report, Vol. 10, #5 (1992).
+                “The Light of Truth” (poem), Reggae Report, Vol. 10, #5 (1992).
                 <div className="spacer"></div>
-                "Response of the Leftist Poet" (poem), The Anderson Valley Advertiser, August
+                “Response of the Leftist Poet” (poem), The Anderson Valley Advertiser, August
                 26, 1992.
                 <div className="spacer"></div>
-                "Vegetable Seller, Nairobi" and "De–Evolution" (poems), Slipstream, #12 (1992).
+                “Vegetable Seller, Nairobi” and “De–Evolution” (poems), Slipstream, #12 (1992).
                 <div className="spacer"></div>
-                "Charade" (poem), Wind Chill Factor, July 1992.
+                “Charade” (poem), Wind Chill Factor, July 1992.
                 <div className="spacer"></div>
-                "Response of the Leftist Poet" (poem), PWA Newsline, July 1992.
+                “Response of the Leftist Poet” (poem), PWA Newsline, July 1992.
                 <div className="spacer"></div>
-                "A Sense of Urgency" (short story), Catalyst, Spring/Summer 1992.
+                “A Sense of Urgency” (short story), Catalyst, Spring/Summer 1992.
                 <div className="spacer"></div>
-                "Dinner Alfranco” story), Exquisite Corpse, Number 35 (1992).
+                “Dinner Alfranco” story), Exquisite Corpse, Number 35 (1992).
                 <div className="spacer"></div>
-                "A Sense of Urgency" (short story), The Village Noize, Issue 12 (1992).
+                “A Sense of Urgency” (short story), The Village Noize, Issue 12 (1992).
                 <div className="spacer"></div>
-                "For a South African in Exile" (poem), riverrun, Number 18, 1991.
+                “For a South African in Exile” (poem), riverrun, Number 18, 1991.
                 <div className="spacer"></div>
-                "My Two Slices" (short story), The Realist, Winter 1992.
+                “My Two Slices” (short story), The Realist, Winter 1992.
                 <div className="spacer"></div>
-                "On Seeing a Man Sleeping in the Lobby of the National Cooperative Bank
-                Building, Washington, DC, Saturday Night, September 2, 1989" (poem), Catalyst,
+                “On Seeing a Man Sleeping in the Lobby of the National Cooperative Bank
+                Building, Washington, DC, Saturday Night, September 2, 1989” (poem), Catalyst,
                 Summer 1991.
                 <div className="spacer"></div>
-                "Poem to My Neighbors" (poem), International Poetry Review, Spring 1991.
+                “Poem to My Neighbors” (poem), International Poetry Review, Spring 1991.
                 <div className="spacer"></div>
-                "De–Evolution" (poem), Exquisite Corpse, Jan–Apr 1991.
+                “De–Evolution” (poem), Exquisite Corpse, Jan–Apr 1991.
                 <div className="spacer"></div>
-                "Operation Rescue" (poem), Changing Men, Winter 1991.
+                “Operation Rescue” (poem), Changing Men, Winter 1991.
                 <div className="spacer"></div>
-                "Night Scene" (poem), The Tidewater Patriot, Fall 1990.
+                “Night Scene” (poem), The Tidewater Patriot, Fall 1990.
                 <div className="spacer"></div>
-                "The Pacifists at the Pentagon" (poem), Big Red News, June 30, 1990.
+                “The Pacifists at the Pentagon” (poem), Big Red News, June 30, 1990.
                 <div className="spacer"></div>
-                "Surfaces" (poem), Stone Drum, Spring 1990.
+                “Surfaces” (poem), Stone Drum, Spring 1990.
                 <div className="spacer"></div>
-                "What King George Says" (poem), Contact II, Spring 1990.
+                “What King George Says” (poem), Contact II, Spring 1990.
                 <div className="spacer"></div>
-                "Platform" (poem), Catalyst, Spring 1990.
+                “Platform” (poem), Catalyst, Spring 1990.
                 <div className="spacer"></div>
-                "Down in the Bronx" (short story), Catalyst, Fall 1989.
+                “Down in the Bronx” (short story), Catalyst, Fall 1989.
                 <div className="spacer"></div>
-                "Word Games (P.S.: Get Ready for World War III)" (poem), Big Red News, August
+                “Word Games (P.S.: Get Ready for World War III)” (poem), Big Red News, August
                 26, 1989.
                 <div className="spacer"></div>
-                "Mom" (short story), Processed World, Number 23 (Winter 1989).
+                “Mom” (short story), Processed World, Number 23 (Winter 1989).
                 <div className="spacer"></div>
-                "Flight" (short story), Catalyst, Winter 1989.
+                “Flight” (short story), Catalyst, Winter 1989.
                 <div className="spacer"></div>
-                "Spirit and Dawn—the Last New–Age Couple" (essay), Mindprint Review, Number 8
+                “Spirit and Dawn—the Last New–Age Couple” (essay), Mindprint Review, Number 8
                 (1988–89).
                 <div className="spacer"></div>
-                "Damn Proud To Be with Her" (short story) and “Test of Faith,” “Hot Dog,” and
+                “Damn Proud To Be with Her” (short story) and “Test of Faith,” “Hot Dog,” and
                 “Metamorphosis/Calling All White Men” (poems), Catalyst, Summer 1988.
                 <div className="spacer"></div>
-                "Agenda" (poem), The Mill Hunk Herald, Summer 1988.
+                “Agenda” (poem), The Mill Hunk Herald, Summer 1988.
                 <div className="spacer"></div>
-                "A Poem for My Father" (poem), The Black American, December 3, 1987.
+                “A Poem for My Father” (poem), The Black American, December 3, 1987.
                 <div className="spacer"></div>
-                "Office Scene" (poem), The Charlotte Post, September 3, 1987.
+                “Office Scene” (poem), The Charlotte Post, September 3, 1987.
                 <div className="spacer"></div>
-                "Bag–itis" (creative essay), Big Red News, August 1, 1987.
+                “Bag–itis” (creative essay), Big Red News, August 1, 1987.
                 <div className="spacer"></div>
-                "Working for a Living" (creative essay), Big Red News, May 30, 1987.
+                “Working for a Living” (creative essay), Big Red News, May 30, 1987.
                 <div className="spacer"></div>
-                "Humanists Know Little of Politics" (letter to the editor), The Crimson White
+                “Humanists Know Little of Politics” (letter to the editor), The Crimson White
                 (University of Alabama), April 27, 1987.
                 <div className="spacer"></div>
-                "Real Issue Isn't Race: Focus on World Issue" (letter to the editor), The
+                “Real Issue Isn’t Race: Focus on World Issue” (letter to the editor), The
                 Crimson White (University of Alabama), April 20, 1987.
                 <div className="spacer"></div>
-                "Honor Futile" (letter to the editor), Honolulu Advertiser, January 19, 1983.
+                “Honor Futile” (letter to the editor), Honolulu Advertiser, January 19, 1983.
                 <div className="spacer"></div>
-                "U.S. Policy in El Salvador" (letter to the editor), Honolulu Star–Bulletin,
+                “U.S. Policy in El Salvador” (letter to the editor), Honolulu Star–Bulletin,
                 March 19, 1983.
                 <div className="spacer"></div>
-                "The Factory" (poem), The New Voices (Trinidad & Tobago), Vol. X, No. 19, March
+                “The Factory” (poem), The New Voices (Trinidad & Tobago), Vol. X, No. 19, March
                 1982.
                 <div className="spacer"></div>
-                "Songbird" (poem), The New Voices (Trinidad & Tobago), Vol. 9, Nos. 17/18,
+                “Songbird” (poem), The New Voices (Trinidad & Tobago), Vol. 9, Nos. 17/18,
                 August 1981.
                 <div className="spacer"></div>
-                "Seascape" (poem), The New Voices (Trinidad & Tobago), Vol. 8, No. 16, September
+                “Seascape” (poem), The New Voices (Trinidad & Tobago), Vol. 8, No. 16, September
                 1980.
                 <div className="spacer"></div>
-                "AS, CALPIRG Will Hold Rally on Atomic Power" (article), The Guardian (UC, San
+                “AS, CALPIRG Will Hold Rally on Atomic Power” (article), The Guardian (UC, San
                 Diego), March 10, 1979.
                 <div className="spacer"></div>
-                "Vending Fund Transfer Excites Angry Reaction" (article), The Guardian (UC, San
+                “Vending Fund Transfer Excites Angry Reaction” (article), The Guardian (UC, San
                 Diego), February 5, 1979.
                 <div className="spacer"></div>
-                "Friend" and “Another Day” (poems), Metamorphosis, 1975–76 (yearbook of York
+                “Friend” and “Another Day” (poems), Metamorphosis, 1975–76 (yearbook of York
                 College of the City University of New York).
                 <div className="spacer"></div>
                 <u>FEATURED READINGS</u>
@@ -427,7 +427,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 Tribeca Lab, New York, NY (November 1992).
                 <div className="spacer"></div>
-                Bread Loaf Writers' Conference, Middlebury, VT (August 1989).
+                Bread Loaf Writers’ Conference, Middlebury, VT (August 1989).
                 <div className="spacer"></div>
                 Poetry Society of America, New York, NY (Spring 1986).
                 <div className="spacer"></div>

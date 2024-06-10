@@ -10,7 +10,7 @@ export default function ContactInfo() {
             </Head>
             <div className="flex flex-col tracking-wider leading-relaxed text-[28px] md:text-[3vw] lg:text-[30px] 2xl:text-[2vw] ">
                 <p>bobslaymaker at gmail dot com</p>
-                <p>+1-646-925-2509</p>
+                <p>+1–646–925–2509</p>
             </div>
         </div>
     )
