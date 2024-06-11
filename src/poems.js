@@ -736,7 +736,7 @@ she scrubbed the kitchen floor.
               and gleefully I catch <br />
               the clear arcing stream
               <br />
-              in my mouth. . . <div className="spacer"></div>when my parents walk
+              in my mouth—<div className="spacer"></div>when my parents walk
               in
               <br />
               on that last bath <br />
