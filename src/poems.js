@@ -653,25 +653,23 @@ export const poems = [
             <br />
             I’ll be on a bike over—”
             <br />
-            but #1 doesn’t wait till #2’s finished,
+            but #1 doesn’t hear what #2’s saying,
             <br />
-            #1 doesn’t hear what #2’s saying,
-            <br />
-            #1’s been on the treadmill beyond
+            #1's been on the treadmill beyond
             <br />
             the 30-minute limit,
             <br />
             and thinks #2’s telling him to get off,
             <br />
-            so irritated #1 waves his hand
-            <br />
-            that #2 should go away,
+            so irritated #1 motions for #2 to go away,
             <br />
             and this angers #2,
             <br />
             who unsure #1 has heard or understood him,
             <br />
-            repeats his request, but #1 ignores him,
+            repeats his request, but #1 still doesn't hear him,
+            <br />
+            and again motions for #2 to get lost, 
             <br />
             so slighted #2 calls #1 a “fucking asshole,”
             <br />
