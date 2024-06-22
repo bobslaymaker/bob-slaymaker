@@ -511,7 +511,9 @@ export const poems = [
         <br />
         stares at him from the sink ledge,
         <br />
-        and he barely knows what it is, or can stomach it,
+        and slightly uneasy,
+        <br />
+        he barely recognizes it,
         <br />
         this part of life,
         <br />
