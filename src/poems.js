@@ -441,7 +441,7 @@ export const poems = [
         <br />
         The parents had their room,
         <br />
-        the grandmother hers.<div className="spacer"></div>
+        the grandmother the tiny basement.<div className="spacer"></div>
         There was never a peaceful moment,
         <br />
         the bathroom the only refuge
