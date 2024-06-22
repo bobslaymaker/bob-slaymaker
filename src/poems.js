@@ -27,10 +27,14 @@ export const poems = [
         <br />
         She’d spend a few more minutes there,
         <br />
-        asking questions and listening to me talk.<div className="spacer"></div>
+        whispering questions and listening 
+        <br />
+        to my grateful, whispered replies.<div className="spacer"></div>
         Heading back to her and my father’s bedroom,
         <br />
-        she’d urge me to join my sleeping siblings soon.
+        she’d softly urge me 
+        <br />
+        to join my sleeping siblings soon.
         <div className="spacer"></div>
         After her visit, my appetite always vanished,
         <br />
@@ -353,9 +357,10 @@ export const poems = [
             <br />
             my innocent, German–speaking mother,
             <br />
-            who’d tuned in her German–language program
+            as on her knees, she scrubbed the kitchen floor,
             <br />
-            while scrubbing the kitchen floor.<div className="spacer"></div>
+            and listened to her German–language program.
+           <div className="spacer"></div>
             Despite her ancestry,
             <br />
             at thirteen I wasn’t German—
@@ -609,7 +614,7 @@ export const poems = [
         <br />
         and he cowers a little, a frail, frightened doe;
         <br />
-        the bully in me, shaped by a trillion glossy images,
+        the bully in me, shaped by a trillion superficial images,
         <br />
         deems him repulsive;
         <br />
@@ -621,10 +626,14 @@ export const poems = [
         his face is pockmarked, scarred during teenage years;
         <br />
         his body’s small and slight, and though I smile and he smiles back,
-        <br />I realize it can take years to rid yourself of these thoughts,
         <br />
-        it can take years and years, years and years, years and years to get
-        clean.
+        I realize it could take years to rid yourself of these thoughts,
+        <br />
+        it could take years and years, 
+        <br />
+        years and years,
+        <br /> 
+        years and years to get clean.
       </p>
     ),
   },
