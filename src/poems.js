@@ -29,10 +29,10 @@ export const poems = [
         <br />
         whispering questions and listening 
         <br />
-        to my grateful, whispered replies.<div className="spacer"></div>
+        to my hushed, grateful replies.<div className="spacer"></div>
         Heading back to her and my father’s bedroom,
         <br />
-        she’d softly urge me 
+        she’d gently urge me 
         <br />
         to join my sleeping siblings soon.
         <div className="spacer"></div>
