@@ -9,38 +9,44 @@ export const poems = [
           <h6 className="text-center m-0 p-0"> APPETITE </h6>
         </bold>
         <div className="spacer"></div>
-        Sometimes in the kitchen at midnight,
-        <br />
-        clad in her pajamas,
-        <br />
-        squinting and shielding her eyes from the light,
-        <br />
-        Mom found me snacking on raisins,
-        <br />
-        or on peanut butter and bread.<div className="spacer"></div>
-        “What’re you doing up so late?” she’d whisper,
-        <br />
-        not waking Dad and my brothers and sisters.
-        <br />
-        “You shouldn’t eat before bed.”<div className="spacer"></div>
-        Then she’d sit at the table, just to be with me.
-        <br />
-        She’d spend a few more minutes there,
-        <br />
-        whispering questions and listening 
-        <br />
-        to my hushed, grateful replies.<div className="spacer"></div>
-        Heading back to her and my father’s bedroom,
-        <br />
-        she’d gently urge me 
-        <br />
-        to join my sleeping siblings soon.
-        <div className="spacer"></div>
-        After her visit, my appetite always vanished,
-        <br />
-        and slipping under the covers
-        <br />I felt loved enough to sleep.<div className="spacer"></div>
-        <br />
+        <div className="flex justify-center">
+          <div>
+
+
+            Sometimes in the kitchen at midnight,
+            <br />
+            clad in her pajamas,
+            <br />
+            squinting and shielding her eyes from the light,
+            <br />
+            Mom found me snacking on raisins,
+            <br />
+            or on peanut butter and bread.<div className="spacer"></div>
+            “What’re you doing up so late?” she’d whisper,
+            <br />
+            not waking Dad and my brothers and sisters.
+            <br />
+            “You shouldn’t eat before bed.”<div className="spacer"></div>
+            Then she’d sit at the table, just to be with me.
+            <br />
+            She’d spend a few more minutes there,
+            <br />
+            whispering questions and listening
+            <br />
+            to my hushed, grateful replies.<div className="spacer"></div>
+            Heading back to her and my father’s bedroom,
+            <br />
+            she’d gently urge me
+            <br />
+            to join my sleeping siblings soon.
+            <div className="spacer"></div>
+            After her visit, my appetite always vanished,
+            <br />
+            and slipping under the covers
+            <br />I felt loved enough to sleep.<div className="spacer"></div>
+            <br />
+          </div>
+        </div>
         <i>Originally published in </i>The Christian Science Monitor
       </p>
     ),
@@ -360,7 +366,7 @@ export const poems = [
             as on her knees, she scrubbed the kitchen floor,
             <br />
             and listened to her German–language program.
-           <div className="spacer"></div>
+            <div className="spacer"></div>
             Despite her ancestry,
             <br />
             at thirteen I wasn’t German—
@@ -607,33 +613,38 @@ export const poems = [
         <semi-bold>
           <h6 className="text-center m-0 p-0">REPULSIVE</h6>
         </semi-bold>
-        <div className="spacer"></div>A guy coming into the bathroom, I’m going
-        out—
-        <br />
-        we squeeze past each other in the doorway,
-        <br />
-        and he cowers a little, a frail, frightened doe;
-        <br />
-        the bully in me, shaped by a trillion superficial images,
-        <br />
-        deems him repulsive;
-        <br />
-        his shirt’s untucked, his hair’s a bit mussed;
-        <br />I get the impulse to pounce on him, shove him into a corner,
-        <br />
-        call him a scumbag, see what he’ll do;
-        <br />
-        his face is pockmarked, scarred during teenage years;
-        <br />
-        his body’s small and slight, and though I smile and he smiles back,
-        <br />
-        I realize it could take years to rid yourself of these thoughts,
-        <br />
-        it could take years and years, 
-        <br />
-        years and years,
-        <br /> 
-        years and years to get clean.
+        <div className="spacer"></div>
+        <div className="flex justify-center">
+          <div>
+            A guy coming into the bathroom, I’m going
+            out—
+            <br />
+            we squeeze past each other in the doorway,
+            <br />
+            and he cowers a little, a frail, frightened doe;
+            <br />
+            the bully in me, shaped by a trillion superficial images,
+            <br />
+            deems him repulsive;
+            <br />
+            his shirt’s untucked, his hair’s a bit mussed;
+            <br />I get the impulse to pounce on him, shove him into a corner,
+            <br />
+            call him a scumbag, see what he’ll do;
+            <br />
+            his face is pockmarked, scarred during teenage years;
+            <br />
+            his body’s small and slight, and though I smile and he smiles back,
+            <br />
+            I realize it could take years to rid yourself of these thoughts,
+            <br />
+            it could take years and years,
+            <br />
+            years and years,
+            <br />
+            years and years to get clean.
+          </div>
+        </div>
       </p>
     ),
   },
@@ -680,7 +691,7 @@ export const poems = [
             <br />
             repeats his request, but #1 still doesn't hear him,
             <br />
-            and again motions for #2 to get lost, 
+            and again motions for #2 to get lost,
             <br />
             so slighted #2 calls #1 a “fucking asshole,”
             <br />
