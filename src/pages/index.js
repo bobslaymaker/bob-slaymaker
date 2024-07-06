@@ -46,9 +46,8 @@ export default function Home() {
           </h1>
           <h1
             className="font-bold text-[50px] md:text-[4.5vw] pb-[5px] md:pb-[0px] block md:hidden"
-            style={{ fontVariant: "small-caps" }}
-          >
-            Bob Slaymaker
+                      >
+            BOB SLAYMAKER
           </h1>
           <h1
             className=" text-[40px] md:text-[4.5vw] p-[0px]"
@@ -112,7 +111,7 @@ export default function Home() {
           <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link target="_blank" href="https://vimeo.com/bobslaymaker/">
+            <Link target="_blank" href="/myLastFilm">
               My Last&nbsp; <br className="hidden md:block" /> Film
             </Link>
           </div>
@@ -143,4 +142,3 @@ export default function Home() {
     </div>
   );
 }
-
