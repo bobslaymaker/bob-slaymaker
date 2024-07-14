@@ -30,3 +30,38 @@
 .spacer{
     min-height: 20px !important;
 }
+
+.formatted-poem {
+    max-width: 100%;
+
+  }
+  
+  .poem-line {
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .poem-spacer {
+    height: 1rem;
+  }
+  
+  .poem-title {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .poem-italic {
+    font-style: italic;
+  }
+  
+  @media (max-width: 600px) {
+  
+    .poem-line {
+      padding-left: 1rem;
+      text-indent: -1rem;
+    }
+  }

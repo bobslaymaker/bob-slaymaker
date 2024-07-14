@@ -11,8 +11,6 @@ export const poems = [
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
-
-
             Sometimes in the kitchen at midnight,
             <br />
             clad in her pajamas,
@@ -47,7 +45,7 @@ export const poems = [
             <br />
           </div>
         </div>
-        <i>Originally published in </i>The Christian Science Monitor
+        <p><i>Originally published in </i>The Christian Science Monitor</p>
       </p>
     ),
   },
@@ -87,11 +85,11 @@ export const poems = [
               <br />
             </div>
           </div>
-          <i>
+          <p> <i>
             Co-written by Joe Sorge<div className="spacer"></div>Originally
             published in{" "}
           </i>
-          Jacket
+            Jacket</p>
         </p>
       </div>
     ),
@@ -148,7 +146,7 @@ export const poems = [
         <br />
         the cold work yard.<div className="spacer"></div>
         <br />
-        <i>Originally published in </i>Downtown Brooklyn
+        <p> <i>Originally published in </i>Downtown Brooklyn</p>
       </p>
     ),
   },
@@ -158,7 +156,6 @@ export const poems = [
     content: (
       <p>
         <bold>
-          {" "}
           <h6 className="text-center m-0 p-0">THE BEACH TOWEL </h6>
         </bold>
         <div className="spacer"></div>Under this comforter my love and I rest,
@@ -171,8 +168,9 @@ export const poems = [
         <br />
         this Linus blanket for extra warmth
         <br />
-        and, I suppose, for extra love.<div className="spacer"></div>Lying
-        beside her, I say:
+        and, I suppose, for extra love.
+        <div className="spacer"></div>
+        Lying beside her, I say:
         <br />
         “Take that damn towel off.
         <br />
@@ -193,7 +191,7 @@ export const poems = [
         her.
         <br />
         She grips it tightly.
-        <br />I pull <i>really</i>, <i>really</i> hard.
+        <br /><p>I pull <i>really</i>, <i>really</i> hard.</p>
         <br />
         She holds on.<div className="spacer"></div>Tired of struggling,
         <br />I move under the towel and into her arms.
@@ -217,7 +215,7 @@ export const poems = [
         <br />
         and flies away.<div className="spacer"></div>
         <br />
-        <i>Originally published in </i>Orbis
+        <p><i>Originally published in </i>Orbis</p>
         <br />{" "}
       </p>
     ),
@@ -336,8 +334,8 @@ export const poems = [
             <br />
           </div>
         </div>
-        <i>Originally published in </i>Weber Studies<i>,</i> Northwoods Journal
-        <i>,</i> Street News <i>and </i>Writers Forum <br />{" "}
+        <p> <i>Originally published in </i>Weber Studies<i>,</i> Northwoods Journal
+          <i>,</i> Street News <i>and </i>Writers Forum <br />{" "}</p>
       </p>
     ),
   },
@@ -351,7 +349,8 @@ export const poems = [
           {" "}
           <h6 className="text-center m-0 p-0">
             {" "}
-            ALL–AMERICAN IRISH KID, QUEENS, NEW YORK, 1968{" "}
+            ALL–AMERICAN IRISH KID,<br />
+            QUEENS, NEW YORK, 1968{" "}
           </h6>{" "}
         </semi-bold>
         <div className="spacer"></div>
@@ -391,8 +390,8 @@ export const poems = [
             with a silent sigh switched off the radio.<div className="spacer"></div>
             <br />
           </div></div>
-        <i>Originally published in </i>Home Planet News <i></i>and
-        <i /> Melic Review
+        <p> <i>Originally published in </i>Home Planet News <i></i>and
+          <i /> Melic Review</p>
       </p>
     ),
   },
@@ -469,7 +468,7 @@ export const poems = [
         <br />
         the many hearts beating as one. <div className="spacer"></div>
         <br />
-        <i>Originally published in </i>The Orlando Times{" "}
+        <p>  <i>Originally published in </i>The Orlando Times{" "}</p>
       </p>
     ),
   },
@@ -531,7 +530,7 @@ export const poems = [
         this most natural of things.
         <div className="spacer"></div>
         <br />
-        <i>Originally published in </i>3 AM Magazine
+        <p>  <i>Originally published in </i>3 AM Magazine</p>
       </p>
     ),
   },
@@ -567,7 +566,7 @@ export const poems = [
         <br />
         and ended her giggling and laughing too.<div className="spacer"></div>
         <br />
-        <i>Originally published in </i>Windsor Review
+        <p><i>Originally published in </i>Windsor Review</p>
       </p>
     ),
   },
@@ -601,7 +600,7 @@ export const poems = [
             ready to take the world by surprise.<div className="spacer"></div>
             <br />
           </div></div>
-        <i>Originally published in </i>La Petite Zine <i>and</i> Forever in Love
+        <p><i>Originally published in </i>La Petite Zine <i>and</i> Forever in Love</p>
       </p>
     ),
   },
@@ -725,8 +724,8 @@ export const poems = [
             <br />
           </div>
         </div>
-        <i>Originally published in </i>Can We Have Our Ball Back <i>and </i>The
-        Malahat Review
+        <p>  <i>Originally published in </i>Can We Have Our Ball Back <i>and </i>The
+          Malahat Review</p>
       </p>
     ),
   },
@@ -767,10 +766,10 @@ export const poems = [
         </div>
         <i>Originally published in </i>Home Planet News
         <div className="spacer"></div>
-        <i>
+        <p>  <i>
           Author’s Note: Though “The Last Bath” likely couldn’t be made into a
           short film without me being imprisoned, it’s one of my favorites.
-        </i>
+        </i></p>
       </p>
     ),
   },
