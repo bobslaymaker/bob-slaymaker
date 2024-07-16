@@ -9,11 +9,10 @@ const MyLastFilm = () => {
       </Head>
       <div className="relative w-[90%] md:w-[80%] h-[60vw] md:h-[45vw]">
         <iframe
-          src="https://player.vimeo.com/video/957867786?h=2c6ea2af5f"
+          src="https://drive.google.com/file/d/1l7oWpp_HxLOXfmrzxesJE6Xlc-W3t3M-/preview?rm=1"
           className='w-full h-full'
-          frameborder="0"
           allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </div>
