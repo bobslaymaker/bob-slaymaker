@@ -349,8 +349,7 @@ export const poems = [
           {" "}
           <h6 className="text-center m-0 p-0">
             {" "}
-            ALL–AMERICAN IRISH KID,<br />
-            QUEENS, NEW YORK, 1968{" "}
+            ALL–AMERICAN IRISH KID, QUEENS, NEW YORK, 1968{" "}
           </h6>{" "}
         </semi-bold>
         <div className="spacer"></div>
@@ -376,7 +375,8 @@ export const poems = [
             <br />
             an all–American Irish kid
             <br />
-            who watched <i>Hogan’s Heroes</i>, <i>Combat</i>,<br />
+            <p>who watched <i>Hogan’s Heroes</i>, <i>Combat</i>,</p>
+            <br />
             other World War II shows.
             <br />
             The word “German” wasn’t in my vocabulary.
@@ -764,7 +764,7 @@ export const poems = [
             <br />
           </div>
         </div>
-        <i>Originally published in </i>Home Planet News
+        <p><i>Originally published in </i>Home Planet News</p>
         <div className="spacer"></div>
         <p>  <i>
           Author’s Note: Though “The Last Bath” likely couldn’t be made into a
