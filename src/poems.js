@@ -5,7 +5,6 @@ export const poems = [
     content: (
       <p>
         <bold>
-          {" "}
           <h6 className="text-center m-0 p-0"> APPETITE </h6>
         </bold>
         <div className="spacer"></div>
@@ -53,45 +52,42 @@ export const poems = [
     label: "Beginning Poets",
     title: "Beginning Poets",
     content: (
-      <div>
-        <p>
-          <semi-bold>
-            {" "}
-            <h6 className="text-center m-0 p-0"> BEGINNING POETS </h6>
-          </semi-bold>
-          <div className="spacer"></div>
-          <div className="flex justify-center">
-            <div>
-              They sit, <br />
-              laugh, <div className="spacer"></div>collaborate <br />
-              on poems, <div className="spacer"></div>and argue <br />
-              over how <div className="spacer"></div>to split <br />
-              the millions.<div className="spacer"></div>
+      <p>
+        <bold>
+          <h6 className="text-center m-0 p-0"> BEGINNING POETS </h6>
+        </bold>
+        <div className="spacer"></div>
+        <div className="flex justify-center">
+          <div>
+            They sit, <br />
+            laugh, <div className="spacer"></div>collaborate <br />
+            on poems, <div className="spacer"></div>and argue <br />
+            over how <div className="spacer"></div>to split <br />
+            the millions.<div className="spacer"></div>
 
-              <p className="text-center">***</p>
-              <div className="spacer"></div>“I’m fed up
-              <br />
-              with this
-              <br />
-              poem,” Pete<div className="spacer"></div>says. “You
-              <br />
-              finish it.”
-              <br />
-              “O.K.,” says<div className="spacer"></div>Tom. “Then
-              <br />
-              <i>I</i> get all
-              <br />
-              the money.”<div className="spacer"></div>
-              <br />
-            </div>
+            <p className="text-center">***</p>
+            <div className="spacer"></div>“I’m fed up
+            <br />
+            with this
+            <br />
+            poem,” Pete<div className="spacer"></div>says. “You
+            <br />
+            finish it.”
+            <br />
+            “O.K.,” says<div className="spacer"></div>Tom. “Then
+            <br />
+            <i>I</i> get all
+            <br />
+            the money.”<div className="spacer"></div>
+            <br />
           </div>
-          <p> <i>
-            Co-written by Joe Sorge<div className="spacer"></div>Originally
-            published in{" "}
-          </i>
-            Jacket</p>
-        </p>
-      </div>
+        </div>
+        <p> <i>
+          Co-written by Joe Sorge<div className="spacer"></div>Originally
+          published in{" "}
+        </i>
+          Jacket</p>
+      </p>
     ),
   },
   {
@@ -100,52 +96,55 @@ export const poems = [
     content: (
       <p>
         <semi-bold>
-          {" "}
           <h6 className="text-center m-0 p-0"> BAD ATTITUDE </h6>
         </semi-bold>
         <div className="spacer"></div>
-        Wake at six, dress in the dark,
-        <br />
-        gobble a piece of toast or two.<div className="spacer"></div>
-        Rush to the bus stop,
-        <br />
-        shuffle your feet
-        <br />
-        to keep warm.
-        <br />
-        The cold wind rips
-        <br />
-        through your torn jeans.
-        <br />
-        Without gloves
-        <br />
-        your fingers freeze.<div className="spacer"></div>
-        All this to get to work
-        <br />
-        before the owner
-        <br />
-        with his new car
-        <br />
-        and refreshed from the burbs.<div className="spacer"></div>
-        He comes in confident, smiling—
-        <br />
-        his daughter won the state spelling bee,
-        <br />
-        his son got into Harvard.<div className="spacer"></div>
-        You’re so happy for him
-        <br />
-        you trip over yourself
-        <br />
-        trying not to kill him,
-        <br />
-        as he closes the door
-        <br />
-        to his warm office,
-        <br />
-        and you step into
-        <br />
-        the cold work yard.<div className="spacer"></div>
-        <br />
+        <div className="flex justify-center">
+          <div>
+            Wake at six, dress in the dark,
+            <br />
+            gobble a piece of toast or two.<div className="spacer"></div>
+            Rush to the bus stop,
+            <br />
+            shuffle your feet
+            <br />
+            to keep warm.
+            <br />
+            The cold wind rips
+            <br />
+            through your torn jeans.
+            <br />
+            Without gloves
+            <br />
+            your fingers freeze.<div className="spacer"></div>
+            All this to get to work
+            <br />
+            before the owner
+            <br />
+            with his new car
+            <br />
+            and refreshed from the burbs.<div className="spacer"></div>
+            He comes in confident, smiling—
+            <br />
+            his daughter won the state spelling bee,
+            <br />
+            his son got into Harvard.<div className="spacer"></div>
+            You’re so happy for him
+            <br />
+            you trip over yourself
+            <br />
+            trying not to kill him,
+            <br />
+            as he closes the door
+            <br />
+            to his warm office,
+            <br />
+            and you step into
+            <br />
+            the cold work yard.<div className="spacer"></div>
+            <br />
+          </div>
+        </div>
         <p> <i>Originally published in </i>Downtown Brooklyn</p>
       </p>
     ),
@@ -158,63 +157,68 @@ export const poems = [
         <bold>
           <h6 className="text-center m-0 p-0">THE BEACH TOWEL </h6>
         </bold>
-        <div className="spacer"></div>Under this comforter my love and I rest,
-        <br />
-        beneath the comforter her brown beach towel
-        <br />
-        covering her from head to toe.
-        <br />
-        She’s slept this way for years, she says,
-        <br />
-        this Linus blanket for extra warmth
-        <br />
-        and, I suppose, for extra love.
         <div className="spacer"></div>
-        Lying beside her, I say:
-        <br />
-        “Take that damn towel off.
-        <br />
-        You’re twenty–four years old, for Christ’s sake.
-        <br />
-        You’ve got me, why do you need
-        <br />
-        that stupid towel?”<div className="spacer"></div>She keeps it on her,
-        snuggling happily.<div className="spacer"></div>I persist: “You don’t
-        need that towel.
-        <br />
-        You’ve got me. You act like a child
-        <br />
-        with that thing. C’mon, take it off.”<div className="spacer"></div>She
-        turns over, tightly clutching
-        <br />
-        her warm brown towel.<div className="spacer"></div>I try pulling it off
-        her.
-        <br />
-        She grips it tightly.
-        <br /><p>I pull <i>really</i>, <i>really</i> hard.</p>
-        <br />
-        She holds on.<div className="spacer"></div>Tired of struggling,
-        <br />I move under the towel and into her arms.
-        <br />I kiss her eyelid.
-        <br />
-        The hell with it, I think.
-        <br />
-        You’ll just share her with this stupid towel.
-        <div className="spacer"></div>I hold her close,
-        <br />
-        feeling good in her arms, in her life.
-        <br />
-        She—not where we live—
-        <br />
-        is my home, <br />
-        and I want to be with her forever.<div className="spacer"></div>Now she
-        moves deeper into our embrace,
-        <br />
-        and the brown towel, like a magic carpet, <br />
-        floats out from under the comforter
-        <br />
-        and flies away.<div className="spacer"></div>
-        <br />
+        <div className="flex justify-center">
+          <div>
+            Under this comforter my love and I rest,
+            <br />
+            beneath the comforter her brown beach towel
+            <br />
+            covering her from head to toe.
+            <br />
+            She’s slept this way for years, she says,
+            <br />
+            this Linus blanket for extra warmth
+            <br />
+            and, I suppose, for extra love.
+            <div className="spacer"></div>
+            Lying beside her, I say:
+            <br />
+            “Take that damn towel off.
+            <br />
+            You’re twenty–four years old, for Christ’s sake.
+            <br />
+            You’ve got me, why do you need
+            <br />
+            that stupid towel?”<div className="spacer"></div>She keeps it on her,
+            snuggling happily.<div className="spacer"></div>I persist: “You don’t
+            need that towel.
+            <br />
+            You’ve got me. You act like a child
+            <br />
+            with that thing. C’mon, take it off.”<div className="spacer"></div>She
+            turns over, tightly clutching
+            <br />
+            her warm brown towel.<div className="spacer"></div>I try pulling it off
+            her.
+            <br />
+            She grips it tightly.
+            <br /><p>I pull <i>really</i>, <i>really</i> hard.</p>
+            <br />
+            She holds on.<div className="spacer"></div>Tired of struggling,
+            <br />I move under the towel and into her arms.
+            <br />I kiss her eyelid.
+            <br />
+            The hell with it, I think.
+            <br />
+            You’ll just share her with this stupid towel.
+            <div className="spacer"></div>I hold her close,
+            <br />
+            feeling good in her arms, in her life.
+            <br />
+            She—not where we live—
+            <br />
+            is my home, <br />
+            and I want to be with her forever.<div className="spacer"></div>Now she
+            moves deeper into our embrace,
+            <br />
+            and the brown towel, like a magic carpet, <br />
+            floats out from under the comforter
+            <br />
+            and flies away.<div className="spacer"></div>
+            <br />
+          </div>
+        </div>
         <p><i>Originally published in </i>Orbis</p>
         <br />{" "}
       </p>
@@ -227,8 +231,7 @@ export const poems = [
     content: (
       <p>
         <semi-bold>
-          {" "}
-          <h6 className="text-center m-0 p-0">TRADITION </h6>{" "}
+          <h6 className="text-center m-0 p-0">TRADITION </h6>
         </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
@@ -346,11 +349,9 @@ export const poems = [
     content: (
       <p>
         <semi-bold>
-          {" "}
           <h6 className="text-center m-0 p-0">
-            {" "}
-            ALL–AMERICAN IRISH KID, QUEENS, NEW YORK, 1968{" "}
-          </h6>{" "}
+            ALL–AMERICAN IRISH KID, QUEENS, NEW YORK, 1968
+          </h6>
         </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
@@ -401,33 +402,37 @@ export const poems = [
     content: (
       <p>
         <semi-bold>
-          {" "}
           <h6 className="text-center m-0 p-0"> THE D TRAIN </h6>
         </semi-bold>
-        <div className="spacer"></div>Alone and depressed in my SRO room,
-        <br />I slap myself, jump up and dress,
-        <br />
-        lock the door behind me. I skip down
-        <br />
-        to the underground, where a brightly lit D train
-        <br />
-        awaits me. I sit among Tom, Dick and Harry,
-        <br />
-        among Lawanda, Sung Kim, and Juan.
-        <br />
-        Some read the papers, others department–store flyers.
-        <br />
-        Sons talk to mothers, sisters talk to cousins,
-        <br />
-        kids chase each other down the aisle. I feel good
-        <br />
-        among the many, the young, the old,
-        <br />
-        neighbors, strangers, friends, families,
-        <br />
-        all of us sharing this highway of people,
-        <br />
-        riding toward a common future.
+        <div className="spacer"></div>
+        <div className="flex justify-center">
+          <div>
+            Alone and depressed in my SRO room,
+            <br />I slap myself, jump up and dress,
+            <br />
+            lock the door behind me. I skip down
+            <br />
+            to the underground, where a brightly lit D train
+            <br />
+            awaits me. I sit among Tom, Dick and Harry,
+            <br />
+            among Lawanda, Sung Kim, and Juan.
+            <br />
+            Some read the papers, others department–store flyers.
+            <br />
+            Sons talk to mothers, sisters talk to cousins,
+            <br />
+            kids chase each other down the aisle. I feel good
+            <br />
+            among the many, the young, the old,
+            <br />
+            neighbors, strangers, friends, families,
+            <br />
+            all of us sharing this highway of people,
+            <br />
+            riding toward a common future.
+          </div>
+        </div>
       </p>
     ),
   },
@@ -441,33 +446,37 @@ export const poems = [
           <h6 className="text-center m-0 p-0">YEARNING</h6>
         </semi-bold>
         <div className="spacer"></div>
-        They lived in a crowded, single–story house,
-        <br />
-        six kids, two parents, one grandmother.
-        <br />
-        The three boys slept in one bedroom,
-        <br />
-        the three girls in another.
-        <br />
-        The parents had their room,
-        <br />
-        the grandmother the tiny basement.<div className="spacer"></div>
-        There was never a peaceful moment,
-        <br />
-        the bathroom the only refuge
-        <br />
-        before someone pounded the door,
-        <br />
-        stopping a boy’s mirrored boxing match,
-        <br />a girl’s imagined ballet. <div className="spacer"></div>
-        Thirty years later, each lives alone,
-        <br />
-        relishing the quiet, the privacy,
-        <br />
-        missing the varied human voices,
-        <br />
-        the many hearts beating as one. <div className="spacer"></div>
-        <br />
+        <div className="flex justify-center">
+          <div>
+            They lived in a crowded, single–story house,
+            <br />
+            six kids, two parents, one grandmother.
+            <br />
+            The three boys slept in one bedroom,
+            <br />
+            the three girls in another.
+            <br />
+            The parents had their room,
+            <br />
+            the grandmother the tiny basement.<div className="spacer"></div>
+            There was never a peaceful moment,
+            <br />
+            the bathroom the only refuge
+            <br />
+            before someone pounded the door,
+            <br />
+            stopping a boy’s mirrored boxing match,
+            <br />a girl’s imagined ballet. <div className="spacer"></div>
+            Thirty years later, each lives alone,
+            <br />
+            relishing the quiet, the privacy,
+            <br />
+            missing the varied human voices,
+            <br />
+            the many hearts beating as one. <div className="spacer"></div>
+            <br />
+          </div>
+        </div>
         <p>  <i>Originally published in </i>The Orlando Times{" "}</p>
       </p>
     ),
@@ -481,13 +490,17 @@ export const poems = [
           <h6 className="text-center m-0 p-0">LOVE</h6>
         </semi-bold>
         <div className="spacer"></div>
-        Two women in their twenties stroll by, <br />
-        lovers, holding hands. <div className="spacer"></div>
-        The older woman beside me
-        <br />
-        turns and says, “That’s disgusting.”<div className="spacer"></div>
-        “You’re right,” I reply. “There’s entirely <br />
-        too much love on the planet today.”
+        <div className="flex justify-center">
+          <div>
+            Two women in their twenties stroll by, <br />
+            lovers, holding hands. <div className="spacer"></div>
+            The older woman beside me
+            <br />
+            turns and says, “That’s disgusting.”<div className="spacer"></div>
+            “You’re right,” I reply. “There’s entirely <br />
+            too much love on the planet today.”
+          </div>
+        </div>
       </p>
     ),
   },
@@ -500,36 +513,40 @@ export const poems = [
           <h6 className="text-center m-0 p-0">MENSTRUATION</h6>
         </semi-bold>
         <div className="spacer"></div>
-        When he grew up,
-        <br />
-        his mother hid them from him,
-        <br />
-        her box of sanitary napkins,
-        <br />
-        the used ones he never found
-        <br />
-        in the bathroom wastebasket.<div className="spacer"></div>
-        Once he saw a pair of her “bloomers”
-        <br />
-        floating in the pail by the washing machine.
-        <br />
-        The water was pale red, and he remembers
-        <br />
-        her angry, ashamed reply when he asked why.
-        <div className="spacer"></div>
-        Now his girlfriend’s warm, rolled–up pad
-        <br />
-        stares at him from the sink ledge,
-        <br />
-        and slightly uneasy,
-        <br />
-        he barely recognizes it,
-        <br />
-        this part of life,
-        <br />
-        this most natural of things.
-        <div className="spacer"></div>
-        <br />
+        <div className="flex justify-center">
+          <div>
+            When he grew up,
+            <br />
+            his mother hid them from him,
+            <br />
+            her box of sanitary napkins,
+            <br />
+            the used ones he never found
+            <br />
+            in the bathroom wastebasket.<div className="spacer"></div>
+            Once he saw a pair of her “bloomers”
+            <br />
+            floating in the pail by the washing machine.
+            <br />
+            The water was pale red, and he remembers
+            <br />
+            her angry, ashamed reply when he asked why.
+            <div className="spacer"></div>
+            Now his girlfriend’s warm, rolled–up pad
+            <br />
+            stares at him from the sink ledge,
+            <br />
+            and slightly uneasy,
+            <br />
+            he barely recognizes it,
+            <br />
+            this part of life,
+            <br />
+            this most natural of things.
+            <div className="spacer"></div>
+            <br />
+          </div>
+        </div>
         <p>  <i>Originally published in </i>3 AM Magazine</p>
       </p>
     ),
@@ -543,29 +560,33 @@ export const poems = [
           <h6 className="text-center m-0 p-0">ST. MEL’S, SECOND GRADE</h6>
         </semi-bold>
         <div className="spacer"></div>
-        Roseanne was a short skinny girl
-        <br />
-        in my class with a lovely giggle,
-        <br />
-        and she’d giggle and smile
-        <br />
-        at just about anything.<div className="spacer"></div>
-        And old Sister Grace Geraldine
-        <br />
-        with the white whiskers
-        <br />
-        saw Roseanne giggling and smiling and laughing.
-        <div className="spacer"></div>
-        And Sister Grace marched down the aisle
-        <br />
-        between our miniature desks,
-        <br />
-        and smacked the shit out of little Roseanne.
-        <div className="spacer"></div>
-        And that wiped the smile off Roseanne’s face,
-        <br />
-        and ended her giggling and laughing too.<div className="spacer"></div>
-        <br />
+        <div className="flex justify-center">
+          <div>
+            Roseanne was a short skinny girl
+            <br />
+            in my class with a lovely giggle,
+            <br />
+            and she’d giggle and smile
+            <br />
+            at just about anything.<div className="spacer"></div>
+            And old Sister Grace Geraldine
+            <br />
+            with the white whiskers
+            <br />
+            saw Roseanne giggling and smiling and laughing.
+            <div className="spacer"></div>
+            And Sister Grace marched down the aisle
+            <br />
+            between our miniature desks,
+            <br />
+            and smacked the shit out of little Roseanne.
+            <div className="spacer"></div>
+            And that wiped the smile off Roseanne’s face,
+            <br />
+            and ended her giggling and laughing too.<div className="spacer"></div>
+            <br />
+          </div>
+        </div>
         <p><i>Originally published in </i>Windsor Review</p>
       </p>
     ),
@@ -580,7 +601,8 @@ export const poems = [
         </semi-bold>
         <div className="flex justify-center">
           <div>
-            <div className="spacer"></div>This afternoon she flashed me,
+            <div className="spacer"></div>
+            This afternoon she flashed me,
             <br />
             she who’s always been so shy,
             <br />
@@ -774,3 +796,4 @@ export const poems = [
     ),
   },
 ];
+
