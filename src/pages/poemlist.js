@@ -1,6 +1,7 @@
 import { poems } from "../poems";
 import Link from "next/link";
 import Head from 'next/head';
+import FormattedPoem from "@/components/PoemFormatter";
 
 export default function PoemList() {
   return (
@@ -12,7 +13,7 @@ export default function PoemList() {
         {poems?.map((poem, index) => {
           return (
             <Link href={`poems/${poem?.title}`} key={index} target="_blank">
-              {poem?.title}
+              <FormattedPoem content={<>{poem?.title}</>} />
             </Link>
           );
         })}
@@ -20,5 +21,3 @@ export default function PoemList() {
     </div>
   );
 }
-
-
