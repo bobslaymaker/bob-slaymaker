@@ -9,7 +9,7 @@ export default function shortStory() {
     return (
         <div className="goudy flex justify-center w-full text-[28px] md:text-[2.9vw] lg:text-[27px] p-[1em] ">
             {shortStories?.map(shortStory => {
-                if (shortStory?.title === router.query.shortstory) {
+                if (shortStory?.label === router.query.shortstory) {
                     return <div className="w-full md:w-[750px]">
                         <Head>
                             <title>{shortStory?.label}</title>

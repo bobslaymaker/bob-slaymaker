@@ -7,7 +7,7 @@ export default function shortScript() {
     const router = useRouter()
 
     return (
-        <div className="goudy flex justify-center w-full text-[28px] md:text-[2.9vw] lg:text-[27px] p-[1em] ">
+        <div className="goudy flex justify-center w-full text-[26px] md:text-[2.9vw] lg:text-[27px] p-[1em] ">
             {shortScripts?.map(shortScript => {
                 if (shortScript?.title === router.query.shortscript) {
                     return <div className="w-full md:w-[750px]">

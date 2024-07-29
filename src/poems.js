@@ -42,9 +42,11 @@ export const poems = [
             and slipping under the covers
             <br />I felt loved enough to sleep.<div className="spacer"></div>
             <br />
+            <p>
+              <i>Originally published in </i>The Christian Science Monitor
+            </p>
           </div>
         </div>
-        <p><i>Originally published in </i>The Christian Science Monitor</p>
       </p>
     ),
   },
@@ -64,7 +66,6 @@ export const poems = [
             on poems, <div className="spacer"></div>and argue <br />
             over how <div className="spacer"></div>to split <br />
             the millions.<div className="spacer"></div>
-
             <p className="text-center">***</p>
             <div className="spacer"></div>“I’m fed up
             <br />
@@ -76,17 +77,20 @@ export const poems = [
             <br />
             “O.K.,” says<div className="spacer"></div>Tom. “Then
             <br />
-            <i>I</i> get all
+            <p><i>I</i> get all</p>
             <br />
             the money.”<div className="spacer"></div>
             <br />
+            <p>
+              {" "}
+              <i>
+                Co-written by Joe Sorge<div className="spacer"></div>Originally
+                published in{" "}
+              </i>
+              Jacket
+            </p>
           </div>
         </div>
-        <p> <i>
-          Co-written by Joe Sorge<div className="spacer"></div>Originally
-          published in{" "}
-        </i>
-          Jacket</p>
       </p>
     ),
   },
@@ -143,9 +147,12 @@ export const poems = [
             <br />
             the cold work yard.<div className="spacer"></div>
             <br />
+            <p>
+              {" "}
+              <i>Originally published in </i>Downtown Brooklyn
+            </p>
           </div>
         </div>
-        <p> <i>Originally published in </i>Downtown Brooklyn</p>
       </p>
     ),
   },
@@ -180,20 +187,23 @@ export const poems = [
             <br />
             You’ve got me, why do you need
             <br />
-            that stupid towel?”<div className="spacer"></div>She keeps it on her,
-            snuggling happily.<div className="spacer"></div>I persist: “You don’t
-            need that towel.
+            that stupid towel?”<div className="spacer"></div>She keeps it on
+            her, snuggling happily.<div className="spacer"></div>I persist: “You
+            don’t need that towel.
             <br />
             You’ve got me. You act like a child
             <br />
-            with that thing. C’mon, take it off.”<div className="spacer"></div>She
-            turns over, tightly clutching
+            with that thing. C’mon, take it off.”<div className="spacer"></div>
+            She turns over, tightly clutching
             <br />
-            her warm brown towel.<div className="spacer"></div>I try pulling it off
-            her.
+            her warm brown towel.<div className="spacer"></div>I try pulling it
+            off her.
             <br />
             She grips it tightly.
-            <br /><p>I pull <i>really</i>, <i>really</i> hard.</p>
+            <br />
+            <p>
+              I pull <i>really</i>, <i>really</i> hard.
+            </p>
             <br />
             She holds on.<div className="spacer"></div>Tired of struggling,
             <br />I move under the towel and into her arms.
@@ -209,17 +219,19 @@ export const poems = [
             She—not where we live—
             <br />
             is my home, <br />
-            and I want to be with her forever.<div className="spacer"></div>Now she
-            moves deeper into our embrace,
+            and I want to be with her forever.<div className="spacer"></div>Now
+            she moves deeper into our embrace,
             <br />
             and the brown towel, like a magic carpet, <br />
             floats out from under the comforter
             <br />
             and flies away.<div className="spacer"></div>
             <br />
+            <p>
+              <i>Originally published in </i>Orbis
+            </p>
           </div>
         </div>
-        <p><i>Originally published in </i>Orbis</p>
         <br />{" "}
       </p>
     ),
@@ -335,17 +347,26 @@ export const poems = [
             he didn’t spend time with his children.
             <div className="spacer"></div>
             <br />
+            <p>
+              {" "}
+              <i>Originally published in </i>Weber Studies<i>,</i> Northwoods
+              Journal
+              <i>,</i> Street News <i>and </i>Writers Forum <br />{" "}
+            </p>
           </div>
         </div>
-        <p> <i>Originally published in </i>Weber Studies<i>,</i> Northwoods Journal
-          <i>,</i> Street News <i>and </i>Writers Forum <br />{" "}</p>
       </p>
     ),
   },
 
   {
     label: "All-American",
-    title: <p>All–American Irish Kid, <br/>&nbsp;&nbsp; Queens, New York, 1968</p>,
+    title: (
+      <p>
+        All–American Irish Kid, <br />
+        &nbsp;&nbsp; Queens, New York, 1968
+      </p>
+    ),
     content: (
       <p>
         <semi-bold>
@@ -376,7 +397,9 @@ export const poems = [
             <br />
             an all–American Irish kid
             <br />
-            <p>who watched <i>Hogan’s Heroes</i>, <i>Combat</i>,</p>
+            <p>
+              who watched <i>Hogan’s Heroes</i>, <i>Combat</i>,
+            </p>
             <br />
             other World War II shows.
             <br />
@@ -388,11 +411,16 @@ export const poems = [
             <br />
             my beautiful young mother rose,
             <br />
-            with a silent sigh switched off the radio.<div className="spacer"></div>
+            with a silent sigh switched off the radio.
+            <div className="spacer"></div>
             <br />
-          </div></div>
-        <p> <i>Originally published in </i>Home Planet News <i></i>and
-          <i /> Melic Review</p>
+            <p>
+              {" "}
+              <i>Originally published in </i>Home Planet News <i></i>and
+              <i /> Melic Review
+            </p>
+          </div>
+        </div>
       </p>
     ),
   },
@@ -475,9 +503,12 @@ export const poems = [
             <br />
             the many hearts beating as one. <div className="spacer"></div>
             <br />
+            <p>
+              {" "}
+              <i>Originally published in </i>The Orlando Times{" "}
+            </p>
           </div>
         </div>
-        <p>  <i>Originally published in </i>The Orlando Times{" "}</p>
       </p>
     ),
   },
@@ -545,9 +576,12 @@ export const poems = [
             this most natural of things.
             <div className="spacer"></div>
             <br />
+            <p>
+              {" "}
+              <i>Originally published in </i>3 AM Magazine
+            </p>
           </div>
         </div>
-        <p>  <i>Originally published in </i>3 AM Magazine</p>
       </p>
     ),
   },
@@ -583,11 +617,14 @@ export const poems = [
             <div className="spacer"></div>
             And that wiped the smile off Roseanne’s face,
             <br />
-            and ended her giggling and laughing too.<div className="spacer"></div>
+            and ended her giggling and laughing too.
+            <div className="spacer"></div>
             <br />
+            <p>
+              <i>Originally published in </i>Windsor Review
+            </p>
           </div>
         </div>
-        <p><i>Originally published in </i>Windsor Review</p>
       </p>
     ),
   },
@@ -610,7 +647,8 @@ export const poems = [
             <br />
             staring at my face, then gone,
             <br />
-            hidden beneath her sweater.<div className="spacer"></div>I just smiled.
+            hidden beneath her sweater.<div className="spacer"></div>I just
+            smiled.
             <br />
             It was the middle of the day,
             <br />
@@ -621,8 +659,12 @@ export const poems = [
             <br />
             ready to take the world by surprise.<div className="spacer"></div>
             <br />
-          </div></div>
-        <p><i>Originally published in </i>La Petite Zine <i>and</i> Forever in Love</p>
+            <p>
+              <i>Originally published in </i>La Petite Zine <i>and</i> Forever
+              in Love
+            </p>
+          </div>
+        </div>
       </p>
     ),
   },
@@ -637,8 +679,7 @@ export const poems = [
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
-            A guy coming into the bathroom, I’m going
-            out—
+            A guy coming into the bathroom, I’m going out—
             <br />
             we squeeze past each other in the doorway,
             <br />
@@ -744,10 +785,13 @@ export const poems = [
             <br />
             the anger he carries.<div className="spacer"></div>
             <br />
+            <p>
+              {" "}
+              <i>Originally published in </i>Can We Have Our Ball Back{" "}
+              <i>and </i>The Malahat Review
+            </p>
           </div>
         </div>
-        <p>  <i>Originally published in </i>Can We Have Our Ball Back <i>and </i>The
-          Malahat Review</p>
       </p>
     ),
   },
@@ -778,20 +822,25 @@ export const poems = [
             and gleefully I catch <br />
             the clear arcing stream
             <br />
-            in my mouth—<div className="spacer"></div>when my parents walk
-            in
+            in my mouth—<div className="spacer"></div>when my parents walk in
             <br />
             on that last bath <br />
             we all took together.<div className="spacer"></div>
             <br />
+            <p>
+              <i>Originally published in </i>Home Planet News
+            </p>
+            <div className="spacer"></div>
+            <p>
+              {" "}
+              <i>
+                Author’s Note: Though “The Last Bath” <br />likely couldn’t be made
+                into a short film <br />without me being imprisoned,<br /> it’s one of my
+                favorites.
+              </i>
+            </p>
           </div>
         </div>
-        <p><i>Originally published in </i>Home Planet News</p>
-        <div className="spacer"></div>
-        <p>  <i>
-          Author’s Note: Though “The Last Bath” likely couldn’t be made into a
-          short film without me being imprisoned, it’s one of my favorites.
-        </i></p>
       </p>
     ),
   },
