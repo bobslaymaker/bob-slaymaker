@@ -64,4 +64,17 @@
       padding-left: 1rem;
       text-indent: -1rem;
     }
+    .special-break-space{
+      display: none !important;
+    }
+    .special-break{
+      display: none !important;
+    }
+  }
+
+  .special-break-space{
+    display: inline-block;
+  }
+  .special-break{
+    display: block;
   }
