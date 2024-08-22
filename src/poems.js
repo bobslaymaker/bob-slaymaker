@@ -43,7 +43,7 @@ export const poems = [
             <br />I felt loved enough to sleep.<div className="spacer"></div>
             <br />
             <p>
-              <i>Originally published in </i>The Christian Science Monitor
+              <i>Originally published in The Christian Science Monitor</i>
             </p>
           </div>
         </div>
@@ -84,10 +84,10 @@ export const poems = [
             <p>
               {" "}
               <i>
-                Co-written by Joe Sorge<div className="spacer"></div>Originally
+                Co–written by Joe Sorge<div className="spacer"></div>Originally
                 published in{" "}
-              </i>
-              Jacket
+              
+              Jacket</i>
             </p>
           </div>
         </div>
@@ -149,7 +149,7 @@ export const poems = [
             <br />
             <p>
               {" "}
-              <i>Originally published in </i>Downtown Brooklyn
+              <i>Originally published in Downtown Brooklyn</i>
             </p>
           </div>
         </div>
@@ -228,7 +228,7 @@ export const poems = [
             and flies away.<div className="spacer"></div>
             <br />
             <p>
-              <i>Originally published in </i>Orbis
+              <i>Originally published in Orbis</i>
             </p>
           </div>
         </div>
@@ -349,9 +349,8 @@ export const poems = [
             <br />
             <p>
               {" "}
-              <i>Originally published in </i>Weber Studies<i>,</i> Northwoods
-              Journal
-              <i>,</i> Street News <i>and </i>Writers Forum <br />{" "}
+              <i>Originally published in Weber Studies, Northwoods
+              Journal, Street News and Writers Forum</i> <br />{" "}
             </p>
           </div>
         </div>
@@ -415,8 +414,8 @@ export const poems = [
             <br />
             <p>
               {" "}
-              <i>Originally published in </i>Home Planet News <i></i>and
-              <i /> Melic Review
+              <i>Originally published in Home Planet News and
+               Melic Review</i>
             </p>
           </div>
         </div>
@@ -504,7 +503,7 @@ export const poems = [
             <br />
             <p>
               {" "}
-              <i>Originally published in </i>The Orlando Times{" "}
+              <i>Originally published in The Orlando Times</i>{" "}
             </p>
           </div>
         </div>
@@ -577,7 +576,7 @@ export const poems = [
             <br />
             <p>
               {" "}
-              <i>Originally published in </i>3 AM Magazine
+              <i>Originally published in 3 AM Magazine</i>
             </p>
           </div>
         </div>
@@ -620,7 +619,7 @@ export const poems = [
             <div className="spacer"></div>
             <br />
             <p>
-              <i>Originally published in </i>Windsor Review
+              <i>Originally published in Windsor Review</i>
             </p>
           </div>
         </div>
@@ -659,8 +658,8 @@ export const poems = [
             ready to take the world by surprise.<div className="spacer"></div>
             <br />
             <p>
-              <i>Originally published in </i>La Petite Zine <i>and</i> Forever
-              in Love
+              <i>Originally published in La Petite Zine and Forever
+              in Love</i>
             </p>
           </div>
         </div>
@@ -740,7 +739,7 @@ export const poems = [
             <br />
             #1's been on the treadmill beyond
             <br />
-            the 30-minute limit,
+            the 30–minute limit,
             <br />
             and thinks #2’s telling him to get off,
             <br />
@@ -786,8 +785,8 @@ export const poems = [
             <br />
             <p>
               {" "}
-              <i>Originally published in </i>Can We Have Our Ball Back{" "}
-              <i>and </i>The Malahat Review
+              <i>Originally published in Can We Have Our Ball Back{" "}
+              and The Malahat Review</i>
             </p>
           </div>
         </div>
@@ -827,7 +826,7 @@ export const poems = [
             we all took together.<div className="spacer"></div>
             <br />
             <p>
-              <i>Originally published in </i>Home Planet News
+              <i>Originally published in Home Planet News</i>
             </p>
             <div className="spacer"></div>
             <p>
