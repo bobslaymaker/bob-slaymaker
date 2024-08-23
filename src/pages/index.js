@@ -38,19 +38,19 @@ export default function Home() {
       }}
     >
       <div
-        className={`text-center goudy w-[95%] text-[28px] lg:text-[2.5vw]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg} `}
+        className={`text-center goudy w-[95%] text-[25px] lg:text-[2.5vw]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg} `}
       >
         <div className="space-y-[0px]">
-          <h1 className="font-bold text-[40px] md:text-[4.5vw] pb-[5px] md:pb-[0px] hidden md:block">
+          <h1 className="font-bold text-[36px] md:text-[4.5vw] pb-[5px] md:pb-[0px] hidden md:block">
             BOB SLAYMAKER
           </h1>
           <h1
-            className="font-bold text-[40px] md:text-[4.5vw] pb-[5px] md:pb-[0px] block md:hidden"
+            className="font-bold text-[36px] md:text-[4.5vw] pb-[5px] md:pb-[0px] block md:hidden"
                       >
             BOB SLAYMAKER
           </h1>
           <h1
-            className=" text-[40px] md:text-[4.5vw] p-[0px]"
+            className=" text-[36px] md:text-[4.5vw] p-[0px]"
             style={{ fontVariant: "small-caps" }}
           >
             Writer–Filmmaker

@@ -7,7 +7,7 @@ export default function shortStory() {
     const router = useRouter()
 
     return (
-        <div className="goudy flex justify-center w-full text-[26px] md:text-[2.9vw] lg:text-[27px] p-[1em] ">
+        <div className="goudy flex justify-center w-full text-[23px] md:text-[2.9vw] lg:text-[27px] p-[1em] ">
             {shortStories?.map(shortStory => {
                 if (shortStory?.label === router.query.shortstory) {
                     return <div className="w-full md:w-[750px]">

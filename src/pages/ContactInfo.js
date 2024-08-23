@@ -9,7 +9,7 @@ export default function ContactInfo() {
             <Head>
                 <title>Contact</title>
             </Head>
-            <div className="flex flex-col tracking-wider leading-relaxed text-[26px] md:text-[2.9vw] lg:text-[27px]">
+            <div className="flex flex-col tracking-wider leading-relaxed text-[23px] md:text-[2.9vw] lg:text-[27px]">
                 <FormattedPoem content={<p>bobslaymaker at gmail dot com</p>} />
                 <FormattedPoem content={<p>+1–646–925–2509</p>} />
             </div>
