@@ -433,7 +433,7 @@ export const poems = [
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
-            Alone and depressed in my SRO room,
+            Alone and depressed in my rented room,
             <br />I slap myself, jump up and dress,
             <br />
             lock the door behind me. I skip down
