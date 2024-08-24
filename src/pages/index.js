@@ -74,7 +74,7 @@ export default function Home() {
           <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/shortscriptlist" target="_blank">
+            <Link href="/shortscriptlist" target="_blank" className="link-underline">
               Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Scripts
             </Link>
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
           <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/shortstorieslist" target="_blank">
+            <Link href="/shortstorieslist" target="_blank" className="link-underline">
               Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Stories
             </Link>
           </div>
@@ -90,7 +90,7 @@ export default function Home() {
           <div
             className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link target="_blank" href="/cv">
+            <Link target="_blank" href="/cv" className="link-underline">
               CV
             </Link>
           </div>
@@ -102,7 +102,7 @@ export default function Home() {
           <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/poemlist" target="_blank">
+            <Link href="/poemlist" target="_blank" className="link-underline"> 
               Selected <br className="hidden md:block" /> Poems
             </Link>
           </div>
@@ -111,7 +111,7 @@ export default function Home() {
           <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link target="_blank" href="/myLastFilm">
+            <Link target="_blank" href="/myLastFilm" className="link-underline">
               My Last&nbsp; <br className="hidden md:block" /> Film
             </Link>
           </div>

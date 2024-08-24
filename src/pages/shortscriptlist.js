@@ -10,7 +10,7 @@ export default function ShortScripts() {
             </Head>
             <div className="flex flex-col tracking-wider leading-relaxed text-[25px] md:text-[3vw] lg:text-[30px] 2xl:text-[2vw]">
                 {shortScripts?.map(shortScript => (
-                    <Link href={`shortscripts/${shortScript.title}`} target="_blank">
+                    <Link href={`shortscripts/${shortScript.title}`} target="_blank" className="link-underline">
                         {shortScript.title}
                     </Link>
                 ))}

@@ -78,3 +78,19 @@
   .special-break{
     display: block;
   }
+
+
+/* Initial state for the link */
+.link-underline {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: transparent;
+  /* text-decoration-thickness: 2px; */
+  transition: text-decoration-color 0.3s ease;
+}
+
+/* On hover, change the underline color */
+.link-underline:hover {
+  text-decoration-color: currentColor;
+}
+
