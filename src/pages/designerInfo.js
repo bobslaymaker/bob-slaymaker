@@ -7,7 +7,7 @@ export default function DesignerInfo() {
             <Head>
                 <title>Designer Info</title>
             </Head>
-            <div className="flex flex-col tracking-wider leading-relaxed text-[23px] md:text-[2.9vw] lg:text-[27px]">
+            <div className="flex flex-col tracking-wider leading-relaxed text-[20px] md:text-[2.9vw] lg:text-[27px]">
                 <FormattedPoem content={<p>muneebahmad1268 at gmail dot com</p>} />
                 <FormattedPoem content={<p>+92–305–656–1268</p>} />
             </div>
