@@ -7,7 +7,7 @@ export default function Poem() {
     const router = useRouter()
     return (
         <div className="goudy flex justify-center items-center p-[1em]">
-            <div className="flex flex-col tracking-wider leading-relaxed text-[20px] md:text-[2.9vw] lg:text-[27px]">
+            <div className="flex flex-col tracking-wider leading-relaxed text-[18px] md:text-[2.9vw] lg:text-[27px]">
                 {poems?.map(poem => {
                     if (poem?.label === router.query.poem) {
                         return (

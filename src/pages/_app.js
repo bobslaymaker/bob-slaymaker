@@ -1,3 +1,4 @@
+import HamburgerMenu from '@/components/HamburgerMenu'
 import '@/styles/globals.css'
 import { useEffect } from 'react'
 import { useState } from 'react'
@@ -15,6 +16,7 @@ export default function App({ Component, pageProps }) {
   }, [])
 
   return (<div className='full-height' style={{width: "100vw",}}>
+    <HamburgerMenu/>
       <Component {...pageProps}/>
   </div>
 
