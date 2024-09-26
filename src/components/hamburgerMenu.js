@@ -34,15 +34,42 @@ const HamburgerMenu = () => {
   return (
     <div className="">
       {/* Hamburger Button */}
-      <div className="flex justify-center items-center w-full shadow-md z-50 relative h-16">
-        <button
-          className="md:p-4 p-1 z-50 focus:outline-none bg-white absolute md:left-5 left-1"
-          onClick={toggleMenu}
-        >
-          {!isOpen ? <Menu size={24} /> : <X size={24} />}
-        </button>
-        <div><h1 className="text-[25px] md:text-[3vw] lg:text-[30px] 2xl:text-[2vw] goudy leading-relaxed tracking-wider py-2 uppercase">Bob Slaymaker</h1></div>
-        <div></div>
+      <div>
+        <div className="flex justify-center items-center shadow-md lg:shadow-none w-full z-50 relative h-16">
+          <button
+            className="md:p-4 p-1 z-50 focus:outline-none bg-white absolute md:left-5 left-1 lg:hidden block"
+            onClick={toggleMenu}
+          >
+            {!isOpen ? <Menu size={24} /> : <X size={24} />}
+          </button>
+          <div><h1 className="text-[25px] md:text-[3vw] lg:text-[30px] 2xl:text-[2vw] goudy leading-relaxed tracking-wider py-2 uppercase">Bob Slaymaker</h1></div>
+          <div></div>
+        </div>
+        <div className="border-t-[2px] border-[#dddddd] shadow-md lg:flex hidden justify-center items-center">
+          <div className="goudy flex justify-center items-center py-3 gap-10">
+            <Link href="/shortscriptlist" className="hover:underline">
+              Short Scripts
+            </Link>
+            <Link href="/shortstorieslist" className="hover:underline">
+              Short Stories
+            </Link>
+            <Link href="/poemlist" className="hover:underline">
+              Poems
+            </Link>
+            <Link href="/myLastFilm" className="hover:underline">
+              My Last Film
+            </Link>
+            <Link href="/cv" className="hover:underline">
+              CV
+            </Link>
+            <Link href="/" className="hover:underline">
+              Home
+            </Link>
+            <Link href="/ContactInfo" className="hover:underline">
+              Contact
+            </Link>
+          </div>
+        </div>
       </div>
 
       {/* Menu Overlay */}
