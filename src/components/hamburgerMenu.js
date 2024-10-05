@@ -78,7 +78,7 @@ const HamburgerMenu = () => {
           } w-full uppercase font-normal`}
       >
         <div className="flex flex-col justify-center h-full text-center pt-20">
-          <div className="flex flex-col items-start justify-between h-full text-[25px] md:text-[3vw] lg:text-[30px] 2xl:text-[2vw] px-16 pb-5">
+          <div className="flex flex-col items-start gap-10 h-full text-[16px] px-10 pt-10">
             <Link href="/shortscriptlist" className="hover:underline">
               Short Scripts
             </Link>

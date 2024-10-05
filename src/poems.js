@@ -4,9 +4,6 @@ export const poems = [
     title: "Appetite",
     content: (
       <p>
-        <bold>
-          <h6 className="text-center m-0 p-0"> APPETITE </h6>
-        </bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -55,9 +52,6 @@ export const poems = [
     title: "Beginning Poets",
     content: (
       <p>
-        <bold>
-          <h6 className="text-center m-0 p-0"> BEGINNING POETS </h6>
-        </bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -99,9 +93,6 @@ export const poems = [
     title: "Bad Attitude",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0"> BAD ATTITUDE </h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -161,9 +152,6 @@ export const poems = [
     title: "The Beach Towel",
     content: (
       <p>
-        <bold>
-          <h6 className="text-center m-0 p-0">THE BEACH TOWEL </h6>
-        </bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -242,9 +230,6 @@ export const poems = [
     title: "Tradition",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">TRADITION </h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -367,11 +352,6 @@ export const poems = [
     ),
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">
-            ALL–AMERICAN IRISH KID, QUEENS, NEW YORK, 1968
-          </h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -427,9 +407,6 @@ export const poems = [
     title: "The D Train",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0"> THE D TRAIN </h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -468,9 +445,6 @@ export const poems = [
     title: "Yearning",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">YEARNING</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -515,9 +489,6 @@ export const poems = [
     title: "Love",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">LOVE</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -538,9 +509,6 @@ export const poems = [
     title: "Menstruation",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">MENSTRUATION</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -588,9 +556,6 @@ export const poems = [
     title: "St. Mel’s, Second Grade",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">ST. MEL’S, SECOND GRADE</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -631,9 +596,6 @@ export const poems = [
     title: "My Wife Breaks Out",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">MY WIFE BREAKS OUT</h6>
-        </semi-bold>
         <div className="flex justify-center">
           <div>
             <div className="spacer"></div>
@@ -671,9 +633,6 @@ export const poems = [
     title: "Repulsive",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">REPULSIVE</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -713,9 +672,6 @@ export const poems = [
     title: "It’s Not Pretty",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">IT’S NOT PRETTY</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -798,9 +754,6 @@ export const poems = [
     title: "The Last Bath",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">THE LAST BATH</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>

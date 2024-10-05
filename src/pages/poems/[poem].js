@@ -15,7 +15,8 @@ export default function Poem() {
                                 <Head>
                                     <title>{poem.label}</title>
                                 </Head>
-                                <FormattedPoem content={poem.content} />
+                                <h1 className="text-[30px] md:text-[42px] text-center">{poem.title}</h1>
+                                <div className="text-[21px]"><FormattedPoem content={poem.content} /></div>
                             </div>
                         );
                     }

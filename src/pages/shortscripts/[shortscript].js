@@ -9,14 +9,14 @@ export default function shortScript() {
     return (
         <div className="goudy flex justify-center w-full text-[20px] md:text-[2.9vw] lg:text-[27px] p-[1em] ">
             {shortScripts?.map(shortScript => {
-                if (shortScript?.title === router.query.shortscript) {
+                if (shortScript?.label === router.query.shortscript) {
                     return <div className="w-full md:w-[750px]">
                         <Head>
-                <title>{shortScript.title}</title>
-            </Head>
-                        
-                        {shortScript.content}</div>
-                    
+                            <title>{shortScript.title}</title>
+                        </Head>
+                        <h1 className="text-[30px] md:text-[42px] text-center">{shortScript.title}</h1>
+                        <div className="text-[21px]">{shortScript.content}</div>
+                        </div>
                 }
             })}
         </div>

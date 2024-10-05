@@ -9,7 +9,7 @@ export default function PoemList() {
       <Head>
         <title>Poems</title>
       </Head>
-      <div className="flex flex-col tracking-wider leading-relaxed text-[25px] md:text-[3vw] lg:text-[30px] 2xl:text-[2vw] ">
+      <div className="flex flex-col tracking-wider leading-relaxed text-[30px] md:text-[36px]">
         {poems?.map((poem, index) => {
           return (
             <Link href={`poems/${poem?.label}`} key={index} target="_blank" className="link-underline">
