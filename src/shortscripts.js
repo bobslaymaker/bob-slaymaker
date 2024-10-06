@@ -1,7 +1,7 @@
 export const shortScripts = [
     {
         label: "Strangers",
-        title: "The Weaker Sex/Strangers",
+        title: "The Weaker Sex",
         content: <div  className="content">
             <p>
 
