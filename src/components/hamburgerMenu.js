@@ -42,7 +42,7 @@ const HamburgerMenu = () => {
           >
             {!isOpen ? <Menu size={24} /> : <X size={24} />}
           </button>
-          <div><h1 className="text-[25px] md:text-[3vw] lg:text-[30px] 2xl:text-[2vw] goudy leading-relaxed tracking-wider py-2 uppercase">Bob Slaymaker</h1></div>
+          <div><h1 className="text-[25px]  goudy leading-relaxed tracking-wider py-2 uppercase">Bob Slaymaker</h1></div>
           <div></div>
         </div>
         <div className="border-t-[2px] border-[#dddddd] shadow-md lg:flex hidden justify-center items-center">
@@ -79,25 +79,25 @@ const HamburgerMenu = () => {
       >
         <div className="flex flex-col justify-center h-full text-center pt-20">
           <div className="flex flex-col items-start gap-10 h-full text-[16px] px-10 pt-10">
-            <Link href="/shortscriptlist" className="hover:underline">
+            <Link onClick={()=>setIsOpen(false)} href="/shortscriptlist" className="hover:underline">
               Short Scripts
             </Link>
-            <Link href="/shortstorieslist" className="hover:underline">
+            <Link onClick={()=>setIsOpen(false)} href="/shortstorieslist" className="hover:underline">
               Short Stories
             </Link>
-            <Link href="/cv" className="hover:underline">
+            <Link onClick={()=>setIsOpen(false)} href="/cv" className="hover:underline">
               CV
             </Link>
-            <Link href="/poemlist" className="hover:underline">
+            <Link onClick={()=>setIsOpen(false)} href="/poemlist" className="hover:underline">
               Poems
             </Link>
-            <Link href="/myLastFilm" className="hover:underline">
+            <Link onClick={()=>setIsOpen(false)} href="/myLastFilm" className="hover:underline">
               Last Film
             </Link>
-            <Link href="/" className="hover:underline">
+            <Link onClick={()=>setIsOpen(false)} href="/" className="hover:underline">
               Home
             </Link>
-            <Link href="/ContactInfo" className="hover:underline">
+            <Link onClick={()=>setIsOpen(false)} href="/ContactInfo" className="hover:underline">
               Contact
             </Link>
           </div>
