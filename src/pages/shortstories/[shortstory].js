@@ -14,6 +14,7 @@ export default function shortStory() {
                         <Head>
                             <title>{shortStory?.label}</title>
                         </Head>
+                        <h6 className="text-[12px] uppercase text-center mt-10">SHORT STORIES</h6>
                         <h1 className="text-[30px] md:text-[42px] text-center">{shortStory.title}</h1>
                         <div className="text-[21px]">{shortStory.content}</div>
                     </div>

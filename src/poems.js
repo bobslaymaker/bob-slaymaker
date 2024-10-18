@@ -80,8 +80,8 @@ export const poems = [
               <i>
                 Co–written by Joe Sorge<div className="spacer"></div>Originally
                 published in{" "}
-              
-              Jacket</i>
+
+                Jacket</i>
             </p>
           </div>
         </div>
@@ -335,7 +335,7 @@ export const poems = [
             <p>
               {" "}
               <i>Originally published in Weber Studies, Northwoods
-              Journal, Street News and Writers Forum</i> <br />{" "}
+                Journal, Street News and Writers Forum</i> <br />{" "}
             </p>
           </div>
         </div>
@@ -346,8 +346,8 @@ export const poems = [
   {
     label: "All-American",
     title: (
-      <p className="poem-line">
-        All–American Irish Kid,<br className="special-break" /> <span className="special-break-space">&nbsp;&nbsp;</span> Queens, New York, 1968
+      <p >
+        All–American Irish Kid, Queens, New York, 1968
       </p>
     ),
     content: (
@@ -395,7 +395,7 @@ export const poems = [
             <p>
               {" "}
               <i>Originally published in Home Planet News and
-               Melic Review</i>
+                Melic Review</i>
             </p>
           </div>
         </div>
@@ -621,7 +621,7 @@ export const poems = [
             <br />
             <p>
               <i>Originally published in La Petite Zine and Forever
-              in Love</i>
+                in Love</i>
             </p>
           </div>
         </div>
@@ -742,7 +742,7 @@ export const poems = [
             <p>
               {" "}
               <i>Originally published in Can We Have Our Ball Back{" "}
-              and The Malahat Review</i>
+                and The Malahat Review</i>
             </p>
           </div>
         </div>
