@@ -40,7 +40,7 @@ export const poems = [
             <br />I felt loved enough to sleep.<div className="spacer"></div>
             <br />
             <p>
-              <i>Originally published in The Christian Science Monitor</i>
+              <i>Originally published in The Christian Science  <br />Monitor</i>
             </p>
           </div>
         </div>
@@ -78,8 +78,8 @@ export const poems = [
             <p>
               {" "}
               <i>
-                Co–written by Joe Sorge<div className="spacer"></div>Originally
-                published in{" "}
+                Co–written <br />by Joe Sorge<div className="spacer"></div>Originally<br />
+                published in  <br />{" "}
 
                 Jacket</i>
             </p>
@@ -140,7 +140,7 @@ export const poems = [
             <br />
             <p>
               {" "}
-              <i>Originally published in Downtown Brooklyn</i>
+              <i>Originally published in Downtown <br /> Brooklyn</i>
             </p>
           </div>
         </div>
@@ -334,7 +334,7 @@ export const poems = [
             <br />
             <p>
               {" "}
-              <i>Originally published in Weber Studies, Northwoods
+              <i>Originally published in Weber Studies, Northwoods<br /> 
                 Journal, Street News and Writers Forum</i> <br />{" "}
             </p>
           </div>
@@ -347,7 +347,7 @@ export const poems = [
     label: "All-American",
     title: (
       <p >
-        All–American Irish Kid, Queens, New York, 1968
+        All–American Irish Kid, <br />Queens, New York, 1968
       </p>
     ),
     content: (
@@ -394,7 +394,7 @@ export const poems = [
             <br />
             <p>
               {" "}
-              <i>Originally published in Home Planet News and
+              <i>Originally published in Home Planet News and <br />
                 Melic Review</i>
             </p>
           </div>
@@ -620,7 +620,7 @@ export const poems = [
             ready to take the world by surprise.<div className="spacer"></div>
             <br />
             <p>
-              <i>Originally published in La Petite Zine and Forever
+              <i>Originally published in La Petite Zine<br /> and Forever
                 in Love</i>
             </p>
           </div>
@@ -644,24 +644,14 @@ export const poems = [
             <br />
             the bully in me, shaped by a trillion superficial images,
             <br />
-            deems him repulsive;
-            <br />
-            his shirt’s untucked, his hair’s a bit mussed;
+            deems him repulsive; his shirt’s untucked, his hair’s a bit mussed;
             <br />I get the impulse to pounce on him, shove him into a corner,
             <br />
-            call him a scumbag, see what he’ll do;
-            <br />
-            his face is pockmarked, scarred during teenage years;
-            <br />
-            his body’s small and slight, and though I smile and he smiles back,
-            <br />
-            I realize it could take years to rid yourself of these thoughts,
-            <br />
-            it could take years and years,
-            <br />
-            years and years,
-            <br />
-            years and years to get clean.
+            call him a scumbag, see what he’ll do; his face is pockmarked, <br />
+            scarred during teenage years; his body’s small and slight,<br />
+            and though I smile and he smiles back, I realize it could take years
+            <br />to rid yourself of these thoughts, it could take years and years,<br />
+            years and years, years and years to get clean.
           </div>
         </div>
       </p>
@@ -741,7 +731,7 @@ export const poems = [
             <br />
             <p>
               {" "}
-              <i>Originally published in Can We Have Our Ball Back{" "}
+              <i>Originally published in Can We Have Our Ball<br /> Back{" "}
                 and The Malahat Review</i>
             </p>
           </div>
@@ -779,14 +769,14 @@ export const poems = [
             we all took together.<div className="spacer"></div>
             <br />
             <p>
-              <i>Originally published in Home Planet News</i>
+              <i>Originally published in Home <br /> Planet News</i>
             </p>
             <div className="spacer"></div>
             <p>
               {" "}
               <i>
-                Author’s Note: Though “The Last Bath” <br />likely couldn’t be made
-                into a short film <br />without me being imprisoned,<br /> it’s one of my
+                Author’s Note: Though “The Last <br />Bath” likely couldn’t be made
+                into<br /> a short film without me being <br />imprisoned, it’s one of my
                 favorites.
               </i>
             </p>
