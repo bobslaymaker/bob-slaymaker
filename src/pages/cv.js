@@ -2,15 +2,13 @@ import React from 'react'
 import Head from 'next/head';
 const CV = () => {
     return (
-        <div className="goudy flex justify-center w-full text-[20px] md:text-[2.9vw] lg:text-[27px] p-[1em]">
+        <div className="goudy flex justify-center w-full text-[21px]">
             <Head>
                 <title>CV</title>
             </Head>
             <div className='w-full md:w-[750px]'>
-                <h1 className='text-center'>Bob Slaymaker </h1>
-                <h1 className='text-center'>(646) 925–2509 </h1>
-                <h1 className='text-center'>bobslaymaker at gmail dot com </h1>
-                <div className="spacer"></div>
+            <h6 className="goudy text-[36px] uppercase text-center mt-10"><b/>CV/CURRICULUM VITAE<b/></h6>
+                     <div className="spacer"></div>
                 <u>EDUCATION</u>
                 <div className="spacer"></div>
                 MFA film program, NYU, 1990–92.
