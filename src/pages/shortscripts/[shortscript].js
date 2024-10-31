@@ -14,8 +14,8 @@ export default function shortScript() {
                         <Head>
                             <title>{shortScript.title}</title>
                         </Head>
-                        <h6 className="text-[12px] uppercase text-center mt-10">SHORT SCRIPTS</h6>
-                        <h1 className="text-[30px] md:text-[42px] text-center">{shortScript.title}</h1>
+                        <h6 className="text-[12px] uppercase text-center mt-5">SHORT SCRIPTS</h6>
+                        <h1 className="text-[30px] md:text-[42px] text-center mt-5">{shortScript.title}</h1>
                         <div className="text-[21px]">{shortScript.content}</div>
                         </div>
                 }
