@@ -341,7 +341,7 @@ export const poems = [
     ),
     credits: <p>
       {" "}
-      <i>Originally published in Weber Studies, Northwoods Journal, Street News <br />and Writers Forum.</i> <br />{" "}
+      <i>Originally published in Weber Studies, Northwoods Journal, Street News and Writers Forum.</i> <br />{" "}
     </p>
   },
 
