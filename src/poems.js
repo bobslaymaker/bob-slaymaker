@@ -39,13 +39,13 @@ export const poems = [
             and slipping under the covers
             <br />I felt loved enough to sleep.<div className="spacer"></div>
             <br />
-            <p>
-              <i>Originally published in The Christian Science  <br />Monitor</i>
-            </p>
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      <i>Originally published in The Christian Science Monitor.</i>
+    </p>
   },
   {
     label: "Beginning Poets",
@@ -75,18 +75,18 @@ export const poems = [
             <br />
             the money.”<div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>
-                Co–written <br />by Joe Sorge<div className="spacer"></div>Originally<br />
-                published in  <br />{" "}
 
-                Jacket</i>
-            </p>
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>
+        Co–written by Joe Sorge. Originally published in{" "}
+
+        Jacket.</i>
+    </p>
   },
   {
     label: "Bad Attitude",
@@ -138,14 +138,15 @@ export const poems = [
             <br />
             the cold work yard.<div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in Downtown <br /> Brooklyn</i>
-            </p>
+
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in Downtown Brooklyn.</i>
+    </p>
   },
   {
     label: "Beach Towel",
@@ -215,14 +216,15 @@ export const poems = [
             <br />
             and flies away.<div className="spacer"></div>
             <br />
-            <p>
-              <i>Originally published in Orbis</i>
-            </p>
+
           </div>
         </div>
-        <br />{" "}
+       
       </p>
     ),
+    credits: <p>
+      <i>Originally published in Orbis.</i>
+    </p>
   },
 
   {
@@ -332,15 +334,15 @@ export const poems = [
             he didn’t spend time with his children.
             <div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in Weber Studies, Northwoods<br /> 
-                Journal, Street News and Writers Forum</i> <br />{" "}
-            </p>
+
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in Weber Studies, Northwoods Journal, Street News <br />and Writers Forum.</i> <br />{" "}
+    </p>
   },
 
   {
@@ -392,15 +394,15 @@ export const poems = [
             with a silent sigh switched off the radio.
             <div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in Home Planet News and <br />
-                Melic Review</i>
-            </p>
+
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in Home Planet News and Melic Review.</i>
+    </p>
   },
   {
     label: "D Train",
@@ -475,14 +477,15 @@ export const poems = [
             <br />
             the many hearts beating as one. <div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in The Orlando Times</i>{" "}
-            </p>
+
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in The Orlando Times.</i>{" "}
+    </p>
   },
   {
     label: "Love",
@@ -503,6 +506,7 @@ export const poems = [
         </div>
       </p>
     ),
+    credits: <></>
   },
   {
     label: "Menstruation",
@@ -542,14 +546,14 @@ export const poems = [
             this most natural of things.
             <div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in 3 AM Magazine</i>
-            </p>
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in 3 AM Magazine.</i>
+    </p>
   },
   {
     label: "St. Mel's",
@@ -583,13 +587,13 @@ export const poems = [
             and ended her giggling and laughing too.
             <div className="spacer"></div>
             <br />
-            <p>
-              <i>Originally published in Windsor Review</i>
-            </p>
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      <i>Originally published in Windsor Review.</i>
+    </p>
   },
   {
     label: "My Wife",
@@ -619,14 +623,14 @@ export const poems = [
             <br />
             ready to take the world by surprise.<div className="spacer"></div>
             <br />
-            <p>
-              <i>Originally published in La Petite Zine<br /> and Forever
-                in Love</i>
-            </p>
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      <i>Originally published in La Petite Zine and Forever
+        in Love.</i>
+    </p>
   },
   {
     label: "Repulsive",
@@ -656,6 +660,7 @@ export const poems = [
         </div>
       </p>
     ),
+    credits: <></>
   },
   {
     label: "Not Pretty",
@@ -729,15 +734,15 @@ export const poems = [
             <br />
             the anger he carries.<div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in Can We Have Our Ball<br /> Back{" "}
-                and The Malahat Review</i>
-            </p>
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in Can We Have Our Ball Back{" "}
+        and The Malahat Review.</i>
+    </p>
   },
   {
     label: "Last Bath",
@@ -768,21 +773,14 @@ export const poems = [
             on that last bath <br />
             we all took together.<div className="spacer"></div>
             <br />
-            <p>
-              <i>Originally published in Home <br /> Planet News</i>
-            </p>
-            <div className="spacer"></div>
-            <p>
-              {" "}
-              <i>
-                Author’s Note: Though “The Last <br />Bath” likely couldn’t be made
-                into<br /> a short film without me being <br />imprisoned, it’s one of my
-                favorites.
-              </i>
-            </p>
           </div>
         </div>
       </p>
     ),
-  },
+    credits: <p>
+      {" "}
+      <i>Originally published in Home Planet News.<div className="spacer"></div>
+      Author’s Note: Though “The Last Bath” likely couldn’t be made into a short film without me being imprisoned, it’s one of my favorites.{" "}</i>
+    </p>
+      },
 ];

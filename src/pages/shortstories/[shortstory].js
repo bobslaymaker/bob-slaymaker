@@ -1,4 +1,5 @@
 
+
 import { useRouter } from "next/router"
 import ShortStories from "../shortstorieslist"
 import { shortStories } from "@/shortstories"
@@ -18,6 +19,7 @@ export default function shortStory() {
                         <h6 className="text-[12px] uppercase text-center mt-5">SHORT STORIES</h6>
                         <h1 className="text-[30px] md:text-[42px] text-center mt-5">{shortStory.title}</h1>
                         <div className="text-[21px]">{shortStory.content}</div>
+                        <div className="text-[21px] mt-4">{shortStory.credits}</div>
                     </div>
                 }
             })}

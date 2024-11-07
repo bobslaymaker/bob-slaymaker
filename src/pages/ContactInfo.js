@@ -10,7 +10,7 @@ export default function ContactInfo() {
                 <title>Contact</title>
             </Head>
             <div className="flex flex-col tracking-wider leading-relaxed text-[21px]">
-                <FormattedPoem content={<p>bobslaymaker at gmail dot com</p>} />
+                <FormattedPoem content={<p>bob@manyhandsllc dot us</p>} />
                 <FormattedPoem content={<p>+1–646–925–2509</p>} />
             </div>
         </div>
