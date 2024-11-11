@@ -11,11 +11,11 @@ export default function PoemList() {
         <Head>
           <title>Poems</title>
         </Head>
-        <div className="flex flex-col tracking-wider leading-relaxed text-[26px] md:text-[26px]">
+        <div className="flex flex-col tracking-wider leading-relaxed text-[26px] md:text-[26px] gap-5">
           {poems?.map((poem, index) => {
             return (
               <Link href={`poems/${poem?.label}`} key={index} target="_blank" className="link-underline">
-                <FormattedPoem content={<>{poem?.title}</>} />
+                 <div className="leading-tight">{poem?.title}</div>
               </Link>
             );
           })}

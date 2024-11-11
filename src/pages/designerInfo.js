@@ -8,8 +8,10 @@ export default function DesignerInfo() {
                 <title>Designer Info</title>
             </Head>
             <div className="flex flex-col tracking-wider leading-relaxed text-[21px]">
-                <FormattedPoem content={<p>muneebahmad1268 at gmail dot com</p>} />
-                <FormattedPoem content={<p>+92–305–656–1268</p>} />
+                <h1 className="text-[32px] text-center my-5">WEB DESIGN</h1>
+                <FormattedPoem content={<p className='text-[21px]'>Muneeb Ahmad</p>} />
+                <FormattedPoem content={<p className='text-[21px]'>muneebahmad1268@gmail.com</p>} />
+                <FormattedPoem content={<p className='text-[21px]'>+92–305–656–1268</p>} />
             </div>
         </div>
     )

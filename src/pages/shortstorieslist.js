@@ -11,11 +11,11 @@ export default function ShortStories() {
                 <Head>
                     <title>Stories</title>
                 </Head>
-                <div className="flex flex-col tracking-wider leading-relaxed text-[26px] md:text-[26px] ">
+                <div className="flex flex-col tracking-wider leading-relaxed text-[26px] md:text-[26px] gap-3 ">
                     {shortStories?.map(shortStory => {
                         return (
                             <Link href={`shortstories/${shortStory?.label}`} target="_blank" className="link-underline">
-                                <FormattedPoem content={<>{shortStory?.title}</>} />
+                                <div className="leading-tight">{shortStory?.title}</div>
                             </Link>
                         )
                     })}
@@ -24,5 +24,3 @@ export default function ShortStories() {
         </div>
     )
 }
-
-
