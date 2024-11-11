@@ -349,7 +349,7 @@ export const poems = [
     label: "All-American",
     title: (
       <p >
-        All–American Irish Kid, <br />Queens, New York, 1968
+        All–American Irish Kid, Queens, New York, 1968
       </p>
     ),
     content: (
