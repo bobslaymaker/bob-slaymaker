@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head';
 const CV = () => {
     return (
-        <div className="goudy flex justify-center w-full text-[21px]">
+        <div className="goudy flex justify-center w-full text-[21px] p-[1em]">
             <Head>
                 <title>CV</title>
             </Head>

@@ -31,7 +31,7 @@ export const shortScripts = [
 
     {
         label: "Warriors",
-        title: "WARRIORS",
+        title: "Warriors",
         content: <div className="content">
             <p>
 
