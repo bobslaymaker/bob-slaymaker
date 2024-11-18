@@ -5,18 +5,21 @@ import FormattedPoem from "@/components/PoemFormatter";
 
 export default function ShortStories() {
     return (
-        <div className="goudy flex justify-center items-center p-[1em]">
-            <Head>
-                <title>Stories</title>
-            </Head>
-            <div className="flex flex-col tracking-wider leading-relaxed text-[25px] md:text-[3vw] lg:text-[30px] 2xl:text-[2vw] ">
-                {shortStories?.map(shortStory => {
-                    return (
-                        <Link href={`shortstories/${shortStory?.label}`} target="_blank" className="link-underline">
-                            <FormattedPoem content={<>{shortStory?.title}</>} />
-                        </Link>
-                    )
-                })}
+        <div>
+            <h6 className="goudy text-[32px] uppercase text-center mt-10"><b/>SHORT STORIES<b/></h6>
+            <div className="goudy flex justify-center items-center p-[1em]">
+                <Head>
+                    <title>Stories</title>
+                </Head>
+                <div className="flex flex-col tracking-wider leading-relaxed text-[26px] md:text-[26px] gap-3 ">
+                    {shortStories?.map(shortStory => {
+                        return (
+                            <Link href={`shortstories/${shortStory?.label}`} target="_blank" className="link-underline">
+                                <div className="leading-tight">{shortStory?.title}</div>
+                            </Link>
+                        )
+                    })}
+                </div>
             </div>
         </div>
     )

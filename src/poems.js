@@ -4,9 +4,6 @@ export const poems = [
     title: "Appetite",
     content: (
       <p>
-        <bold>
-          <h6 className="text-center m-0 p-0"> APPETITE </h6>
-        </bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -42,22 +39,19 @@ export const poems = [
             and slipping under the covers
             <br />I felt loved enough to sleep.<div className="spacer"></div>
             <br />
-            <p>
-              <i>Originally published in The Christian Science Monitor</i>
-            </p>
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      <i>Originally published in The Christian Science Monitor.</i>
+    </p>
   },
   {
     label: "Beginning Poets",
     title: "Beginning Poets",
     content: (
       <p>
-        <bold>
-          <h6 className="text-center m-0 p-0"> BEGINNING POETS </h6>
-        </bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -81,27 +75,24 @@ export const poems = [
             <br />
             the money.”<div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>
-                Co–written by Joe Sorge<div className="spacer"></div>Originally
-                published in{" "}
-              
-              Jacket</i>
-            </p>
+
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>
+        Co–written by Joe Sorge. Originally published in{" "}
+
+        Jacket.</i>
+    </p>
   },
   {
     label: "Bad Attitude",
     title: "Bad Attitude",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0"> BAD ATTITUDE </h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -147,23 +138,21 @@ export const poems = [
             <br />
             the cold work yard.<div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in Downtown Brooklyn</i>
-            </p>
+
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in Downtown Brooklyn.</i>
+    </p>
   },
   {
     label: "Beach Towel",
     title: "The Beach Towel",
     content: (
       <p>
-        <bold>
-          <h6 className="text-center m-0 p-0">THE BEACH TOWEL </h6>
-        </bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -227,14 +216,15 @@ export const poems = [
             <br />
             and flies away.<div className="spacer"></div>
             <br />
-            <p>
-              <i>Originally published in Orbis</i>
-            </p>
+
           </div>
         </div>
-        <br />{" "}
+       
       </p>
     ),
+    credits: <p>
+      <i>Originally published in Orbis.</i>
+    </p>
   },
 
   {
@@ -242,9 +232,6 @@ export const poems = [
     title: "Tradition",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">TRADITION </h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -347,31 +334,26 @@ export const poems = [
             he didn’t spend time with his children.
             <div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in Weber Studies, Northwoods
-              Journal, Street News and Writers Forum</i> <br />{" "}
-            </p>
+
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in Weber Studies, Northwoods Journal, Street News and Writers Forum.</i> <br />{" "}
+    </p>
   },
 
   {
     label: "All-American",
     title: (
-      <p className="poem-line">
-        All–American Irish Kid,<br className="special-break" /> <span className="special-break-space">&nbsp;&nbsp;</span> Queens, New York, 1968
+      <p >
+        All–American Irish Kid, Queens, New York, 1968
       </p>
     ),
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">
-            ALL–AMERICAN IRISH KID, QUEENS, NEW YORK, 1968
-          </h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -412,24 +394,21 @@ export const poems = [
             with a silent sigh switched off the radio.
             <div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in Home Planet News and
-               Melic Review</i>
-            </p>
+
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in Home Planet News and Melic Review.</i>
+    </p>
   },
   {
     label: "D Train",
     title: "The D Train",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0"> THE D TRAIN </h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -468,9 +447,6 @@ export const poems = [
     title: "Yearning",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">YEARNING</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -501,23 +477,21 @@ export const poems = [
             <br />
             the many hearts beating as one. <div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in The Orlando Times</i>{" "}
-            </p>
+
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in The Orlando Times.</i>{" "}
+    </p>
   },
   {
     label: "Love",
     title: "Love",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">LOVE</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -532,15 +506,13 @@ export const poems = [
         </div>
       </p>
     ),
+    credits: <></>
   },
   {
     label: "Menstruation",
     title: "Menstruation",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">MENSTRUATION</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -574,23 +546,20 @@ export const poems = [
             this most natural of things.
             <div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in 3 AM Magazine</i>
-            </p>
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in 3 AM Magazine.</i>
+    </p>
   },
   {
     label: "St. Mel's",
     title: "St. Mel’s, Second Grade",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">ST. MEL’S, SECOND GRADE</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -618,22 +587,19 @@ export const poems = [
             and ended her giggling and laughing too.
             <div className="spacer"></div>
             <br />
-            <p>
-              <i>Originally published in Windsor Review</i>
-            </p>
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      <i>Originally published in Windsor Review.</i>
+    </p>
   },
   {
     label: "My Wife",
     title: "My Wife Breaks Out",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">MY WIFE BREAKS OUT</h6>
-        </semi-bold>
         <div className="flex justify-center">
           <div>
             <div className="spacer"></div>
@@ -657,23 +623,20 @@ export const poems = [
             <br />
             ready to take the world by surprise.<div className="spacer"></div>
             <br />
-            <p>
-              <i>Originally published in La Petite Zine and Forever
-              in Love</i>
-            </p>
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      <i>Originally published in La Petite Zine and Forever
+        in Love.</i>
+    </p>
   },
   {
     label: "Repulsive",
     title: "Repulsive",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">REPULSIVE</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -685,37 +648,25 @@ export const poems = [
             <br />
             the bully in me, shaped by a trillion superficial images,
             <br />
-            deems him repulsive;
-            <br />
-            his shirt’s untucked, his hair’s a bit mussed;
+            deems him repulsive; his shirt’s untucked, his hair’s a bit mussed;
             <br />I get the impulse to pounce on him, shove him into a corner,
             <br />
-            call him a scumbag, see what he’ll do;
-            <br />
-            his face is pockmarked, scarred during teenage years;
-            <br />
-            his body’s small and slight, and though I smile and he smiles back,
-            <br />
-            I realize it could take years to rid yourself of these thoughts,
-            <br />
-            it could take years and years,
-            <br />
-            years and years,
-            <br />
-            years and years to get clean.
+            call him a scumbag, see what he’ll do; his face is pockmarked, <br />
+            scarred during teenage years; his body’s small and slight,<br />
+            and though I smile and he smiles back, I realize it could take years
+            <br />to rid yourself of these thoughts, it could take years and years,<br />
+            years and years, years and years to get clean.
           </div>
         </div>
       </p>
     ),
+    credits: <></>
   },
   {
     label: "Not Pretty",
     title: "It’s Not Pretty",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">IT’S NOT PRETTY</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -783,24 +734,21 @@ export const poems = [
             <br />
             the anger he carries.<div className="spacer"></div>
             <br />
-            <p>
-              {" "}
-              <i>Originally published in Can We Have Our Ball Back{" "}
-              and The Malahat Review</i>
-            </p>
           </div>
         </div>
       </p>
     ),
+    credits: <p>
+      {" "}
+      <i>Originally published in Can We Have Our Ball Back{" "}
+        and The Malahat Review.</i>
+    </p>
   },
   {
     label: "Last Bath",
     title: "The Last Bath",
     content: (
       <p>
-        <semi-bold>
-          <h6 className="text-center m-0 p-0">THE LAST BATH</h6>
-        </semi-bold>
         <div className="spacer"></div>
         <div className="flex justify-center">
           <div>
@@ -825,21 +773,14 @@ export const poems = [
             on that last bath <br />
             we all took together.<div className="spacer"></div>
             <br />
-            <p>
-              <i>Originally published in Home Planet News</i>
-            </p>
-            <div className="spacer"></div>
-            <p>
-              {" "}
-              <i>
-                Author’s Note: Though “The Last Bath” <br />likely couldn’t be made
-                into a short film <br />without me being imprisoned,<br /> it’s one of my
-                favorites.
-              </i>
-            </p>
           </div>
         </div>
       </p>
     ),
-  },
+    credits: <p>
+      {" "}
+      <i>Originally published in Home Planet News.<div className="spacer"></div>
+      Author’s Note: Though “The Last Bath” likely couldn’t be made into a short film without me being imprisoned, it’s one of my favorites.{" "}</i>
+    </p>
+      },
 ];

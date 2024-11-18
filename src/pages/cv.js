@@ -2,14 +2,12 @@ import React from 'react'
 import Head from 'next/head';
 const CV = () => {
     return (
-        <div className="goudy flex justify-center w-full text-[20px] md:text-[2.9vw] lg:text-[27px] p-[1em]">
+        <div className="goudy flex justify-center w-full text-[21px] p-[1em]">
             <Head>
                 <title>CV</title>
             </Head>
             <div className='w-full md:w-[750px]'>
-                <h1 className='text-center'>Bob Slaymaker </h1>
-                <h1 className='text-center'>(646) 925–2509 </h1>
-                <h1 className='text-center'>bobslaymaker at gmail dot com </h1>
+            <h6 className="goudy text-[32px] uppercase text-center mt-10"><b/>Bob’s CV<b/></h6>
                 <div className="spacer"></div>
                 <u>EDUCATION</u>
                 <div className="spacer"></div>
@@ -50,7 +48,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 <u>SHORT FILMS WRITTEN, PRODUCED AND DIRECTED</u>
                 <div className="spacer"></div>
-                “Graduation Day,” 2014.
+                “Graduation Day,” 2007.
                 <div className="spacer"></div>
                 “The Corner,” MFA film program, NYU, 1992.
                 <div className="spacer"></div>
