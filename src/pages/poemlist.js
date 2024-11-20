@@ -7,7 +7,11 @@ export default function PoemList() {
   return (
     <div>
       <h6 className="goudy text-[32px] uppercase text-center mt-10"><b/>POEMS<b/></h6>
-      <div className="goudy flex justify-center items-center p-[1em]">
+      <h6 className="goudy text-[21px] text-center mx-3 bg-transparent mt-10 sm:hidden block">
+        <span className="bg-yellow-200 px-1">
+          (For author’s line breaks on phone, rotate phone to landscape view)
+        </span>
+      </h6>      <div className="goudy flex justify-center items-center p-[1em]">
         <Head>
           <title>Poems</title>
         </Head>

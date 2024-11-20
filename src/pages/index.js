@@ -123,21 +123,39 @@ export default function Home() {
 
           {/* adjust the value of px in top-[px] to change the height between links and the credit */}
         </div>
-        <div
-          className="hidden md:block text-[0.4em] flex justify-end credit-parent pt-5"
-        >
-          <p className="text-center">Copyright © 1987–2024 <Link href="/ContactInfo" className="underline" target="_blank"> Bob Slaymaker </Link></p>
-          <div className="h-2"></div>
-          <p className="text-center">Design by <Link href="/designerInfo" className="underline" target="_blank"> Muneeb Ahmad</Link></p>
+        <div className="pt-5 text-[0.4em] flex justify-center credit-parent hidden md:flex">
+          <div className="text-center">
+            <p>
+              Copyright © 1987-2024{" "}
+              <Link href="/ContactInfo" className="underline" target="_blank">
+                Bob Slaymaker
+              </Link>
+            </p>
+            <p>
+              Design by{" "}
+              <Link href="/designerInfo" className="underline" target="_blank">
+                Muneeb Ahmad
+              </Link>
+            </p>
+          </div>
+        </div>
+        <div className="pt-[50px] text-[0.6em] goudy md:hidden">
+          <div className="text-center">
+            <p>
+              Copyright © 1987-2024{" "}
+              <Link href="/ContactInfo" className="underline" target="_blank">
+                Bob Slaymaker
+              </Link>
+            </p>
+            <p>
+              Design by{" "}
+              <Link href="/designerInfo" className="underline" target="_blank">
+                Muneeb Ahmad
+              </Link>
+            </p>
+          </div>
         </div>
 
-        <div
-          className="goudy md:hidden text-[0.5em] pt-[60px]"
-        >
-          <p className="text-center">Copyright © 1987–2024 <Link href="/ContactInfo" className="underline" target="_blank"> Bob Slaymaker </Link></p>
-          <div className="h-2"></div>
-          <p className="text-center">Design by <Link href="/designerInfo" className="underline" target="_blank"> Muneeb Ahmad</Link></p>
-        </div>
       </div>
     </div>
   );
