@@ -12,7 +12,7 @@ export const shortStories = [
         </span></p>
         </div>,
         credits: <>
-            <i>Story by Rochelle Y, Screenplay by Bob Slaymaker. Originally published in Catalyst.</i></>
+            <i>Co–written by Rochelle. Originally published in Catalyst.</i></>
     },
     {
         label: "Lotto",
