@@ -7,7 +7,7 @@ const MyLastFilm = () => {
       <Head>
         <title>Last Film</title>
       </Head>
-      <div className="relative w-[90%] md:w-[70%] h-[60vw] md:h-[35vw]">
+      <div className="relative w-[90%] md:w-[70%] h-[60vw] md:h-[35vw] z-0">
         <iframe
           src="https://drive.google.com/file/d/1l7oWpp_HxLOXfmrzxesJE6Xlc-W3t3M-/preview?rm=1"
           className='w-full h-full'

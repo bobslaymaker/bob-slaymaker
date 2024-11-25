@@ -7,7 +7,7 @@ const CV = () => {
                 <title>CV</title>
             </Head>
             <div className='w-full md:w-[750px]'>
-            <h6 className="goudy text-[32px] uppercase text-center mt-10"><b/>Bob’s CV<b/></h6>
+            <h6 className="goudy text-[32px] uppercase text-center mt-10"><b/>xxxBob’s CV<b/></h6>
                 <div className="spacer"></div>
                 <u>EDUCATION</u>
                 <div className="spacer"></div>

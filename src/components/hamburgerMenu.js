@@ -41,7 +41,7 @@ const HamburgerMenu = () => {
     <div className="relative top-0">
       {/* Hamburger Button */}
       <div>
-        <div className="flex justify-center items-center shadow-md lg:shadow-none w-full z-50 relative h-16">
+        <div className="flex justify-center items-center shadow-md lg:shadow-none w-full z-[51] relative h-16">
           <button
             className="md:p-4 p-1 focus:outline-none bg-white absolute md:left-5 left-1 lg:hidden block"
             onClick={toggleMenu}
