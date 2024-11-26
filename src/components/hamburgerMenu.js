@@ -80,7 +80,7 @@ const HamburgerMenu = () => {
 
       {/* Menu Overlay */}
       <div
-        className={`fixed top-0 goudy left-0 shadow-2xl h-screen overflow-auto bg-white transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "-translate-x-full"
+        className={`fixed top-0 goudy left-0 shadow-2xl h-screen overflow-auto bg-white transition-transform duration-300 ease-in-out z-[50] ${isOpen ? "translate-x-0" : "-translate-x-full"
           } w-full uppercase font-normal`}
       >
         <div className="flex flex-col justify-center h-full text-center pt-20 overflow-hidden">
@@ -106,6 +106,8 @@ const HamburgerMenu = () => {
             <Link onClick={() => setIsOpen(false)} href="/ContactInfo" className="hover:underline">
               Contact
             </Link>
+            <div onClick={() => { }} className="hover:underline">
+            </div>
           </div>
         </div>
       </div>
