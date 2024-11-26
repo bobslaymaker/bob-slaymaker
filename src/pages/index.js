@@ -139,7 +139,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="pt-[50px] text-[0.8em] goudy md:hidden">
+        <div className="pt-[50px] text-[1.2em] goudy md:hidden">
           <div className="text-center">
             <p>
               Copyright © 1987-2024{" "}
