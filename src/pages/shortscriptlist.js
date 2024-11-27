@@ -6,7 +6,7 @@ export default function ShortScripts() {
     return (
         <div>
             <h6 className="goudy text-[32px] uppercase text-center mt-10"><b/>SHORT SCRIPTS<b/></h6>
-            <div className="goudy flex justify-center items-center p-[1em]">
+            <div className="goudy flex justify-start sm:justify-center items-center p-[1em]">
                 <Head>
                     <title>Scripts</title>
                 </Head>
