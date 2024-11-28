@@ -123,23 +123,7 @@ export default function Home() {
 
           {/* adjust the value of px in top-[px] to change the height between links and the credit */}
         </div>
-        <div className="pt-5 text-[0.4em] flex justify-center credit-parent hidden md:flex">
-          <div className="text-center">
-            <p>
-              Copyright © 1987-2024{" "}
-              <Link href="/ContactInfo" className="underline" target="_blank">
-                Bob Slaymaker
-              </Link>
-            </p>
-            <p>
-              Design by{" "}
-              <Link href="/designerInfo" className="underline" target="_blank">
-                Muneeb Ahmad
-              </Link>
-            </p>
-          </div>
-        </div>
-        <div className="pt-[50px] text-[.8em] goudy md:hidden">
+<div className="pt-5 md:text-[0.4em] text-[0.6em] flex justify-center credit-parent md:flex">
           <div className="text-center">
             <p>
               Copyright © 1987-2024{" "}
