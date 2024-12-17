@@ -1,25 +1,25 @@
 import { poems } from "../poems";
 import Link from "next/link";
 import Head from 'next/head';
-import FormattedPoem from "@/components/PoemFormatter";
 
 export default function PoemList() {
   return (
     <div>
-      <h6 className="goudy text-[32px] uppercase text-center mt-3"><b/>POEMS<b/></h6>
+      <Head>
+        <title>Poems</title>
+      </Head>
+      <h6 className="goudy text-[32px] uppercase text-center mt-6"><b />POEMS<b /></h6>
       <h6 className="goudy text-[21px] text-center mx-3 bg-transparent mt-1 sm:hidden block">
         <span className="px-1">
           (For author’s line breaks on phone, rotate phone to landscape view)
         </span>
-      </h6>      <div className="goudy flex justify-center items-center p-[1em]">
-        <Head>
-          <title>Poems</title>
-        </Head>
-        <div className="flex flex-col tracking-wider leading-relaxed text-[26px] md:text-[26px] gap-5 mt-0">
+      </h6>
+      <div className="goudy flex justify-start sm:justify-center items-center p-[1em] mt-0">
+        <div className="flex flex-col tracking-wider leading-relaxed text-[26px] md:text-[26px]">
           {poems?.map((poem, index) => {
             return (
               <Link href={`poems/${poem?.label}`} key={index} target="_blank" className="link-underline">
-                 <div className="leading-tight">{poem?.title}</div>
+                {poem?.title}
               </Link>
             );
           })}

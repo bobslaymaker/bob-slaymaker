@@ -71,7 +71,7 @@ const HamburgerMenu = () => {
             <Link href="/" className="hover:underline">
               Home
             </Link>
-            <Link href="/ContactInfo" className="hover:underline">
+            <Link href="/cv" className="hover:underline">
               Contact
             </Link>
           </div>
@@ -103,7 +103,7 @@ const HamburgerMenu = () => {
             <Link onClick={() => setIsOpen(false)} href="/" className="hover:underline">
               Home
             </Link>
-            <Link onClick={() => setIsOpen(false)} href="/ContactInfo" className="hover:underline">
+            <Link onClick={() => setIsOpen(false)} href="/cv" className="hover:underline">
               Contact
             </Link>
             <div onClick={() => { }} className="hover:underline">

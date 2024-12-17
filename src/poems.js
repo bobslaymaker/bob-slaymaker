@@ -342,7 +342,8 @@ export const poems = [
   {
     label: "All-American",
     title: (
-      <p >
+      <p className="leading-tight py-2">
+
         All–American Irish Kid, Queens, New York, 1968
       </p>
     ),

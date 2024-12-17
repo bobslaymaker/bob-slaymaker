@@ -2,14 +2,14 @@ import React from 'react'
 import Head from 'next/head';
 const CV = () => {
     return (
-        <div className="goudy flex justify-center w-full text-[21px] p-[1em]">
+        <div className="goudy flex justify-center w-full text-[21px] p-5 md:p-0">
             <Head>
                 <title>CV</title>
             </Head>
             <div className='w-full md:w-[750px]'>
-            <h6 className="goudy text-[32px] mt-10"><b/>bobslaymaker at manyhandsllc dot us<br/>
-           +1–646–925–2509<b/></h6>
-                <div className="spacer mt-0"></div> 
+                <h6 className="goudy text-[32px] mt-6">bobslaymaker at manyhandsllc dot us</h6>
+                <h6 className="goudy text-[32px] mt-0">+1–646–925–2509</h6>
+                <div className="spacer mt-0"></div>
                 <u>EDUCATION</u>
                 <div className="spacer"></div>
                 MFA film program, NYU, 1990–92.
