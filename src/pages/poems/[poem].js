@@ -15,9 +15,9 @@ export default function Poem() {
                                 <Head>
                                     <title>{poem.label}</title>
                                 </Head>
-                                <h6 className="text-[12px] uppercase text-center mt-6">POEMS</h6>
-                                <h1 className="text-[30px] md:text-[42px] text-center leading-tight">{poem.title}</h1>
-                                <div className="text-[21px]">{poem.content} </div>
+                                <h6 className="text-[12px] uppercase text-center mt-3">POEMS</h6>
+                                <h1 className="text-[30px] md:text-[42px] text-center leading-tight mt-3">{poem.title}</h1>
+                                <div className="text-[21px] mt-0">{poem.content} </div>
                                 <div className="text-[21px] mt-4">{poem.credits}</div>
                             </div>
                         );

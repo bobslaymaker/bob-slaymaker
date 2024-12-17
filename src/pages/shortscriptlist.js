@@ -5,8 +5,8 @@ import Head from 'next/head';
 export default function ShortScripts() {
     return (
         <div>
-            <h6 className="goudy text-[32px] uppercase text-center mt-10"><b/>SHORT SCRIPTS<b/></h6>
-            <div className="goudy flex justify-start sm:justify-center items-center p-[1em]">
+            <h6 className="goudy text-[32px] uppercase text-center mt-6"><b/>SHORT SCRIPTS<b/></h6>
+            <div className="goudy flex justify-start sm:justify-center items-center p-[1em] mt-0">
                 <Head>
                     <title>Scripts</title>
                 </Head>

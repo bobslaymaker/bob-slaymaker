@@ -127,7 +127,7 @@ export default function Home() {
           <div className="text-center">
             <p>
               Copyright © 1987-2024{" "}
-              <Link href="/ContactInfo" className="underline" target="_blank">
+              <Link href="/cv" className="underline" target="_blank">
                 Bob Slaymaker
               </Link>
             </p>

@@ -6,8 +6,8 @@ import FormattedPoem from "@/components/PoemFormatter";
 export default function ShortStories() {
     return (
         <div>
-            <h6 className="goudy text-[32px] uppercase text-center mt-10"><b/>SHORT STORIES<b/></h6>
-            <div className="goudy flex justify-center items-center p-[1em]">
+            <h6 className="goudy text-[32px] uppercase text-center mt-3"><b/>SHORT STORIES<b/></h6>
+            <div className="goudy flex justify-center items-center p-[1em] mt-3">
                 <Head>
                     <title>Stories</title>
                 </Head>

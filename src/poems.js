@@ -38,8 +38,7 @@ export const poems = [
             <br />
             and slipping under the covers
             <br />I felt loved enough to sleep.<div className="spacer"></div>
-            <br />
-          </div>
+            </div>
         </div>
       </p>
     ),
@@ -74,8 +73,7 @@ export const poems = [
             <p><i>I</i> get all</p>
             <br />
             the money.”<div className="spacer"></div>
-            <br />
-
+            
           </div>
         </div>
       </p>
@@ -137,8 +135,7 @@ export const poems = [
             and you step into
             <br />
             the cold work yard.<div className="spacer"></div>
-            <br />
-
+            
           </div>
         </div>
       </p>
@@ -215,9 +212,7 @@ export const poems = [
             floats out from under the comforter
             <br />
             and flies away.<div className="spacer"></div>
-            <br />
-
-          </div>
+                      </div>
         </div>
        
       </p>
@@ -333,8 +328,7 @@ export const poems = [
             <br />
             he didn’t spend time with his children.
             <div className="spacer"></div>
-            <br />
-
+            
           </div>
         </div>
       </p>
@@ -393,8 +387,7 @@ export const poems = [
             <br />
             with a silent sigh switched off the radio.
             <div className="spacer"></div>
-            <br />
-
+            
           </div>
         </div>
       </p>
@@ -476,8 +469,7 @@ export const poems = [
             missing the varied human voices,
             <br />
             the many hearts beating as one. <div className="spacer"></div>
-            <br />
-
+            
           </div>
         </div>
       </p>
@@ -545,8 +537,7 @@ export const poems = [
             <br />
             this most natural of things.
             <div className="spacer"></div>
-            <br />
-          </div>
+                      </div>
         </div>
       </p>
     ),
@@ -586,8 +577,7 @@ export const poems = [
             <br />
             and ended her giggling and laughing too.
             <div className="spacer"></div>
-            <br />
-          </div>
+                      </div>
         </div>
       </p>
     ),
@@ -622,7 +612,7 @@ export const poems = [
             full–force, unchained,
             <br />
             ready to take the world by surprise.<div className="spacer"></div>
-            <br />
+            
           </div>
         </div>
       </p>
@@ -733,8 +723,7 @@ export const poems = [
             each having briefly lessened
             <br />
             the anger he carries.<div className="spacer"></div>
-            <br />
-          </div>
+                      </div>
         </div>
       </p>
     ),
@@ -772,8 +761,7 @@ export const poems = [
             <br />
             on that last bath <br />
             we all took together.<div className="spacer"></div>
-            <br />
-          </div>
+                      </div>
         </div>
       </p>
     ),

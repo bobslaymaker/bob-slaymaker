@@ -15,10 +15,10 @@ export default function shortScript() {
                         <Head>
                             <title>{shortScript.title}</title>
                         </Head>
-                        <h6 className="text-[12px] uppercase text-center mt-6">SHORT SCRIPTS</h6>
+                        <h6 className="text-[12px] uppercase text-center mt-3">SHORT SCRIPTS</h6>
                         <h1 className="text-[30px] md:text-[42px] text-center mt-3 leading-tight">{shortScript.title}</h1>
                         <div className="text-[21px]">{shortScript.content}</div>
-                        <div className="text-[21px] mt-4">{shortScript.credits}</div>
+                        <div className="text-[21px] mt-20">{shortScript.credits}</div>
                     </div>
                 }
             })}
