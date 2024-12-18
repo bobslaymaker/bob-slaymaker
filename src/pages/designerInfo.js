@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 export default function DesignerInfo() {
     return (
-        <div className="goudy flex flex-col justify-center items-center tracking-wider leading-relaxed text-[21px]">
+        <div className="goudy flex flex-col justify-center items-center tracking-wider leading-relaxed text-[21px] p-5 md:p-0">
             <Head>
                 <title>Designer Info</title>
             </Head>

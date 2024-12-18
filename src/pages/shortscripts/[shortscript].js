@@ -8,7 +8,7 @@ export default function shortScript() {
     const router = useRouter()
 
     return (
-        <div className="goudy flex justify-center w-full text-[20px] md:text-[2.9vw] lg:text-[27px] p-[1em] ">
+        <div className="goudy flex justify-center w-full text-[20px] md:text-[2.9vw] lg:text-[27px] p-5 md:p-0">
             {shortScripts?.map(shortScript => {
                 if (shortScript?.label === router.query.shortscript) {
                     return <div className="w-full md:w-[750px]">
