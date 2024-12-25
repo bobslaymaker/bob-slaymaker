@@ -4,7 +4,7 @@ export const poems = [
     title: "Appetite",
     content: (
       <p>
-        <div className="spacer"></div>
+       
         <div className="flex justify-center">
           <div>
             Sometimes in the kitchen at midnight,
@@ -51,7 +51,7 @@ export const poems = [
     title: "Beginning Poets",
     content: (
       <p>
-        <div className="spacer"></div>
+        
         <div className="flex justify-center">
           <div>
             They sit, <br />
@@ -91,7 +91,7 @@ export const poems = [
     title: "Bad Attitude",
     content: (
       <p>
-        <div className="spacer"></div>
+        
         <div className="flex justify-center">
           <div>
             Wake at six, dress in the dark,
@@ -150,7 +150,7 @@ export const poems = [
     title: "The Beach Towel",
     content: (
       <p>
-        <div className="spacer"></div>
+      
         <div className="flex justify-center">
           <div>
             Under this comforter my love and I rest,
@@ -227,7 +227,7 @@ export const poems = [
     title: "Tradition",
     content: (
       <p>
-        <div className="spacer"></div>
+       
         <div className="flex justify-center">
           <div>
             My father rose early,
@@ -349,7 +349,7 @@ export const poems = [
     ),
     content: (
       <p>
-        <div className="spacer"></div>
+       
         <div className="flex justify-center">
           <div>
             “Turn off that Nazi shit,”
@@ -403,7 +403,7 @@ export const poems = [
     title: "The D Train",
     content: (
       <p>
-        <div className="spacer"></div>
+       
         <div className="flex justify-center">
           <div>
             Alone and depressed in my rented room,
@@ -441,7 +441,7 @@ export const poems = [
     title: "Yearning",
     content: (
       <p>
-        <div className="spacer"></div>
+     
         <div className="flex justify-center">
           <div>
             They lived in a crowded, single–story house,
@@ -485,7 +485,7 @@ export const poems = [
     title: "Love",
     content: (
       <p>
-        <div className="spacer"></div>
+       
         <div className="flex justify-center">
           <div>
             Two women in their twenties stroll by, <br />
@@ -506,7 +506,7 @@ export const poems = [
     title: "Menstruation",
     content: (
       <p>
-        <div className="spacer"></div>
+     
         <div className="flex justify-center">
           <div>
             When he grew up,
@@ -552,7 +552,7 @@ export const poems = [
     title: "St. Mel’s, Second Grade",
     content: (
       <p>
-        <div className="spacer"></div>
+     
         <div className="flex justify-center">
           <div>
             Roseanne was a short skinny girl
@@ -593,7 +593,7 @@ export const poems = [
       <p>
         <div className="flex justify-center">
           <div>
-            <div className="spacer"></div>
+            
             This afternoon she flashed me,
             <br />
             she who’s always been so shy,
@@ -628,7 +628,7 @@ export const poems = [
     title: "Repulsive",
     content: (
       <p>
-        <div className="spacer"></div>
+       
         <div className="flex justify-center">
           <div>
             A guy coming into the bathroom, I’m going out—
@@ -658,7 +658,7 @@ export const poems = [
     title: "It’s Not Pretty",
     content: (
       <p>
-        <div className="spacer"></div>
+      
         <div className="flex justify-center">
           <div>
             but it’s real, the desire of men
@@ -739,7 +739,7 @@ export const poems = [
     title: "The Last Bath",
     content: (
       <p>
-        <div className="spacer"></div>
+       
         <div className="flex justify-center">
           <div>
             Four of us kids in the tub, <br />

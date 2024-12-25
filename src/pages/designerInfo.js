@@ -8,7 +8,7 @@ export default function DesignerInfo() {
                 <title>Designer Info</title>
             </Head>
             <h6 className="goudy text-[32px] uppercase text-center mt-6">WEB DESIGN</h6>
-            <div className="mt-5">
+            <div className="mt-3">
                 <FormattedPoem content={<p className='text-[21px]'>Muneeb Ahmad</p>} />
                 <FormattedPoem content={<p className='text-[21px]'>muneebahmad1268@gmail.com</p>} />
                 <FormattedPoem content={<p className='text-[21px]'>+92–305–656–1268</p>} />

@@ -10,7 +10,7 @@ export default function ShortStories() {
                 <title>Stories</title>
             </Head>
             <h6 className="goudy text-[32px] uppercase text-center mt-6"><b />SHORT STORIES<b /></h6>
-            <div className="goudy flex justify-start sm:justify-center items-center mt-0">
+            <div className="goudy flex justify-start sm:justify-center items-center mt-3">
                 <div className="flex flex-col tracking-wider leading-relaxed text-[26px] md:text-[26px]">
                     {shortStories?.map(shortStory => {
                         return (

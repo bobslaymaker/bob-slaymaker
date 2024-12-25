@@ -6,7 +6,7 @@ import FormattedPoem from "@/components/PoemFormatter";
 export default function Poem() {
     const router = useRouter()
     return (
-        <div className="goudy flex justify-center items-center p-5 md:p-0">
+        <div className="goudy flex justify-center items-center p-6 md:p-6">
             <div className="flex flex-col tracking-wider leading-relaxed text-[18px] md:text-[2.9vw] lg:text-[27px]">
                 {poems?.map(poem => {
                     if (poem?.label === router.query.poem) {
@@ -15,9 +15,9 @@ export default function Poem() {
                                 <Head>
                                     <title>{poem.label}</title>
                                 </Head>
-                                <h6 className="text-[12px] uppercase text-center mt-3">POEMS</h6>
+                                <h6 className="text-[12px] uppercase text-center mt-0">POEM</h6>
                                 <h1 className="text-[30px] md:text-[42px] text-center leading-tight mt-3">{poem.title}</h1>
-                                <div className="text-[21px] mt-0">{poem.content} </div>
+                                <div className="text-[21px] mt-4">{poem.content} </div>
                                 <div className="text-[21px] mt-4">{poem.credits}</div>
                             </div>
                         );
