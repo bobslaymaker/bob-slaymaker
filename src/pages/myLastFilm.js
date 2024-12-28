@@ -3,11 +3,12 @@ import Head from 'next/head';
 
 const MyLastFilm = () => {
   return (
-    <div className="flex goudy flex-col items-center justify-center h-[90vh] p-4 bg-black">
+    <div className="flex goudy flex-col items-center h-[90vh] p-4 bg-black">
       <Head>
         <title>Last Film</title>
       </Head>
-      <div className="relative w-[90%] md:w-[70%] h-[60vw] md:h-[35vw] z-[40]">
+   
+      <div className="relative w-[90%] md:w-[50%] h-[60vw] md:h-[25vw] z-[40] mt-3">
         <iframe
           src="https://drive.google.com/file/d/1l7oWpp_HxLOXfmrzxesJE6Xlc-W3t3M-/preview?rm=1"
           className='w-full h-full'

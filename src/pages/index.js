@@ -112,7 +112,7 @@ export default function Home() {
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link target="_blank" href="/myLastFilm" className="link-underline">
-              My Last&nbsp; <br className="hidden md:block" /> Film
+              My Latest&nbsp; <br className="hidden md:block" /> Film
             </Link>
           </div>
           {/* <div
