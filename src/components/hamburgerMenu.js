@@ -62,8 +62,8 @@ const HamburgerMenu = () => {
             <Link href="/poemlist" className="hover:underline">
               Poems
             </Link>
-            <Link href="/myLastFilm" className="hover:underline">
-              My Last Film
+            <Link href="/LatestFilm" className="hover:underline">
+              Latest Film
             </Link>
             <Link href="/cv" className="hover:underline">
               CV
@@ -97,8 +97,8 @@ const HamburgerMenu = () => {
             <Link onClick={() => setIsOpen(false)} href="/poemlist" className="hover:underline">
               Poems
             </Link>
-            <Link onClick={() => setIsOpen(false)} href="/myLastFilm" className="hover:underline">
-              Last Film
+            <Link onClick={() => setIsOpen(false)} href="/LatestFilm" className="hover:underline">
+              Latest Film
             </Link>
             <Link onClick={() => setIsOpen(false)} href="/" className="hover:underline">
               Home

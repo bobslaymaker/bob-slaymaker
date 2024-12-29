@@ -2,6 +2,7 @@ import { useRouter } from "next/router"
 import { poems } from "@/poems"
 import Head from 'next/head';
 import FormattedPoem from "@/components/PoemFormatter";
+import Link from "next/link";
 
 export default function Poem() {
     const router = useRouter()
@@ -15,7 +16,9 @@ export default function Poem() {
                                 <Head>
                                     <title>{poem.label}</title>
                                 </Head>
-                                <h6 className="text-[12px] uppercase text-center mt-0">POEM</h6>
+                                <Link href="/poemlist">
+                                <h6 className="text-[12px] uppercase text-center mt-0">POEMS</h6>
+                                </Link >
                                 <h1 className="text-[30px] md:text-[42px] text-center leading-tight mt-3">{poem.title}</h1>
                                 <div className="text-[21px] mt-4">{poem.content} </div>
                                 <div className="text-[21px] mt-4">{poem.credits}</div>

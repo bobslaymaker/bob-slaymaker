@@ -3,6 +3,7 @@ import { useRouter } from "next/router"
 import ShortScripts from "../shortscriptlist"
 import { shortScripts } from "@/shortscripts"
 import Head from 'next/head';
+import Link from "next/link";
 
 export default function shortScript() {
     const router = useRouter()
@@ -15,7 +16,9 @@ export default function shortScript() {
                         <Head>
                             <title>{shortScript.title}</title>
                         </Head>
-                        <h6 className="text-[12px] uppercase text-center mt-0">SHORT SCRIPT</h6>
+                        <Link href="/shortscriptlist">
+                        <h6 className="text-[12px] uppercase text-center mt-0">SHORT SCRIPTS</h6>
+</Link>
                         <h1 className="text-[30px] md:text-[42px] text-center mt-3 leading-tight">{shortScript.title}</h1>
                         <div className="text-[21px mt-4]">{shortScript.content}</div>
                         <div className="text-[21px] mt-4">{shortScript.credits}</div>
