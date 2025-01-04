@@ -7,14 +7,16 @@ const MyLastFilm = () => {
       <Head>
         <title>Last Film</title>
       </Head>
-   
+      <h6 className="goudy text-[32px] uppercase text-center mt-6 text-white"><b />My Last Film<b /></h6>
       <div className="relative w-[90%] md:w-[50%] h-[60vw] md:h-[25vw] z-[40] mt-3">
-        <iframe
-          src="https://drive.google.com/file/d/1l7oWpp_HxLOXfmrzxesJE6Xlc-W3t3M-/preview?rm=1"
-          className='w-full h-full'
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <video
+          src="/Video/GraduationDay.mp4"
+          className="w-full h-full"
+          controls
+          playsInline
+          autoPlay
+          muted
+        />
       </div>
     </div>
   );
