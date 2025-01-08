@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 const LatestFilm = () => {
   return (
-    <div className="flex goudy flex-col items-center h-[90vh] bg-black">
+    <div className="flex goudy justify-center items-start h-[90vh] bg-black">
       <Head>
         <title>Latest Film</title>
       </Head>
