@@ -37,6 +37,11 @@ const HamburgerMenu = () => {
     return null;
   }
 
+  const setIsOpenFalse = () => {
+    setIsOpen(false);
+    document.body.classList.remove("overflow-hidden");
+  }
+
   return (
     <div className="relative top-0">
       {/* Hamburger Button */}
@@ -85,25 +90,25 @@ const HamburgerMenu = () => {
       >
         <div className="flex flex-col justify-center h-full text-center pt-20 overflow-hidden">
           <div className="flex flex-col items-start gap-10 h-full text-[16px] px-10 pt-10 overflow-y-scroll mb-5">
-            <Link onClick={() => setIsOpen(false)} href="/shortscriptlist" className="hover:underline">
+            <Link onClick={() => setIsOpenFalse()} href="/shortscriptlist" className="hover:underline">
               Short Scripts
             </Link>
-            <Link onClick={() => setIsOpen(false)} href="/shortstorieslist" className="hover:underline">
+            <Link onClick={() => setIsOpenFalse()} href="/shortstorieslist" className="hover:underline">
               Short Stories
             </Link>
-            <Link onClick={() => setIsOpen(false)} href="/cv" className="hover:underline">
+            <Link onClick={() => setIsOpenFalse()} href="/cv" className="hover:underline">
               CV
             </Link>
-            <Link onClick={() => setIsOpen(false)} href="/poemlist" className="hover:underline">
+            <Link onClick={() => setIsOpenFalse()} href="/poemlist" className="hover:underline">
               Poems
             </Link>
-            <Link onClick={() => setIsOpen(false)} href="/LatestFilm" className="hover:underline">
+            <Link onClick={() => setIsOpenFalse()} href="/LatestFilm" className="hover:underline">
               Latest Film
             </Link>
-            <Link onClick={() => setIsOpen(false)} href="/" className="hover:underline">
+            <Link onClick={() => setIsOpenFalse()} href="/" className="hover:underline">
               Home
             </Link>
-            <Link onClick={() => setIsOpen(false)} href="/cv" className="hover:underline">
+            <Link onClick={() => setIsOpenFalse()} href="/cv" className="hover:underline">
               Contact
             </Link>
             <div onClick={() => { }} className="hover:underline">
@@ -116,3 +121,4 @@ const HamburgerMenu = () => {
 };
 
 export default HamburgerMenu;
+

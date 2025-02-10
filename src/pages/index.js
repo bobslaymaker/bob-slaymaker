@@ -1,10 +1,13 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import { useIsMobile } from '../hooks/useIsMobile';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const isMobile = useIsMobile();
+
   const customStyles = {
     verticalSpacing: {
       //change only the number
@@ -27,26 +30,21 @@ export default function Home() {
 
   return (
     <div
-      className={`font-[800] text-center flex flex-col items-center justify-center lg:p-24 p-2 ${inter.className} space-x-5 mb-[0px] bg-red-500`}
+      className={`font-[800] text-center flex flex-col items-center justify-center lg:p-24 p-6 ${inter.className} space-x-5 mb-[0px] bg-red-500`}
       style={{
         width: "100vw",
         height: "100vh",
         maxHeight: "100vh",
         background: "#FDFEFF", // Fix the background color syntax
         overflowX: "hidden",
-        // overflowY: "hidden",
+        overflowY: "auto",
       }}
     >
       <div
-        className={`text-center goudy w-[95%] text-[22px] lg:text-[2.5vw]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg} `}
+        className={`text-center goudy w-[95%] text-[22px] lg:text-[2.5vw]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
       >
         <div className="space-y-[0px]">
-          <h1 className="font-bold text-[31px] md:text-[4.5vw] pb-[5px] md:pb-[0px] hidden md:block">
-            BOB SLAYMAKER
-          </h1>
-          <h1
-            className="font-bold text-[31px] md:text-[4.5vw] pb-[5px] md:pb-[0px] block md:hidden"
-                      >
+          <h1 className="font-bold text-[31px] md:text-[4.5vw] pb-[5px] md:pb-[0px] mt-10 md:mt-0">
             BOB SLAYMAKER
           </h1>
           <h1
@@ -67,14 +65,14 @@ export default function Home() {
         </div>
 
         <div
-          className={`flex md:flex-row flex-col justify-between`}
+          className={`flex md:flex-row flex-col landscape:flex-row justify-between`}
           style={{ position: "relative", inset: "0px" }}
         >
 
           <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/shortscriptlist" target="_blank" className="link-underline">
+            <Link href="/shortscriptlist" target={isMobile ? '_self' : '_blank'} className="link-underline">
               Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Scripts
             </Link>
           </div>
@@ -82,7 +80,7 @@ export default function Home() {
           <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/shortstorieslist" target="_blank" className="link-underline">
+            <Link href="/shortstorieslist" target={isMobile ? '_self' : '_blank'} className="link-underline">
               Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Stories
             </Link>
           </div>
@@ -90,19 +88,15 @@ export default function Home() {
           <div
             className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link target="_blank" href="/cv" className="link-underline">
+            <Link target={isMobile ? '_self' : '_blank'} href="/cv" className="link-underline">
               CV
             </Link>
           </div>
 
-
-
-
-
           <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/poemlist" target="_blank" className="link-underline"> 
+            <Link href="/poemlist" target={isMobile ? '_self' : '_blank'} className="link-underline">
               Selected <br className="hidden md:block" /> Poems
             </Link>
           </div>
@@ -111,7 +105,7 @@ export default function Home() {
           <div
             className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link target="_blank" href="/LatestFilm" className="link-underline">
+            <Link target={isMobile ? '_self' : '_blank'} href="/LatestFilm" className="link-underline">
               Latest&nbsp; <br className="hidden md:block" /> Film
             </Link>
           </div>
@@ -123,10 +117,11 @@ export default function Home() {
 
           {/* adjust the value of px in top-[px] to change the height between links and the credit */}
         </div>
-<div className="pt-5 md:text-[0.5em] text-[0.6em] flex justify-center credit-parent md:flex">
+
+        <div className="pt-5 md:text-[0.5em] text-[0.6em] flex justify-center credit-parent md:flex">
           <div className="text-center">
             <p>
-              Copyright © 1987-2025{" "}
+              Copyright © 1987-2024{" "}
               <Link href="/cv" className="underline" target="_blank">
                 Bob Slaymaker
               </Link>
@@ -144,3 +139,4 @@ export default function Home() {
     </div>
   );
 }
+
