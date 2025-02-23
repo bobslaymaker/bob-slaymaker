@@ -5,17 +5,19 @@ import FormattedPoem from "@/components/PoemFormatter";
 
 export default function ContactInfo() {
     return (
-        <div className="goudy flex justify-center items-center p-[1em]">
-            <Head>
-                <title>Contact</title>
-            </Head>
-            <div className="flex flex-col tracking-wider leading-relaxed text-[21px]">
-                
-                <div className="mt-5">
-                    <FormattedPoem content={<p>bobslaymaker@manyhandsllc dot us</p>} />
-                    <FormattedPoem content={<p>+1–646–925–2509</p>} />
+        <>
+            <div className="goudy text-[21px] p-5 md:p-0">
+                <Head>
+                    <title>Contact</title>
+                </Head>
+                <h6 className="goudy text-[32px] text-center uppercase mt-6">Contact Information</h6>
+                <div className="mt-3 flex justify-center">
+                    <div className="w-full md:w-[400px]">
+                        <p className="text-[26px] break-all overflow-hidden">bobslaymaker@manyhandsllc dot us</p>
+                        <p className="text-[26px]">+1–646–925–2509</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 } 
