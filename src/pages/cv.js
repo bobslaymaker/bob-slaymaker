@@ -7,8 +7,8 @@ const CV = () => {
                 <title>CV</title>
             </Head>
             <div className='w-full md:w-[750px]'>
-                <h6 className="goudy text-[32px] mt-6">bobslaymaker at manyhandsllc dot us</h6>
-                <h6 className="goudy text-[32px] mt-0">+1–646–925–2509</h6>
+                <h6 className="goudy text-[32px] mt-6"></h6>
+                <h6 className="goudy text-[32px] mt-0"></h6>
                 <div className="spacer mt-0"></div>
                 <u>EDUCATION</u>
                 <div className="spacer"></div>

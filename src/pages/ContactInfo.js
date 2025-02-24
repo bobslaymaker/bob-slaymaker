@@ -10,11 +10,11 @@ export default function ContactInfo() {
                 <Head>
                     <title>Contact</title>
                 </Head>
-                <h6 className="goudy text-[32px] text-center uppercase mt-6">Contact Information</h6>
+                <h6 className="goudy text-[32px] text-center mt-6">bob at manyhandsllc dot us<br/>+1–646–925–2509</h6>
                 <div className="mt-3 flex justify-center">
                     <div className="w-full md:w-[400px]">
-                        <p className="text-[26px] break-all overflow-hidden">bobslaymaker@manyhandsllc dot us</p>
-                        <p className="text-[26px]">+1–646–925–2509</p>
+                        <p className="text-[26px] break-all overflow-hidden"></p>
+                        <p className="text-[26px]"></p>
                     </div>
                 </div>
             </div>
