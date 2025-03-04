@@ -46,7 +46,7 @@ const HamburgerMenu = () => {
     <div className="relative top-0">
       {/* Hamburger Button */}
       <div>
-        <div className="flex justify-center items-center shadow-md lg:shadow-none w-full z-[51] relative h-16">
+        <div className="flex justify-center items-center shadow-md lg:shadow-none w-full z-[51] relative h-16 bg-white">
           <button
             className="md:p-4 p-1 focus:outline-none bg-white absolute md:left-5 left-1 lg:hidden block"
             onClick={toggleMenu}
@@ -56,7 +56,7 @@ const HamburgerMenu = () => {
           <div><h1 className="text-[25px]  goudy leading-relaxed tracking-wider py-2 uppercase">Bob Slaymaker</h1></div>
           <div></div>
         </div>
-        <div className="border-t-[2px] border-[#dddddd] shadow-md lg:flex hidden justify-center items-center">
+        <div className="border-t-[2px] border-[#dddddd] shadow-md lg:flex hidden justify-center items-center bg-white">
           <div className="goudy flex justify-center items-center py-3 gap-10">
             <Link href="/shortscriptlist" className="hover:underline">
               Short Scripts
@@ -76,7 +76,7 @@ const HamburgerMenu = () => {
             <Link href="/" className="hover:underline">
               Home
             </Link>
-            <Link href="/ContactInfo" className="hover:underline">
+            <Link href="/cv" className="hover:underline">
               Contact
             </Link>
           </div>
@@ -121,4 +121,3 @@ const HamburgerMenu = () => {
 };
 
 export default HamburgerMenu;
-
