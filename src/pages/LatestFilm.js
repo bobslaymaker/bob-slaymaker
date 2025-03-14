@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Head from 'next/head';
 import { useIsMobile } from "@/hooks/useIsMobile";
 import dynamic from 'next/dynamic';
+import MuxPlayer from '@mux/mux-player-react';
 
 // Import ReactPlayer dynamically with no SSR
 const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
@@ -10,6 +11,7 @@ const LatestFilm = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const isMobile = useIsMobile();
+  const videoUrl = "https://graduationday.s3.us-east-2.amazonaws.com/GraduationDay.mp4";
 
   // Only render client-side components after mount
   useEffect(() => {
@@ -69,14 +71,15 @@ const LatestFilm = () => {
           <div className={`px-5 mt-6 ${isMobile ? 'flex justify-center landscape:h-[calc(100vh-24px)] landscape:w-[100%] landscape:pb-[14.30%]' : 'pb-[56.25%]'
             }`}>
             <div className={`${isMobile && "landscape:h-[calc(100vh-194px)]"}`}>
-              <ReactPlayer
-                url='https://graduationday.s3.us-east-2.amazonaws.com/GraduationDay.mp4'
-                width="100%"
-                height="100%"
-                playing={isPlaying}
-                controls={true}
-                onPlay={() => setIsPlaying(true)}
-                onPause={() => setIsPlaying(false)}
+            <MuxPlayer
+                streamType="on-demand"
+                metadata={{
+                  video_title: "Graduation Day",
+                  viewer_user_id: "user-id",
+                }}
+                src={videoUrl}
+                accentColor="red"
+                autoPlay
               />
             </div>
           </div>
