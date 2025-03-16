@@ -1,17 +1,18 @@
 import React, { useState, useEffect } from "react";
-import Head from 'next/head';
+import Head from "next/head";
 import { useIsMobile } from "@/hooks/useIsMobile";
-import dynamic from 'next/dynamic';
-import MuxPlayer from '@mux/mux-player-react';
+import dynamic from "next/dynamic";
+import MuxPlayer from "@mux/mux-player-react";
 
 // Import ReactPlayer dynamically with no SSR
-const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
+const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 const LatestFilm = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const isMobile = useIsMobile();
-  const videoUrl = "https://graduationday.s3.us-east-2.amazonaws.com/GraduationDay.mp4";
+  const videoUrl =
+    "https://graduationday.s3.us-east-2.amazonaws.com/GraduationDay.mp4";
 
   // Only render client-side components after mount
   useEffect(() => {
@@ -53,14 +54,11 @@ const LatestFilm = () => {
       };
     }
   }, [isMounted]);
-  useEffect(() => {
-    console.log("isMObileL ", isMobile)
-  }, [isMobile]);
-
 
   return (
-    <div className={`flex flex-col goudy items-center
-`}>
+    <div
+      className={`flex flex-col goudy items-center`}
+    >
       <Head>
         <title>Latest Film</title>
       </Head>
@@ -68,10 +66,19 @@ const LatestFilm = () => {
       {isMounted && (
         <div className={`w-full max-w-4xl`}>
           {/* This wrapper maintains the aspect ratio */}
-          <div className={`px-5 mt-6 ${isMobile ? 'flex justify-center landscape:h-[calc(100vh-24px)] landscape:w-[100%] landscape:pb-[14.30%]' : 'pb-[56.25%]'
-            }`}>
-            <div className={`${isMobile && "landscape:h-[calc(100vh-194px)]"}`}>
-            <MuxPlayer
+          <div
+            className={`px-5 mt-6 ${
+              isMobile
+                ? "flex justify-center landscape:h-[calc(100vh-24px)] landscape:w-[100%] landscape:pb-[14.30%]"
+                : "pb-[56.25%]"
+            }`}
+          >
+            <div className={`${
+              isMobile 
+                ? "landscape:h-[calc(100vh-194px)]" 
+                : "max-h-[80vh]"
+            } w-full h-full`}>
+              <MuxPlayer
                 streamType="on-demand"
                 metadata={{
                   video_title: "Graduation Day",
@@ -80,6 +87,7 @@ const LatestFilm = () => {
                 src={videoUrl}
                 accentColor="red"
                 autoPlay
+                style={{ height: '100%', width: '100%', maxHeight: '100%' }}
               />
             </div>
           </div>
@@ -87,6 +95,6 @@ const LatestFilm = () => {
       )}
     </div>
   );
-}
+};
 
-export default LatestFilm
+export default LatestFilm;
