@@ -87,6 +87,8 @@ const LatestFilm = () => {
                 src={videoUrl}
                 accentColor="red"
                 autoPlay
+                native
+                playsInline
                 style={{ height: '100%', width: '100%', maxHeight: '100%' }}
               />
             </div>
