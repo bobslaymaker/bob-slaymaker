@@ -94,3 +94,46 @@
   text-decoration-color: currentColor;
 }
 
+.plyr--full-ui input[type=range] {
+  color: #ff0000;
+}
+
+.plyr--video .plyr__control:hover {
+  background: #ff0000;
+}
+
+.plyr--video .plyr__control.plyr__control--pressed {
+  background: #ff0000;
+}
+
+.plyr--full-ui input[type=range]::-webkit-slider-thumb {
+  background: #ff0000;
+}
+
+.plyr--full-ui input[type=range]::-moz-range-thumb {
+  background: #ff0000;
+}
+
+.plyr--full-ui input[type=range]::-ms-thumb {
+  background: #ff0000;
+}
+
+.plyr__control--overlaid {
+  background: #ff0000 !important;
+}
+
+.plyr__control--overlaid:hover {
+  background: #ff0000 !important;
+}
+
+/* This ensures the play icon itself is white */
+.plyr__control--overlaid svg {
+  color: white;
+}
+
+/* Additional rules to ensure red color is applied */
+.plyr--video .plyr__controls .plyr__control.plyr__tab-focus,
+.plyr--video .plyr__controls .plyr__control:hover,
+.plyr--video .plyr__controls .plyr__control[aria-expanded=true] {
+  background: #ff0000;
+}
