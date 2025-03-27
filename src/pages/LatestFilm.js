@@ -67,17 +67,17 @@ const LatestFilm = () => {
         <div className={`w-full max-w-4xl`}>
           {/* This wrapper maintains the aspect ratio */}
           <div
-            className={`px-5 mt-6 ${
+            className={`px-5 mt-6 flex justify-center ${
               isMobile
-                ? "flex justify-center landscape:h-[calc(100vh-24px)] landscape:w-[100%] landscape:pb-[14.30%]"
-                : "pb-[56.25%]"
+                ? "landscape:h-[calc(100vh-24px)]"
+                : ""
             }`}
           >
-            <div className={`${
+            <div className={`relative ${
               isMobile
-                ? "landscape:h-[calc(100vh-194px)]"
-                : "max-h-[80vh]"
-            } w-full h-full`}>
+                ? "landscape:h-[calc(100vh-194px)] landscape:max-w-full"
+                : "w-full max-h-[80vh] aspect-video"
+            }`}>
               <MuxPlayer
                 streamType="on-demand"
                 metadata={{
@@ -89,7 +89,12 @@ const LatestFilm = () => {
                 autoPlay
                 native
                 playsInline
-                style={{ height: '100%', width: '100%', maxHeight: '100%' }}
+                style={{ 
+                  height: '100%', 
+                  width: '100%', 
+                  maxHeight: '100%',
+                  objectFit: 'contain'
+                }}
               />
             </div>
           </div>
