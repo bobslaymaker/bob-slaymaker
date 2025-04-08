@@ -118,7 +118,7 @@ export default function Home() {
           {/* adjust the value of px in top-[px] to change the height between links and the credit */}
         </div>
 
-        <div className="pt-5 md:text-[0.5em] text-[0.6em] flex justify-center credit-parent md:flex">
+        <div className="pt-5 md:text-[0.6em] text-[0.6em] flex justify-center credit-parent md:flex">
           <div className="text-center">
             <p>
               Copyright © 1987-2025{" "}
@@ -139,4 +139,3 @@ export default function Home() {
     </div>
   );
 }
-
