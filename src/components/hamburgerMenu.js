@@ -76,7 +76,7 @@ const HamburgerMenu = () => {
             <Link href="/" className="hover:underline">
               Home
             </Link>
-            <Link href="/cv" className="hover:underline">
+            <Link href="/ContactInfo" className="hover:underline">
               Contact
             </Link>
           </div>
