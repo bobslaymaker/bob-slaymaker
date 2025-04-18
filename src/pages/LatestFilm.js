@@ -75,7 +75,7 @@ const LatestFilm = () => {
           >
             <div className={`relative ${
               isMobile
-                ? "landscape:h-[calc(100vh-194px)] landscape:max-w-full"
+                ? "landscape:h-[calc(100vh-130px)] landscape:max-w-full"
                 : "w-full max-h-[80vh] aspect-video"
             }`}>
               <MuxPlayer
