@@ -12,7 +12,7 @@ export default function DesignerInfo() {
                 <div className="mt-3 flex justify-center">
                     <div className="w-full md:w-[400px]">
                         <p className="text-[26px]">Muneeb Ahmad</p>
-                        <p className="text-[26px] break-all overflow-hidden">muneebahmad1268@gmail.com</p>
+                        <p className="text-[26px] break-all overflow-hidden">muneeb at techillusion dot com</p>
                         <p className="text-[26px]">+92–305–656–1268</p>
                     </div>
                 </div>
