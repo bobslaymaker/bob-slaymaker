@@ -65,12 +65,12 @@ export default function Home() {
         </div>
 
         <div
-          className={`flex md:flex-row flex-col landscape:flex-row justify-between`}
+          className={`flex md:flex-row flex-col landscape:flex-row justify-between w-full`}
           style={{ position: "relative", inset: "0px" }}
         >
 
           <div
-            className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
+            className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link href="/shortscriptlist" target={isMobile ? '_self' : '_blank'} className="link-underline">
               Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Scripts
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
 
           <div
-            className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
+            className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link href="/shortstorieslist" target={isMobile ? '_self' : '_blank'} className="link-underline">
               Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Stories
@@ -86,7 +86,7 @@ export default function Home() {
           </div>
 
           <div
-            className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
+            className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link target={isMobile ? '_self' : '_blank'} href="/cv" className="link-underline">
               CV
@@ -94,16 +94,15 @@ export default function Home() {
           </div>
 
           <div
-            className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
+            className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link href="/poemlist" target={isMobile ? '_self' : '_blank'} className="link-underline">
               Selected <br className="hidden md:block" /> Poems
             </Link>
           </div>
 
-
           <div
-            className={`font-bold  ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
+            className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link target={isMobile ? '_self' : '_blank'} href="/LatestFilm" className="link-underline">
               Latest&nbsp; <br className="hidden md:block" /> Film

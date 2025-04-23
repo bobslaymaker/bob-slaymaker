@@ -11,7 +11,7 @@ export default function ContactInfo() {
                     <title>Contact</title>
                 </Head>
                 <div className="mt-3 flex justify-center">
-                    <div className="w-full md:w-[400px]">
+                    <div className="w-full md:w-[300px]">
                         <p className="text-[26px]">bob at manyhandsllc dot us</p>
                         <p className="text-[26px] break-all overflow-hidden">+1–646–925–2509</p>
                     </div>

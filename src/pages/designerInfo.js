@@ -10,7 +10,7 @@ export default function DesignerInfo() {
                 </Head>
                 <h6 className="goudy text-[32px] text-center uppercase mt-6">WEB DESIGN</h6>
                 <div className="mt-3 flex justify-center">
-                    <div className="w-full md:w-[400px]">
+                    <div className="w-full md:w-[340px]">
                         <p className="text-[26px]">Muneeb Ahmad</p>
                         <p className="text-[26px] break-all overflow-hidden">muneeb at techillusion dot com</p>
                         <p className="text-[26px]">+92–305–656–1268</p>
