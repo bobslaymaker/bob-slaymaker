@@ -11,8 +11,6 @@ const LatestFilm = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const isMobile = useIsMobile();
-  const videoUrl =
-    "https://graduationday.s3.us-east-2.amazonaws.com/GraduationDay.mp4";
 
   // Only render client-side components after mount
   useEffect(() => {
@@ -84,7 +82,7 @@ const LatestFilm = () => {
                   video_title: "Graduation Day",
                   viewer_user_id: "user-id",
                 }}
-                src={videoUrl}
+                playbackId={"qN9L1266WOldKYVFYh9DlbqCkiaRyEPDIfaveERMFBA"}
                 accentColor="red"
                 autoPlay
                 native
