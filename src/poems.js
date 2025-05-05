@@ -71,7 +71,7 @@ export const poems = [
             “O.K.,” says<div className="spacer"></div>Tom. “Then
             <br />
             <p><i>I</i> get all</p>
-            <br />
+          
             the money.”<div className="spacer"></div>
             
           </div>
