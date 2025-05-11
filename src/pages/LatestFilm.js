@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Head from "next/head";
 import { useIsMobile } from "@/hooks/useIsMobile";
 import dynamic from "next/dynamic";
@@ -8,9 +8,10 @@ import MuxPlayer from "@mux/mux-player-react";
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 const LatestFilm = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true); // Start with autoPlay true
   const [isMounted, setIsMounted] = useState(false);
   const isMobile = useIsMobile();
+  const playerRef = useRef(null);
 
   // Only render client-side components after mount
   useEffect(() => {
@@ -53,30 +54,69 @@ const LatestFilm = () => {
     }
   }, [isMounted]);
 
+  // Handle keyboard events for spacebar play/pause
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.code === "Space" && playerRef.current) {
+        event.preventDefault(); // Prevent page scrolling
+        togglePlayPause();
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isPlaying]);
+
+  const togglePlayPause = () => {
+    if (playerRef.current) {
+      if (isPlaying) {
+        playerRef.current.pause();
+      } else {
+        playerRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
+  // Handle touch/click on video to toggle play/pause
+  const handleVideoClick = (e) => {
+    e.preventDefault();
+    togglePlayPause();
+  };
+
   return (
-    <div
-      className={`flex flex-col goudy items-center`}
-    >
+    <div className="flex flex-col goudy items-center">
       <Head>
         <title>Latest Film</title>
       </Head>
 
       {isMounted && (
-        <div className={`w-full max-w-4xl`}>
+        <div className="w-full max-w-4xl">
           {/* This wrapper maintains the aspect ratio */}
           <div
             className={`px-5 mt-6 flex justify-center ${
-              isMobile
-                ? "landscape:h-[calc(100vh-24px)]"
-                : ""
+              isMobile ? "landscape:h-[calc(100vh-24px)]" : ""
             }`}
           >
-            <div className={`relative ${
-              isMobile
-                ? "landscape:h-[calc(100vh-130px)] landscape:max-w-full"
-                : "w-full max-h-[80vh] aspect-video"
-            }`}>
+            <div
+              className={`relative ${
+                isMobile
+                  ? "landscape:h-[calc(100vh-130px)] landscape:max-w-full"
+                  : "w-full max-h-[80vh] aspect-video"
+              }`}
+            >
+              {/* Overlay div to capture clicks/touches */}
+              <div 
+                className="absolute inset-0 z-10 cursor-pointer"
+                onClick={handleVideoClick}
+                style={{ touchAction: "manipulation" }}
+              />
+              
               <MuxPlayer
+                ref={playerRef}
                 streamType="on-demand"
                 metadata={{
                   video_title: "Graduation Day",
@@ -87,11 +127,13 @@ const LatestFilm = () => {
                 autoPlay
                 native
                 playsInline
-                style={{ 
-                  height: '100%', 
-                  width: '100%', 
-                  maxHeight: '100%',
-                  objectFit: 'contain'
+                onPlay={() => setIsPlaying(true)}
+                onPause={() => setIsPlaying(false)}
+                style={{
+                  height: "100%",
+                  width: "100%",
+                  maxHeight: "100%",
+                  objectFit: "contain",
                 }}
               />
             </div>
