@@ -72,7 +72,7 @@ export default function Home() {
           <div
             className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/shortscriptlist" target={isMobile ? '_self' : '_blank'} className="link-underline">
+            <Link href="/shortscriptlist" target={isMobile ? '_self' : '_self'} className="link-underline">
               Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Scripts
             </Link>
           </div>
@@ -80,7 +80,7 @@ export default function Home() {
           <div
             className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/shortstorieslist" target={isMobile ? '_self' : '_blank'} className="link-underline">
+            <Link href="/shortstorieslist" target={isMobile ? '_self' : '_self'} className="link-underline">
               Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Stories
             </Link>
           </div>
@@ -88,7 +88,7 @@ export default function Home() {
           <div
             className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link target={isMobile ? '_self' : '_blank'} href="/cv" className="link-underline">
+            <Link target={isMobile ? '_self' : '_self'} href="/cv" className="link-underline">
               CV
             </Link>
           </div>
@@ -96,7 +96,7 @@ export default function Home() {
           <div
             className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/poemlist" target={isMobile ? '_self' : '_blank'} className="link-underline">
+            <Link href="/poemlist" target={isMobile ? '_self' : '_self'} className="link-underline">
               Selected <br className="hidden md:block" /> Poems
             </Link>
           </div>
@@ -104,14 +104,14 @@ export default function Home() {
           <div
             className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link target={isMobile ? '_self' : '_blank'} href="/LatestFilm" className="link-underline">
+            <Link target={isMobile ? '_self' : '_self'} href="/LatestFilm" className="link-underline">
               Latest&nbsp; <br className="hidden md:block" /> Film
             </Link>
           </div>
           {/* <div
             className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
-            <Link href="/ContactInfo" target="_blank">Contact</Link>
+            <Link href="/ContactInfo" target="_self">Contact</Link>
           </div> */}
 
           {/* adjust the value of px in top-[px] to change the height between links and the credit */}
@@ -121,13 +121,13 @@ export default function Home() {
           <div className="text-center">
             <p>
               Copyright © 1987-2025{" "}
-              <Link href="/ContactInfo" className="underline" target="_blank">
+              <Link href="/ContactInfo" className="underline" target="_self">
                 Bob Slaymaker
               </Link>
             </p>
             <p>
               Design by{" "}
-              <Link href="/designerInfo" className="underline" target="_blank">
+              <Link href="/designerInfo" className="underline" target="_self">
                 Muneeb Ahmad
               </Link>
             </p>

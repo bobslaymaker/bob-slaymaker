@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { useRouter } from "next/router";
@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [shouldHideMenu, setShouldHideMenu] = useState(false);
+  const mainDivRef = useRef(null);
   const router = useRouter();
 
   // List of paths where the menu should be hidden
@@ -27,6 +28,10 @@ const HamburgerMenu = () => {
 
     if (!isOpen) {
       document.body.classList.add("overflow-hidden");
+      // Focus the main div when menu opens
+      setTimeout(() => {
+        mainDivRef.current?.focus();
+      }, 100);
     } else {
       document.body.classList.remove("overflow-hidden");
     }
@@ -85,11 +90,12 @@ const HamburgerMenu = () => {
 
       {/* Menu Overlay */}
       <div
+        tabIndex={-1}
         className={`fixed top-0 goudy left-0 shadow-2xl h-screen overflow-auto bg-white transition-transform duration-300 ease-in-out z-[50] ${isOpen ? "translate-x-0" : "-translate-x-full"
           } w-full uppercase font-normal`}
       >
         <div className="flex flex-col justify-center h-full text-center pt-20 overflow-hidden">
-          <div className="flex flex-col items-start gap-10 h-full text-[16px] px-10 pt-10 overflow-y-scroll mb-5">
+          <div ref={mainDivRef} className="flex flex-col items-start gap-10 h-full text-[16px] px-10 pt-10 overflow-y-scroll mb-5 focus:outline-none">
             <Link onClick={() => setIsOpenFalse()} href="/shortscriptlist" className="hover:underline">
               Short Scripts
             </Link>

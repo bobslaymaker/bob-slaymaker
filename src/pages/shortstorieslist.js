@@ -14,7 +14,7 @@ export default function ShortStories() {
                 <div className="flex flex-col tracking-wider leading-relaxed text-[26px] md:text-[26px]">
                     {shortStories?.map(shortStory => {
                         return (
-                            <Link href={`shortstories/${shortStory?.label}`} target="_blank" className="link-underline">
+                            <Link href={`shortstories/${shortStory?.label}`} className="link-underline">
                                 {shortStory?.title}
                             </Link>
                         )
