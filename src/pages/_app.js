@@ -1,26 +1,16 @@
 import HamburgerMenu from '@/components/hamburgerMenu'
+import DarkModeToggle from '@/components/DarkModeToggle'
 import '@/styles/globals.css'
-import { useEffect } from 'react'
-import { useState } from 'react'
+import { useDarkMode } from '@/hooks/useDarkMode'
 
 export default function App({ Component, pageProps }) {
-  const [isNight, setIsNight] = useState()
+  const { isDarkMode, toggleDarkMode } = useDarkMode();
 
-  useEffect(() => {
-    var hours = (new Date()).getHours()
-    if (hours >= 6 && hours < 18) {
-      setIsNight(false)
-      return
-    }
-    setIsNight(true)
-  }, [])
-
-  return (<div className='full-height' style={{width: "100vw",}}>
-    <HamburgerMenu />
-      <Component {...pageProps}/>
-  </div>
-
+  return (
+    <div className={`min-h-screen w-screen bg-white dark:bg-dark-bg text-gray-900 dark:text-dark-text transition-colors duration-200`}>
+      <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+      <HamburgerMenu />
+      <Component {...pageProps} />
+    </div>
   )
-
-
 }

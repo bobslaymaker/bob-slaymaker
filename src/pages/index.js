@@ -30,12 +30,11 @@ export default function Home() {
 
   return (
     <div
-      className={`font-[800] text-center flex flex-col items-center justify-center lg:p-24 p-6 ${inter.className} space-x-5 mb-[0px] bg-red-500`}
+      className={`font-[800] text-center flex flex-col items-center justify-center lg:p-24 p-6 ${inter.className} space-x-5 mb-[0px] bg-white dark:bg-dark-bg text-gray-900 dark:text-dark-text transition-colors duration-200`}
       style={{
         width: "100vw",
         height: "100vh",
         maxHeight: "100vh",
-        background: "#FDFEFF", // Fix the background color syntax
         overflowX: "hidden",
         overflowY: "auto",
       }}
@@ -59,8 +58,8 @@ export default function Home() {
           className={`pt-[15px] pb-[15px] md:pt-[0px] md:pb-[0px] flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}
         >
           <hr
-            className="font-bold text-center"
-            style={{ border: "1px solid black", width: "130px" }}
+            className="font-bold text-center dark:border-gray-700"
+            style={{ border: "1px solid currentColor", width: "130px" }}
           ></hr>
         </div>
 
