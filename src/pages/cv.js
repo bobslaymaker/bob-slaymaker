@@ -6,10 +6,7 @@ const CV = () => {
             <Head>
                 <title>CV</title>
             </Head>
-            <div className='w-full md:w-[750px]'>
-                <h6 className="goudy text-[32px] mt-6"></h6>
-                <h6 className="goudy text-[32px] mt-0"></h6>
-                <div className="spacer mt-0"></div>
+            <div className='w-full md:w-[750px] px-6 py-6'>
                 <u>EDUCATION</u>
                 <div className="spacer"></div>
                 MFA film program, NYU, 1990–92.
