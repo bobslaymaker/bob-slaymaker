@@ -11,7 +11,7 @@ export default function PoemList() {
       <h6 className="goudy text-[32px] uppercase text-center mt-6"><b />POEMS<b /></h6>
       <h6 className="goudy text-[21px] text-center mx-3 bg-transparent mt-1 sm:hidden block">
         <span className="leading-tight px-1">
-          (For author–intended line breaks on phone, rotate phone to landscape view)
+          (For author’s line breaks, rotate phone to landscape view)
         </span>
       </h6>
       <div className="goudy flex justify-start sm:justify-center items-center mt-0">
