@@ -1,4 +1,3 @@
-
 import { useRouter } from "next/router"
 import ShortScripts from "../shortscriptlist"
 import { shortScripts } from "@/shortscripts"
@@ -21,7 +20,6 @@ export default function shortScript() {
 </Link>
                         <h1 className="text-[30px] md:text-[42px] text-center mt-3 leading-tight">{shortScript.title}</h1>
                         <div className="text-[21px mt-4]">{shortScript.content}</div>
-                        <div className="text-[21px] mt-4">{shortScript.credits}</div>
                     </div>
                 }
             })}
