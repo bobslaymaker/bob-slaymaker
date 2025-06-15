@@ -104,7 +104,7 @@ const HamburgerMenu = () => {
         } w-full uppercase font-normal`}
       >
         <div className="flex flex-col justify-center h-full text-center pt-20 overflow-hidden">
-          <div ref={mainDivRef} className="flex flex-col items-start gap-10 h-full text-[16px] px-10 pt-10 overflow-y-scroll mb-5 focus:outline-none">
+          <div ref={mainDivRef} className="flex flex-col items-start gap-7 h-full text-[16px] px-10 pt-6 overflow-y-scroll mb-5 focus:outline-none">
             <Link onClick={() => setIsOpenFalse()} href="/shortscriptlist" className="hover:underline text-gray-900 dark:text-dark-text">
               Short Scripts
             </Link>
@@ -134,3 +134,4 @@ const HamburgerMenu = () => {
 };
 
 export default HamburgerMenu;
+
