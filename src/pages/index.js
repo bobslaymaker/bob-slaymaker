@@ -43,7 +43,7 @@ export default function Home() {
         className={`text-center goudy w-[95%] text-[22px] lg:text-[2.5vw]  ${customStyles.verticalSpacing.sm} ${customStyles.verticalSpacing.md} ${customStyles.verticalSpacing.lg}`}
       >
         <div className="space-y-[0px]">
-          <h1 className="font-bold text-[31px] md:text-[4.5vw] pb-[5px] md:pb-[0px] mt-10 md:mt-0">
+          <h1 className=" text-[31px] md:text-[4.5vw] pb-[5px] md:pb-[0px] mt-10 md:mt-0">
             BOB SLAYMAKER
           </h1>
           <h1
@@ -58,7 +58,7 @@ export default function Home() {
           className={`pt-[15px] pb-[15px] md:pt-[0px] md:pb-[0px] flex items-center justify-center ${customStyles.horizontalLine.sm} ${customStyles.horizontalLine.md} ${customStyles.horizontalLine.lg}`}
         >
           <hr
-            className="font-bold text-center dark:border-gray-700"
+            className=" text-center dark:border-gray-700"
             style={{ border: "1px solid currentColor", width: "130px" }}
           ></hr>
         </div>
@@ -69,7 +69,7 @@ export default function Home() {
         >
 
           <div
-            className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
+            className={` flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link href="/shortscriptlist" target={isMobile ? '_self' : '_self'} className="link-underline">
               Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Scripts
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
 
           <div
-            className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
+            className={` flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link href="/shortstorieslist" target={isMobile ? '_self' : '_self'} className="link-underline">
               Selected <br className="hidden md:block" /> Short <br className="hidden md:block" /> Stories
@@ -85,7 +85,7 @@ export default function Home() {
           </div>
 
           <div
-            className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
+            className={` flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link target={isMobile ? '_self' : '_self'} href="/cv" className="link-underline">
               CV
@@ -93,7 +93,7 @@ export default function Home() {
           </div>
 
           <div
-            className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
+            className={` flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link href="/poemlist" target={isMobile ? '_self' : '_self'} className="link-underline">
               Selected <br className="hidden md:block" /> Poems
@@ -101,14 +101,14 @@ export default function Home() {
           </div>
 
           <div
-            className={`font-bold flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
+            className={` flex-1 text-center ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link target={isMobile ? '_self' : '_self'} href="/LatestFilm" className="link-underline">
               Latest&nbsp; <br className="hidden md:block" /> Film
             </Link>
           </div>
           {/* <div
-            className={`font-bold ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
+            className={` ${customStyles.linkSpacing.sm} ${customStyles.linkSpacing.md} ${customStyles.linkSpacing.lg}`}
           >
             <Link href="/ContactInfo" target="_self">Contact</Link>
           </div> */}

@@ -4,10 +4,23 @@
 
 @import url('https://fonts.cdnfonts.com/css/goudy-old-style');
 
+@font-face {
+  font-family: 'Segoe UI Custom';
+  src: url('/segoeuithisi.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 .goudy {
     font-family: 'Goudy Old Style';
     font-style: normal;
     font-weight: bold;
+}
+
+.dark .goudy {
+    font-family: 'Segoe UI Custom', 'Segoe UI', sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .container {
