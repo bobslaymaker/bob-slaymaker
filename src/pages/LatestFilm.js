@@ -8,6 +8,31 @@ import "media-chrome/react/menu";
 import { MediaTheme } from "media-chrome/react/media-theme";
 
 const LatestFilm = () => {
+  // Function to handle back button click
+  const handleBackClick = () => {
+    // Check if the document is in fullscreen mode
+    if (
+      document.fullscreenElement ||
+      document.webkitFullscreenElement ||
+      document.mozFullScreenElement ||
+      document.msFullscreenElement
+    ) {
+      // Exit fullscreen mode
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+      } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+      } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+      }
+    } else {
+      // Not in fullscreen, redirect to home
+      window.location.href = "/";
+    }
+  };
+
   return (
     <div className="flex flex-col goudy items-center p-5 ">
       <template
@@ -78,6 +103,29 @@ const LatestFilm = () => {
 
             .small-button:hover {
               box-shadow: 0 0 0 calc(2px) var(--media-tertiary-color);
+            }
+
+            /* Back button specific styles */
+            .back-button {
+              position: absolute;
+              top: 22px;
+              left: 22px;
+              z-index: 10;
+              background: rgba(0, 0, 0, 0.6);
+              border: none;
+              cursor: pointer;
+              transition: all 0.2s ease;
+            }
+
+            .back-button:hover {
+              background: rgba(0, 0, 0, 0.8);
+              box-shadow: 0 0 0 calc(2px) var(--media-tertiary-color);
+            }
+
+            .back-button svg {
+              fill: white;
+              width: 20px;
+              height: 20px;
             }
 
             div[slot="centered-chrome"] media-play-button {
@@ -192,12 +240,12 @@ const LatestFilm = () => {
 
             media-controller:not([breakpointsm]) .small-button {
               display: none;
-              width: 48px;
-              height: 48px;
+              width: 2.1rem;
+              height: 2.1rem;
             }
 
             media-controller:not([breakpointsm]) .small-button svg {
-              transform: scale(1.4);
+              transform: scale(1);
             }
 
             media-controller:not([breakpointsm]) div[slot="top-chrome"] {
@@ -232,15 +280,33 @@ const LatestFilm = () => {
               left: 16px;
             }
 
+            /* Adjust captions button position when back button is present */
+            media-controller:not([breakpointsm]) media-captions-button.small-button {
+              left: 70px; /* Move captions button to right of back button */
+            }
+
             media-controller:not([breakpointsm]) div[slot="centered-chrome"] media-play-button {
               z-index: 1;
-              height: 72px;
-              width: 72px;
+              height: 3.1rem;
+              width: 3.1rem;
             }
 
             media-controller:not([breakpointsm]) div[slot="centered-chrome"] media-play-button svg {
               margin-left: -2px;
               height: 48px;
+            }
+
+@media (max-width: 600px), (max-height: 596px) {
+              .back-button {
+                top: 10px !important;
+                left: 10px !important;
+                width: 36px !important;
+                height: 36px !important;
+                z-index: 1000 !important;
+                display: flex !important;
+                align-items: center;
+                justify-content: center;
+              }
             }
           </style>
 
@@ -257,6 +323,14 @@ const LatestFilm = () => {
             <slot name="poster" slot="poster"></slot>
             <media-error-dialog slot="dialog"></media-error-dialog>
             <div class="demuxed-gradient-bottom"></div>
+            
+            <!-- Back Arrow Button -->
+            <button class="back-button small-button" onclick="window.handleBackClick && window.handleBackClick()">
+              <svg viewBox="0 0 24 24">
+                <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+              </svg>
+            </button>
+
             <div slot="top-chrome">
               <media-cast-button class="small-button">
                 <svg slot="enter" viewBox="0 0 26 26"><path d="M2.5 18.5v3h3c0-1.7-1.34-3-3-3ZM2.5 14.5v2c2.76 0 5 2.2 5 5h2c0-3.87-3.13-7-7-7Z"/><path d="M2.5 10.5v2c4.97 0 9 4 9 9h2c0-6.08-4.93-11-11-11Z"/><path d="M22.5 3.5h-18c-1.1 0-2 .9-2 2v3h2v-3h18v14h-7v2h7c1.1 0 2-.9 2-2v-14c0-1.1-.9-2-2-2Z"/></svg>
@@ -322,6 +396,10 @@ const LatestFilm = () => {
             crossOrigin="anonymous"
             playbackId={"qN9L1266WOldKYVFYh9DlbqCkiaRyEPDIfaveERMFBA"}
             style={{ "--controls": "none" }}
+            onLoadStart={() => {
+              // Make the handleBackClick function available globally
+              window.handleBackClick = handleBackClick;
+            }}
           />
         </MediaTheme>
       </div>
