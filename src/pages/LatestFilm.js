@@ -287,8 +287,8 @@ const LatestFilm = () => {
 
             media-controller:not([breakpointsm]) div[slot="centered-chrome"] media-play-button {
               z-index: 1;
-              height: 3.1rem;
-              width: 3.1rem;
+              height: 2.1rem;
+              width: 2.1rem;
             }
 
             media-controller:not([breakpointsm]) div[slot="centered-chrome"] media-play-button svg {
