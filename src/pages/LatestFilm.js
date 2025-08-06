@@ -42,7 +42,7 @@ const LatestFilm = () => {
           <style>
             :host {
               --media-primary-color: black;
-              --media-tertiary-color: var(--media-accent-color, #7596CC);
+              --media-tertiary-color: var(--media-accent-color,rgb(255, 0, 0));
               --media-text-color: white;
               --media-control-hover-background: transparent;
 
@@ -67,9 +67,39 @@ const LatestFilm = () => {
               margin: 30px;
               padding: 10px 14px;
               border-radius: 9999px;
-              background: rgba(0,0,0,0.2);
               align-items: center;
+              display: flex;
+              flex-direction: column;
             }
+
+            .media-time-wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 6px !important;
+            }
+            .media-buttons-wrapper {
+              display: flex;
+              justify-content: space-between;
+              width: 100%;
+              align-items: center;
+              }
+
+              .media-buttons-wrapper-left {
+              display: flex;
+              align-items: center;
+              }
+              .media-buttons-wrapper-right {
+              display: flex;
+              align-items: center;
+              }
+
+              /* Progress bar in middle for small screens */
+              .media-buttons-wrapper-center {
+                display: none;
+                flex: 1;
+                margin: 0 15px;
+              }
 
             media-control-bar :first-child {
               margin: 0 5px 0 0;
@@ -88,8 +118,8 @@ const LatestFilm = () => {
               justify-items: center;
               height: 32px;
               width: 32px;
-              background: var(--media-secondary-color, white);
               border-radius: 9999px;
+              background: transparent;
             }
 
             .small-button svg {
@@ -99,10 +129,13 @@ const LatestFilm = () => {
               height: 20px;
               margin: 0 !important;
               padding: 0 !important;
+              color: white;
+              fill: white;
+              transition: all 0.5s ease;
             }
 
             .small-button:hover {
-              box-shadow: 0 0 0 calc(2px) var(--media-tertiary-color);
+              scale: 1.1;
             }
 
             /* Back button specific styles */
@@ -111,15 +144,12 @@ const LatestFilm = () => {
               top: 22px;
               left: 22px;
               z-index: 10;
-              background: rgba(0, 0, 0, 0.6);
               border: none;
               cursor: pointer;
               transition: all 0.2s ease;
             }
 
             .back-button:hover {
-              background: rgba(0, 0, 0, 0.8);
-              box-shadow: 0 0 0 calc(2px) var(--media-tertiary-color);
             }
 
             .back-button svg {
@@ -142,7 +172,6 @@ const LatestFilm = () => {
             }
 
             div[slot="centered-chrome"] media-play-button:hover {
-              box-shadow: 0 0 0 calc(2px) var(--media-tertiary-color);
             }
 
             div[slot="centered-chrome"] media-play-button svg {
@@ -154,6 +183,14 @@ const LatestFilm = () => {
               --media-secondary-color: transparent;
               height: 32px;
               margin: 0 8px 0 0;
+              width: 100%;
+            }
+
+            /* Progress bar for center position */
+            .media-buttons-wrapper-center media-time-range {
+              height: 32px;
+              margin: 0;
+              width: 100%;
             }
 
             media-volume-range {
@@ -296,7 +333,30 @@ const LatestFilm = () => {
               height: 48px;
             }
 
-@media (max-width: 600px), (max-height: 596px) {
+            /* When bottom play button is hidden - show progress bar at bottom */
+            media-controller:not([breakpointsm]) .media-time-wrapper {
+              display: none !important;
+            }
+            
+            media-controller:not([breakpointsm]) .media-buttons-wrapper-center {
+              display: flex !important;
+            }
+            
+            /* Show time display in bottom controls when play button is hidden */
+            media-controller:not([breakpointsm]) .center-time-display {
+              display: block !important;
+            }
+            
+            /* When bottom play button is visible - show progress bar at top */
+            media-controller[breakpointsm] .media-buttons-wrapper-center {
+              display: none !important;
+            }
+            
+            media-controller[breakpointsm] .media-time-wrapper {
+              display: flex !important;
+            }
+
+            @media (max-width: 600px), (max-height: 596px) {
               .back-button {
                 top: 10px !important;
                 left: 10px !important;
@@ -347,38 +407,87 @@ const LatestFilm = () => {
               </media-play-button>
             </div>
             <media-control-bar>
-              <media-play-button class="small-button">
-                <svg slot="play" viewBox="0 0 16 16"><path d="M13.6 7.2 5.1 3c-.6-.3-1.2.1-1.2.7v8.5c0 .6.7 1 1.2.7l8.5-4.2c.6-.3.6-1.1 0-1.5z"/></svg>
-                <svg slot="pause" viewBox="0 0 16 16"><path d="M11.8 14c-.5 0-.9-.4-.9-.9V2.9c0-.5.4-.9.9-.9s.9.4.9.9v10.2c0 .5-.4.9-.9.9zM4.1 14c-.5 0-.9-.4-.9-.9V2.9c0-.5.4-.9.9-.9s.9.4.9.9v10.2c-.1.5-.5.9-.9.9z"/></svg>
-              </media-play-button>
-              <div class="media-volume-wrapper">
-                <media-mute-button class="small-button">
-                  <svg slot="off" viewBox="0 0 16 16"><path d="M7 2.2 4.2 5.1v.1H1.4c-.5 0-.9.4-.9.9V10c0 .5.4.9.9.9h2.8L7 13.8c.3.3.8.1.8-.3v-11c0-.4-.5-.6-.8-.3ZM13.4 8l2-2" fill-rule="nonzero"/><path d="M15.622 5.479a.606.606 0 0 1 0 .857l-4.286 4.286a.606.606 0 1 1-.857-.857l4.286-4.286a.606.606 0 0 1 .857 0Z"/><path d="M10.479 5.479a.606.606 0 0 0 0 .857l4.286 4.286a.606.606 0 1 0 .857-.857l-4.286-4.286a.606.606 0 0 0-.857 0Z"/></svg>
-                  <svg slot="low" viewBox="0 0 16 16"><path d="m7.1 2.2-2.8 3H1.5c-.5 0-.9.4-.9.9V10c0 .5.4.9.9.9h2.8l2.8 2.9c.3.3.8.1.8-.3v-11c0-.4-.5-.6-.8-.3zM10.3 11.4c-.2 0-.3-.1-.4-.2-.3-.3-.3-.6 0-.9.6-.6 1-1.4 1-2.3s-.4-1.6-1-2.3c-.3-.3-.3-.6 0-.9.3-.3.6-.3.9 0 .9.8 1.4 2 1.4 3.2s-.5 2.3-1.4 3.2c-.2.2-.4.2-.5.2z"/></svg>
-                  <svg slot="medium" viewBox="0 0 16 16"><path d="m7.1 2.2-2.8 3H1.5c-.5 0-.9.4-.9.9V10c0 .5.4.9.9.9h2.8l2.8 2.9c.3.3.8.1.8-.3v-11c0-.4-.5-.6-.8-.3zM12.6 13.8c-.2 0-.3-.1-.4-.2-.3-.3-.3-.6 0-.9 1.3-1.2 2-2.8 2-4.5s-.7-3.3-2-4.5c-.3-.3-.3-.6 0-.9.3-.3.6-.3.9 0 1.5 1.5 2.3 3.4 2.3 5.4 0 2.1-.8 4-2.3 5.4-.2.1-.4.2-.5.2z"/><path d="M10.3 11.4c-.2 0-.3-.1-.4-.2-.3-.3-.3-.6 0-.9.6-.6 1-1.4 1-2.3s-.4-1.6-1-2.3c-.3-.3-.3-.6 0-.9.3-.3.6-.3.9 0 .9.8 1.4 2 1.4 3.2s-.5 2.3-1.4 3.2c-.2.2-.4.2-.5.2z"/></svg>
-                  <svg slot="high" viewBox="0 0 16 16"><path d="m7.1 2.2-2.8 3H1.5c-.5 0-.9.4-.9.9V10c0 .5.4.9.9.9h2.8l2.8 2.9c.3.3.8.1.8-.3v-11c0-.4-.5-.6-.8-.3zM12.6 13.8c-.2 0-.3-.1-.4-.2-.3-.3-.3-.6 0-.9 1.3-1.2 2-2.8 2-4.5s-.7-3.3-2-4.5c-.3-.3-.3-.6 0-.9.3-.3.6-.3.9 0 1.5 1.5 2.3 3.4 2.3 5.4 0 2.1-.8 4-2.3 5.4-.2.1-.4.2-.5.2z"/><path d="M10.3 11.4c-.2 0-.3-.1-.4-.2-.3-.3-.3-.6 0-.9.6-.6 1-1.4 1-2.3s-.4-1.6-1-2.3c-.3-.3-.3-.6 0-.9.3-.3.6-.3.9 0 .9.8 1.4 2 1.4 3.2s-.5 2.3-1.4 3.2c-.2.2-.4.2-.5.2z"/></svg>
-                </media-mute-button>
-                <div class="media-volume-range-wrapper">
-                  <media-volume-range></media-volume-range>
-                </div>
+              <div class="media-time-wrapper">
+                  <media-time-range>
+                    <media-preview-thumbnail slot="preview"></media-preview-thumbnail>
+                    <media-preview-time-display slot="preview"></media-preview-time-display>
+                  </media-time-range>
+                  <media-time-display showduration></media-time-display>
               </div>
-              <media-time-display showduration></media-time-display>
-              <media-time-range>
-                <media-preview-thumbnail slot="preview"></media-preview-thumbnail>
-                <media-preview-time-display slot="preview"></media-preview-time-display>
-              </media-time-range>
-              <media-captions-button class="small-button">
-                <svg slot="off" viewBox="0 0 16 16"><path d="M12.6 13.7H3.4C2 13.7.8 12.6.8 11.1V4.9c0-1.4 1.1-2.6 2.6-2.6h9.3c1.4 0 2.6 1.1 2.6 2.6v6.2c-.1 1.5-1.3 2.6-2.7 2.6z"/><path fill="#fff" d="M4.7 8H3.2c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h1.5c.2 0 .4.2.4.4s-.2.4-.4.4zM12.5 8H6.7c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h5.7c.2 0 .4.2.4.4s-.1.4-.3.4zM7.7 10.2H3.2c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h4.6c.2 0 .4.2.4.4-.1.2-.3.4-.5.4zM12.5 10.2H9.8c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h2.7c.2 0 .4.2.4.4s-.2.4-.4.4z"/></svg>
-                <svg slot="on" viewBox="0 0 16 16"><path d="M4.7 8H3.2c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h1.5c.2 0 .4.2.4.4s-.2.4-.4.4zM12.5 8H6.7c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h5.7c.2 0 .4.2.4.4s-.1.4-.3.4zM7.7 10.2H3.2c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h4.6c.2 0 .4.2.4.4-.1.2-.3.4-.5.4zM12.5 10.2H9.8c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h2.7c.2 0 .4.2.4.4s-.2.4-.4.4z"/></svg>
-              </media-captions-button>
-              <media-pip-button class="small-button">
-                <svg slot="enter" viewBox="0 0 16 16"><path d="M14.2 13.1H1.8c-.4 0-.7-.3-.7-.7V3.5c0-.4.3-.7.7-.7h12.3c.4 0 .7.3.7.7v8.9c.1.5-.2.7-.6.7zM2.5 11.8h11V4.3h-11v7.5z"/><path d="M7.2 7.3h5.1v3.1H7.2z"/></svg>
-                <svg slot="exit" viewBox="0 0 16 16"><path d="M14.2 13.1H1.8c-.4 0-.7-.3-.7-.7V3.5c0-.4.3-.7.7-.7h12.3c.4 0 .7.3.7.7v8.9c.1.5-.2.7-.6.7zM2.5 11.8h11V4.3h-11v7.5z"/><path d="M7.2 7.3h5.1v3.1H7.2z"/></svg>
-              </media-pip-button>
-              <media-fullscreen-button class="small-button">
-                <svg slot="enter" viewBox="0 0 16 16"><path d="M2.9 6.6c-.4 0-.7-.3-.7-.7v-3c0-.4.3-.7.7-.7h3c.4 0 .7.3.7.7s-.2.7-.6.7H3.6V6c0 .3-.3.6-.7.6zM13.1 6.6c-.4 0-.7-.3-.7-.7V3.6H10c-.4 0-.7-.3-.7-.7s.3-.7.7-.7h3c.4 0 .7.3.7.7v3c.1.4-.2.7-.6.7zM6 13.8H3c-.4 0-.7-.3-.7-.7v-3c0-.4.3-.7.7-.7.4 0 .7.3.7.7v2.4H6c.4 0 .7.3.7.7-.1.3-.4.6-.7.6zM13.1 13.8h-3c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h2.4V10c0-.4.3-.7.7-.7.4 0 .7.3.7.7v3c-.1.5-.4.8-.8.8z"/></svg>
-                <svg slot="exit" viewBox="0 0 16 16"><path d="M2.9 6.6c-.4 0-.7-.3-.7-.7v-3c0-.4.3-.7.7-.7h3c.4 0 .7.3.7.7s-.2.7-.6.7H3.6V6c0 .3-.3.6-.7.6zM13.1 6.6c-.4 0-.7-.3-.7-.7V3.6H10c-.4 0-.7-.3-.7-.7s.3-.7.7-.7h3c.4 0 .7.3.7.7v3c.1.4-.2.7-.6.7zM6 13.8H3c-.4 0-.7-.3-.7-.7v-3c0-.4.3-.7.7-.7.4 0 .7.3.7.7v2.4H6c.4 0 .7.3.7.7-.1.3-.4.6-.7.6zM13.1 13.8h-3c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h2.4V10c0-.4.3-.7.7-.7.4 0 .7.3.7.7v3c-.1.5-.4.8-.8.8z"/></svg>
-              </media-fullscreen-button>
+              <div class="media-buttons-wrapper">
+                  <div class="media-buttons-wrapper-left">
+                    <media-play-button class="small-button">
+                        <svg slot="play" viewBox="0 0 16 16">
+                          <path d="M13.6 7.2 5.1 3c-.6-.3-1.2.1-1.2.7v8.5c0 .6.7 1 1.2.7l8.5-4.2c.6-.3.6-1.1 0-1.5z"/>
+                        </svg>
+                        <svg slot="pause" viewBox="0 0 16 16">
+                          <path d="M11.8 14c-.5 0-.9-.4-.9-.9V2.9c0-.5.4-.9.9-.9s.9.4.9.9v10.2c0 .5-.4.9-.9.9zM4.1 14c-.5 0-.9-.4-.9-.9V2.9c0-.5.4-.9.9-.9s.9.4.9.9v10.2c-.1.5-.5.9-.9.9z"/>
+                        </svg>
+                    </media-play-button>
+                    <div class="media-volume-wrapper">
+                        <media-mute-button class="small-button">
+                          <svg slot="off" viewBox="0 0 16 16">
+                              <path d="M7 2.2 4.2 5.1v.1H1.4c-.5 0-.9.4-.9.9V10c0 .5.4.9.9.9h2.8L7 13.8c.3.3.8.1.8-.3v-11c0-.4-.5-.6-.8-.3ZM13.4 8l2-2" fill-rule="nonzero"/>
+                              <path d="M15.622 5.479a.606.606 0 0 1 0 .857l-4.286 4.286a.606.606 0 1 1-.857-.857l4.286-4.286a.606.606 0 0 1 .857 0Z"/>
+                              <path d="M10.479 5.479a.606.606 0 0 0 0 .857l4.286 4.286a.606.606 0 1 0 .857-.857l-4.286-4.286a.606.606 0 0 0-.857 0Z"/>
+                          </svg>
+                          <svg slot="low" viewBox="0 0 16 16">
+                              <path d="m7.1 2.2-2.8 3H1.5c-.5 0-.9.4-.9.9V10c0 .5.4.9.9.9h2.8l2.8 2.9c.3.3.8.1.8-.3v-11c0-.4-.5-.6-.8-.3zM10.3 11.4c-.2 0-.3-.1-.4-.2-.3-.3-.3-.6 0-.9.6-.6 1-1.4 1-2.3s-.4-1.6-1-2.3c-.3-.3-.3-.6 0-.9.3-.3.6-.3.9 0 .9.8 1.4 2 1.4 3.2s-.5 2.3-1.4 3.2c-.2.2-.4.2-.5.2z"/>
+                          </svg>
+                          <svg slot="medium" viewBox="0 0 16 16">
+                              <path d="m7.1 2.2-2.8 3H1.5c-.5 0-.9.4-.9.9V10c0 .5.4.9.9.9h2.8l2.8 2.9c.3.3.8.1.8-.3v-11c0-.4-.5-.6-.8-.3zM12.6 13.8c-.2 0-.3-.1-.4-.2-.3-.3-.3-.6 0-.9 1.3-1.2 2-2.8 2-4.5s-.7-3.3-2-4.5c-.3-.3-.3-.6 0-.9.3-.3.6-.3.9 0 1.5 1.5 2.3 3.4 2.3 5.4 0 2.1-.8 4-2.3 5.4-.2.1-.4.2-.5.2z"/>
+                              <path d="M10.3 11.4c-.2 0-.3-.1-.4-.2-.3-.3-.3-.6 0-.9.6-.6 1-1.4 1-2.3s-.4-1.6-1-2.3c-.3-.3-.3-.6 0-.9.3-.3.6-.3.9 0 .9.8 1.4 2 1.4 3.2s-.5 2.3-1.4 3.2c-.2.2-.4.2-.5.2z"/>
+                          </svg>
+                          <svg slot="high" viewBox="0 0 16 16">
+                              <path d="m7.1 2.2-2.8 3H1.5c-.5 0-.9.4-.9.9V10c0 .5.4.9.9.9h2.8l2.8 2.9c.3.3.8.1.8-.3v-11c0-.4-.5-.6-.8-.3zM12.6 13.8c-.2 0-.3-.1-.4-.2-.3-.3-.3-.6 0-.9 1.3-1.2 2-2.8 2-4.5s-.7-3.3-2-4.5c-.3-.3-.3-.6 0-.9.3-.3.6-.3.9 0 1.5 1.5 2.3 3.4 2.3 5.4 0 2.1-.8 4-2.3 5.4-.2.1-.4.2-.5.2z"/>
+                              <path d="M10.3 11.4c-.2 0-.3-.1-.4-.2-.3-.3-.3-.6 0-.9.6-.6 1-1.4 1-2.3s-.4-1.6-1-2.3c-.3-.3-.3-.6 0-.9.3-.3.6-.3.9 0 .9.8 1.4 2 1.4 3.2s-.5 2.3-1.4 3.2c-.2.2-.4.2-.5.2z"/>
+                          </svg>
+                        </media-mute-button>
+                        <div class="media-volume-range-wrapper">
+                          <media-volume-range></media-volume-range>
+                        </div>
+                    </div>
+                    <media-captions-button class="small-button">
+                        <svg slot="off" viewBox="0 0 16 16">
+                          <path d="M12.6 13.7H3.4C2 13.7.8 12.6.8 11.1V4.9c0-1.4 1.1-2.6 2.6-2.6h9.3c1.4 0 2.6 1.1 2.6 2.6v6.2c-.1 1.5-1.3 2.6-2.7 2.6z"/>
+                          <path fill="#fff" d="M4.7 8H3.2c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h1.5c.2 0 .4.2.4.4s-.2.4-.4.4zM12.5 8H6.7c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h5.7c.2 0 .4.2.4.4s-.1.4-.3.4zM7.7 10.2H3.2c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h4.6c.2 0 .4.2.4.4-.1.2-.3.4-.5.4zM12.5 10.2H9.8c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h2.7c.2 0 .4.2.4.4s-.2.4-.4.4z"/>
+                        </svg>
+                        <svg slot="on" viewBox="0 0 16 16">
+                          <path d="M4.7 8H3.2c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h1.5c.2 0 .4.2.4.4s-.2.4-.4.4zM12.5 8H6.7c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h5.7c.2 0 .4.2.4.4s-.1.4-.3.4zM7.7 10.2H3.2c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h4.6c.2 0 .4.2.4.4-.1.2-.3.4-.5.4zM12.5 10.2H9.8c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h2.7c.2 0 .4.2.4.4s-.2.4-.4.4z"/>
+                        </svg>
+                    </media-captions-button>
+                    <media-pip-button class="small-button">
+                        <svg slot="enter" viewBox="0 0 16 16">
+                          <path d="M14.2 13.1H1.8c-.4 0-.7-.3-.7-.7V3.5c0-.4.3-.7.7-.7h12.3c.4 0 .7.3.7.7v8.9c.1.5-.2.7-.6.7zM2.5 11.8h11V4.3h-11v7.5z"/>
+                          <path d="M7.2 7.3h5.1v3.1H7.2z"/>
+                        </svg>
+                        <svg slot="exit" viewBox="0 0 16 16">
+                          <path d="M14.2 13.1H1.8c-.4 0-.7-.3-.7-.7V3.5c0-.4.3-.7.7-.7h12.3c.4 0 .7.3.7.7v8.9c.1.5-.2.7-.6.7zM2.5 11.8h11V4.3h-11v7.5z"/>
+                          <path d="M7.2 7.3h5.1v3.1H7.2z"/>
+                        </svg>
+                    </media-pip-button>
+                  </div>
+                  
+                  <!-- Progress bar for small screens - positioned in center -->
+                  <div class="media-buttons-wrapper-center">
+                    <media-time-range>
+                      <media-preview-thumbnail slot="preview"></media-preview-thumbnail>
+                      <media-preview-time-display slot="preview"></media-preview-time-display>
+                    </media-time-range>
+                    <media-time-display showduration class="center-time-display"></media-time-display>
+                  </div>
+                  
+                  <div class="media-buttons-wrapper-right">
+                    <media-fullscreen-button class="small-button">
+                        <svg slot="enter" viewBox="0 0 16 16">
+                          <path d="M2.9 6.6c-.4 0-.7-.3-.7-.7v-3c0-.4.3-.7.7-.7h3c.4 0 .7.3.7.7s-.2.7-.6.7H3.6V6c0 .3-.3.6-.7.6zM13.1 6.6c-.4 0-.7-.3-.7-.7V3.6H10c-.4 0-.7-.3-.7-.7s.3-.7.7-.7h3c.4 0 .7.3.7.7v3c.1.4-.2.7-.6.7zM6 13.8H3c-.4 0-.7-.3-.7-.7v-3c0-.4.3-.7.7-.7.4 0 .7.3.7.7v2.4H6c.4 0 .7.3.7.7-.1.3-.4.6-.7.6zM13.1 13.8h-3c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h2.4V10c0-.4.3-.7.7-.7.4 0 .7.3.7.7v3c-.1.5-.4.8-.8.8z"/>
+                        </svg>
+                        <svg slot="exit" viewBox="0 0 16 16">
+                          <path d="M2.9 6.6c-.4 0-.7-.3-.7-.7v-3c0-.4.3-.7.7-.7h3c.4 0 .7.3.7.7s-.2.7-.6.7H3.6V6c0 .3-.3.6-.7.6zM13.1 6.6c-.4 0-.7-.3-.7-.7V3.6H10c-.4 0-.7-.3-.7-.7s.3-.7.7-.7h3c.4 0 .7.3.7.7v3c.1.4-.2.7-.6.7zM6 13.8H3c-.4 0-.7-.3-.7-.7v-3c0-.4.3-.7.7-.7.4 0 .7.3.7.7v2.4H6c.4 0 .7.3.7.7-.1.3-.4.6-.7.6zM13.1 13.8h-3c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h2.4V10c0-.4.3-.7.7-.7.4 0 .7.3.7.7v3c-.1.5-.4.8-.8.8z"/>
+                        </svg>
+                    </media-fullscreen-button>
+                  </div>
+              </div>
             </media-control-bar>
           </media-controller>`,
         }}
@@ -388,7 +497,7 @@ const LatestFilm = () => {
       </Head>
 
       <div className="w-full max-w-[100vh]">
-        <MediaTheme template="media-theme-demuxed-2022" style={{width: "100%"}}>
+        <MediaTheme template="media-theme-demuxed-2022" style={{ width: "100%" }}>
           <MuxPlayer
             playsInline
             controls={false}
