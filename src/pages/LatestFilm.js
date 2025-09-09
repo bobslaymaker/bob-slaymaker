@@ -516,4 +516,4 @@ const LatestFilm = () => {
   );
 };
 
-export default LatestFilm;
+export default LatestFilm; 
