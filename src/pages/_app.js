@@ -19,6 +19,8 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Bob Slaymaker - Writer & Filmmaker</title>
+        <meta name="robots" content="noindex, nofollow" />
+        <meta name="googlebot" content="noindex, nofollow" />
         <meta name="description" content="Writer-Filmmaker. Selected Short Scripts, Stories, Poems & Latest Film." />
         <meta property="og:title" content="Bob Slaymaker - Writer & Filmmaker" />
         <meta property="og:site_name" content="Bob Slaymaker" />
