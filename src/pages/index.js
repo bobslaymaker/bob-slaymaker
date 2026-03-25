@@ -119,7 +119,7 @@ export default function Home() {
         <div className="pt-5 md:text-[0.6em] text-[0.6em] flex justify-center credit-parent md:flex">
           <div className="text-center">
             <p>
-              Copyright © 1987-2025{" "}
+              Copyright © 1987-2026{" "}
               <Link href="/ContactInfo" className="underline" target="_self">
                 Bob Slaymaker
               </Link>
