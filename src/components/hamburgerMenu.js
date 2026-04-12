@@ -69,7 +69,7 @@ const HamburgerMenu = () => {
           </div>
           <div></div>
         </div>
-        <div className="border-t-[2px] border-[#dddddd] dark:border-gray-700 shadow-md lg:flex hidden justify-center items-center bg-white dark:bg-dark-bg transition-colors duration-200">
+        <div className="border-t-[2px] border-b-[2px] border-[#dddddd] dark:border-gray-700 lg:flex hidden justify-center items-center bg-white dark:bg-dark-bg transition-colors duration-200">
           <div className="goudy flex justify-center items-center py-3 gap-10">
             <Link href="/shortscriptlist" className="hover:underline text-gray-900 dark:text-dark-text">
               Short Scripts

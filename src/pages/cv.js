@@ -18,31 +18,23 @@ const CV = () => {
                 <div className="spacer"></div>
                 <u>FEATURE SCREENPLAYS WRITTEN</u>
                 <div className="spacer"></div>
-                Only Girls and Women
-                <div className="spacer"></div>
-                The Applicant
+                Back to the Projects
                 <div className="spacer"></div>
                 Growing Up
                 <div className="spacer"></div>
                 Hotties
                 <div className="spacer"></div>
+                Propaganda
+                <div className="spacer"></div>
                 Sullivan Street
-                <div className="spacer"></div>
-                Her Day in Court
-                <div className="spacer"></div>
-                The Perfectionist
-                <div className="spacer"></div>
-                The River
-                <div className="spacer"></div>
-                Back to the Projects
-                <div className="spacer"></div>
-                The Choice
                 <div className="spacer"></div>
                 The Agency of Lost Hope
                 <div className="spacer"></div>
-                The Personal Shopper
+                The Applicant Hope
                 <div className="spacer"></div>
-                Propaganda
+                The Choice
+                <div className="spacer"></div>
+                Violence
                 <div className="spacer"></div>
                 <u>SHORT FILMS WRITTEN, PRODUCED AND DIRECTED</u>
                 <div className="spacer"></div>
