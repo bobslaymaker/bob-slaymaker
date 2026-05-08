@@ -18,7 +18,11 @@ const CV = () => {
                 <div className="spacer"></div>
                 <u>FEATURE SCREENPLAYS WRITTEN</u>
                 <div className="spacer"></div>
+                Agency of Lost Hope
+                <div className="spacer"></div>
                 Back to the Projects
+                <div className="spacer"></div>
+                Choice
                 <div className="spacer"></div>
                 Growing Up
                 <div className="spacer"></div>
@@ -28,11 +32,7 @@ const CV = () => {
                 <div className="spacer"></div>
                 Sullivan Street
                 <div className="spacer"></div>
-                The Agency of Lost Hope
-                <div className="spacer"></div>
-                The Applicant Hope
-                <div className="spacer"></div>
-                The Choice
+                The Applicant
                 <div className="spacer"></div>
                 Violence
                 <div className="spacer"></div>
