@@ -20,19 +20,27 @@ const CV = () => {
                 <div className="spacer"></div>
                 Agency of Lost Hope
                 <div className="spacer"></div>
+                The Applicant
+                <div className="spacer"></div>
                 Back to the Projects
                 <div className="spacer"></div>
                 Choice
                 <div className="spacer"></div>
                 Growing Up
                 <div className="spacer"></div>
+                Her Day in Court
+                <div className="spacer"></div>
                 Hotties
                 <div className="spacer"></div>
-                Propaganda
+                The Perfectionist
+                <div className="spacer"></div>
+                Personal Shopper
+                <div className="spacer"></div>
+                Propaganda Play
+                <div className="spacer"></div>
+                The River
                 <div className="spacer"></div>
                 Sullivan Street
-                <div className="spacer"></div>
-                The Applicant
                 <div className="spacer"></div>
                 Violence
                 <div className="spacer"></div>
